@@ -88,12 +88,12 @@ This project is designed to be run in a containerized environment with GPU suppo
 ### Steps:
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/owhonda-moses/bbc-news-nlp.git](https://github.com/owhonda-moses/bbc-news-nlp.git)
+    git clone https://github.com/owhonda-moses/bbc-news-nlp.git
     cd bbc-news-nlp
     ```
 
 2.  **Create Personal Access Token File**
-    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory:
+    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to .gitignore:
     ```
     # pat.env
     GITHUB_TOKEN=your_personal_access_token_here
@@ -117,11 +117,11 @@ The project is broken down into a series of scripts within the `src/` directory.
     python -m src.prepare_data
     ```
 
-2.  **Train Classifiers (Task A)**
+2.  **Train Classifiers**
     We iterated through three models. You can train any or all of them.
-    * **Baseline:** `python -m src.train_baseline`
-    * **With Class Weights:** `python -m src.train_weighted`
-    * **With Augmented Data (requires `augment_data.py` to be run first):** `python -m src.train_augmented`
+    * **Baseline**: `python -m src.train_baseline`
+    * **With Class Weights**: `python -m src.train_weighted`
+    * **With Augmented Data** (requires `augment_data.py` to be run first): `python -m src.train_augmented`
 
 3.  **Evaluate Classifier (`src/evaluate.py`)**
     This script generates a classification report and confusion matrix. Remember to change the `MODEL_PATH` variable inside the script to point to the model you want to evaluate (e.g., `./models/weighted-classifier`).
@@ -129,7 +129,7 @@ The project is broken down into a series of scripts within the `src/` directory.
     python -m src.evaluate
     ```
 
-4.  **Prepare NER Data (Task B) (`src/prepare_ner_data.py`)**
+4.  **Prepare NER Data (`src/prepare_ner_data.py`)**
     This script programmatically annotates the data and creates the training set for our custom NER model.
     ```bash
     python -m src.prepare_ner_data
@@ -158,10 +158,10 @@ The project is broken down into a series of scripts within the `src/` directory.
 
 ### Sub-Category Classification
 The primary challenge was the lack of pre-existing sub-category labels. Our approach was:
-1.  **Weak Supervision:** We generated initial "noisy" labels using a keyword-matching script.
+1.  **Weak Supervision:** We generated initial noisy labels using a keyword-matching script.
 2.  **Baseline Model:** We fine-tuned a `DistilBERT` model on this data, achieving high accuracy (~90%) but a low macro F1-score (~0.51), indicating poor performance on rare classes.
 3.  **Class Imbalance:** We diagnosed the issue using a detailed classification report, which confirmed that the model was ignoring minority classes.
-4.  **Iteration 1: Class Weights:** We re-trained the model using class weights to penalize errors on minority classes more heavily. This dramatically improved the F1-score to ~0.68.
+4.  **Iteration 1: Class Weights:** We re-trained the model using class weights to penalize errors on minority classes more heavily, which dramatically improved the F1-score to ~0.68.
 5.  **Iteration 2: Data Augmentation:** We used a T5 model to generate synthetic data for the most underperforming classes. This provided a slight additional boost to the F1-score but showed signs of diminishing returns.
 
 ### Custom Named Entity Recognition
