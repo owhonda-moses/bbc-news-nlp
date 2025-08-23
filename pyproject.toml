@@ -9,13 +9,18 @@ authors = ["owhonda-moses <owhondamoses7@gmail.com>"]
 python = "^3.11"
 
 spacy = { version = "^3.7.5", extras = ["transformers", "cuda12x"] }
-torch = "^2.1.2"
 accelerate = "^0.31.0" 
 
 pandas = "^2.2.2"
 scikit-learn = "^1.5.0"
 
 ipykernel = "^6.29.4"
+
+gdown = "^5.2.0"
+matplotlib = "^3.10.5"
+seaborn = "^0.13.2"
+sentencepiece = "^0.2.1"
+tqdm = "^4.67.1"
 
 [build-system]
 requires = ["poetry-core"]

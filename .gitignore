@@ -209,3 +209,7 @@ __marimo__/
 
 pat.env
 setup.md
+models/augmented-classifier/model.safetensors
+models/baseline-classifier/model.safetensors
+models/weighted-classifier/model.safetensors
+models/ner-model/model.safetensors

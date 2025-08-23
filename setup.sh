@@ -39,23 +39,35 @@ git checkout main 2>/dev/null || git checkout -b main
 
 
 echo "Setting up Python with Poetry"
-curl -sSL https://install.python-poetry.org | python3.11 -
-export PATH="/root/.local/bin:$PATH"
+if ! command -v poetry &> /dev/null; then
+    curl -sSL https://install.python-poetry.org | python3.11 -
+    export PATH="/root/.local/bin:$PATH"
+fi
 echo "Poetry installed."
 
 
 echo "Setting up environment and packages"
 poetry config virtualenvs.in-project true
+poetry config virtualenvs.options.system-site-packages true
 poetry env use python3.11
-poetry lock
+# poetry lock
 poetry install --no-root --no-interaction --no-ansi 2>/dev/null 
 
 echo "Python env ready: $(poetry run python -V)"
 
+echo "Installing compatible PyTorch version"
+# poetry run pip uninstall -y torch torchvision torchaudio
+# poetry run pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+
 echo "Setting up spaCy transformer model"
-poetry run python -m spacy download en_core_web_trf 2>/dev/null 
+poetry run python -m spacy download en_core_web_trf
 
 poetry run python -m ipykernel install --user --name="bbc-nlp" --display-name="python-bbc-nlp"
+
+echo "Cleaning up package manager and model caches"
+rm -rf ~/.cache/pip
+rm -rf ~/.cache/huggingface
+rm -rf ~/.cache/torch
 
 # echo "Verifying setup"
 # poetry run python -c "
