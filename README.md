@@ -46,11 +46,15 @@ bbc-nlp/
 ├── data/
 │   ├── bbc_raw/
 │   ├── bbc_prep/
+│   ├── annotated_test_set.csv
+│   ├── annotation_sample.csv
 │   ├── april_events_summaries.csv
+│   ├── gold_standard.csv
 │   ├── ner_training_data.csv
 │   ├── train_data_augmented.csv
 │   ├── train_data.csv
-│   └── val_data.csv
+│   ├── train_final.csv
+│   └── val_final.csv
 │
 ├── img/
 │   └── confusion_matrix.png
@@ -63,11 +67,14 @@ bbc-nlp/
 │
 └── src/
     ├── __init__.py
+    ├── apply_annotations.py
     ├── april_events.py
     ├── augment_data.py
     ├── evaluate.py
+    ├── gold_standard.py
     ├── prepare_data.py
     ├── prepare_ner_data.py
+    ├── split_data.py
     ├── test_ner.py
     ├── train_augmented.py
     ├── train_baseline.py
@@ -111,44 +118,44 @@ This project is designed to be run in a containerized environment with GPU suppo
 
 The project is broken down into a series of scripts within the `src/` directory. They should be run in the following order to reproduce the entire workflow. All commands should be run from the root `bbc-nlp` directory.
 
-1.  **Prepare Main Dataset (`src/prepare_data.py`)**
-    This script loads the raw text, generates heuristic labels for classification, and splits the data into training and validation sets.
+### Sub-Category Classification
+1.  **Initial Data Preparation** (`src/prepare_data.py`): Creates the first training and validation sets from raw text.
     ```bash
     python -m src.prepare_data
     ```
-
-2.  **Train Classifiers**
-    We iterated through three models. You can train any or all of them.
-    * **Baseline**: `python -m src.train_baseline`
-    * **With Class Weights**: `python -m src.train_weighted`
-    * **With Augmented Data** (requires `augment_data.py` to be run first): `python -m src.train_augmented`
-
-3.  **Evaluate Classifier (`src/evaluate.py`)**
-    This script generates a classification report and confusion matrix. Remember to change the `MODEL_PATH` variable inside the script to point to the model you want to evaluate (e.g., `./models/weighted-classifier`).
+2.  **Train Baseline Model** (`src/train_baseline.py`): Trains the first classifier on the initial data split.
+    ```bash
+    python -m src.train_baseline
+    ```
+3.  **Create Final Data Split** (`src/split_data.py`): Creates a more robust split that guarantees all classes are present in the training set.
+    ```bash
+    python -m src.split_data
+    ```
+4.  **Train Weighted Model** (`src/train_weighted.py`): Trains an improved classifier on the final split using class weights to handle imbalance. This was our best-performing model.
+    ```bash
+    python -m src.train_weighted
+    ```
+5.  **Evaluate on Gold-Standard Data** (`src/evaluate.py`): Tests the final model against our manually verified test set. The `MODEL_PATH` inside the script can be changed to test other models.
     ```bash
     python -m src.evaluate
     ```
 
-4.  **Prepare NER Data (`src/prepare_ner_data.py`)**
-    This script programmatically annotates the data and creates the training set for our custom NER model.
+### Custom Named Entity Recognition
+1.  **Prepare NER Data** (`src/prepare_ner_data.py`): Programmatically annotates the data and creates the training set for our custom NER model.
     ```bash
     python -m src.prepare_ner_data
     ```
-
-5.  **Train NER Model (`src/train_ner.py`)**
-    Fine-tunes a `DistilBertForTokenClassification` model on our custom data.
+2.  **Train NER Model** (`src/train_ner.py`): Fine-tunes a `DistilBertForTokenClassification` model on our custom data.
     ```bash
     python -m src.train_ner
     ```
-
-6.  **Test NER Model (`src/test_ner.py`)**
-    Runs inference with the custom NER model on test sentences to demonstrate its performance.
+3.  **Test NER Model** (`src/test_ner.py`): Runs inference with the custom NER model on test sentences to demonstrate its performance.
     ```bash
     python -m src.test_ner
     ```
 
-7.  **Summarize Events (Task C) (`src/april_events.py`)**
-    Filters for articles mentioning "April" and generates abstractive summaries using a BART model.
+### Conditional Summarization
+1.  **Summarize April Events** (`src/april_events.py`): Filters for articles mentioning `April` and generates abstractive summaries.
     ```bash
     python -m src.april_events
     ```
@@ -159,18 +166,18 @@ The project is broken down into a series of scripts within the `src/` directory.
 ### Sub-Category Classification
 The primary challenge was the lack of pre-existing sub-category labels. Our approach was:
 1.  **Weak Supervision:** We generated initial noisy labels using a keyword-matching script.
-2.  **Baseline Model:** We fine-tuned a `DistilBERT` model on this data, achieving high accuracy (~90%) but a low macro F1-score (~0.51), indicating poor performance on rare classes.
-3.  **Class Imbalance:** We diagnosed the issue using a detailed classification report, which confirmed that the model was ignoring minority classes.
-4.  **Iteration 1: Class Weights:** We re-trained the model using class weights to penalize errors on minority classes more heavily, which dramatically improved the F1-score to ~0.68.
-5.  **Iteration 2: Data Augmentation:** We used a T5 model to generate synthetic data for the most underperforming classes. This provided a slight additional boost to the F1-score but showed signs of diminishing returns.
+2.  **Baseline Model:** We fine-tuned a `DistilBERT` model, which revealed a significant class imbalance problem (accuracy ~0.90, F1-score ~0.51).
+3.  **Iteration and Refinement:** We improved the model by implementing **class weights**  to penalize errors on minority classes more heavily, which improved the F1-score to ~0.68 and creating a **guaranteed data split** to ensure all classes were seen during training, which significantly improved the model's balance.
+ We also used a T5 model to generate synthetic data for the most underperforming classes, which provided a slight additional boost to the F1-score but showed signs of diminishing returns.
+4.  **Gold-Standard Evaluation:** We created a small, manually-verified test set. The final evaluation showed that the model's performance was ultimately limited by the quality of the initial noisy training labels.
 
 ### Custom Named Entity Recognition
 To extract personalities and their jobs, we built a custom NER model.
 1.  **Programmatic Annotation:** We used `spaCy` to find `PERSON` entities and then applied keyword-based rules to assign custom labels (`POLITICIAN`, `MUSICIAN`, etc.).
-2.  **IOB Formatting:** This annotated data was converted into the standard IOB (Inside-Outside-Beginning) format required for training.
+2.  **IOB Formatting:** This annotated data was converted into the standard IOB format required for training.
 3.  **Model Fine-Tuning:** A `DistilBertForTokenClassification` model was fine-tuned on this custom-generated dataset. The final model successfully identified the custom entities in test sentences.
 
-### Task C: Conditional Summarization
+### Conditional Summarization
 This task was accomplished by:
 1.  **Filtering:** We filtered the entire dataset for articles containing the word "April".
 2.  **Abstractive Summarization:** We used a powerful, pre-trained `facebook/bart-large-cnn` model to generate high-quality, human-like summaries for each of the filtered articles.
@@ -185,15 +192,13 @@ The final models are saved in the `models/` directory:
 
 ---
 ## Limitations
-* **Label Quality:** The performance of both the classifier and the NER model is fundamentally limited by the quality of our programmatically generated labels as they contain inherent noise and errors.
-* **Data Diversity:** The data augmentation was limited by the small number of source articles for the rarest classes. The generated text, while syntactically different, was semantically very similar to the originals.
+* **Label Quality:** The performance of both the classifier and the NER model is fundamentally limited by the quality of our programmatically generated "weak" labels. They contain inherent noise and errors.
 * **Summarization Scope:** The summarization model was a pre-trained, general-purpose model. It was not fine-tuned on our specific BBC News dataset, which could have improved its stylistic consistency.
 
 ---
 ## Future Work
-* **Gold-Standard Evaluation:** Manually annotate a small, held-out test set for both classification and NER. This would allow for a true evaluation of the models' performance against human-level accuracy.
+* **Manual Annotation:** The most impactful next step would be to manually annotate a larger portion of the training data to create a high-quality "gold standard" training set. This would significantly improve the performance of the final classifier.
 * **Experiment with Larger Models:** Re-train the final models using a more powerful base architecture like `RoBERTa` or `DeBERTa` to potentially increase performance.
-* **Advanced Sampling:** Implement SMOTE or other advanced oversampling techniques as an alternative to data augmentation to see if it yields better results on the minority classes.
 * **Fine-Tune Summarization Model:** Fine-tune the BART model on the BBC News dataset to make its summaries better match the specific journalistic style of the source text.
 
 ---
