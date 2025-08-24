@@ -1,0 +1,90 @@
+filename,heuristic_label,gold_label
+382.txt,tech,tech
+458.txt,Stock Market,Company News
+255.txt,Music,Music
+264.txt,Football,Music
+155.txt,Football,Football
+073.txt,politics,politics
+265.txt,Music,Music
+009.txt,Economy,Economy
+312.txt,Cricket,Rugby
+382.txt,General Business,tech
+273.txt,tech,tech
+214.txt,tech,tech
+283.txt,Cinema,Music
+089.txt,tech,tech
+279.txt,tech,tech
+322.txt,politics,politics
+411.txt,Cricket,Rugby
+452.txt,Football,Tennis
+162.txt,politics,politics
+361.txt,Company News,Economy
+383.txt,Football,Rugby
+111.txt,politics,politics
+044.txt,Stock Market,Economy
+373.txt,tech,tech
+394.txt,politics,politics
+207.txt,Stock Market,Company News
+170.txt,tech,tech
+045.txt,tech,tech
+188.txt,Stock Market,Mergers & Acquisitions
+104.txt,politics,politics
+297.txt,Cinema,Cinema
+264.txt,Cinema,Music
+171.txt,tech,tech
+363.txt,politics,politics
+357.txt,Cinema,Cinema
+060.txt,Company News,Company News
+325.txt,General Sport,General Sport
+068.txt,Stock Market,Stock Market
+217.txt,Football,Football
+054.txt,Athletics,Athletics
+036.txt,tech,tech
+135.txt,tech,tech
+484.txt,Stock Market,Stock Market
+140.txt,Cinema,Music
+105.txt,Cinema,Music
+331.txt,politics,politics
+193.txt,politics,politics
+095.txt,tech,tech
+088.txt,Stock Market,Stock Market
+109.txt,Company News,Company News
+178.txt,TV & Radio,TV & Radio
+318.txt,Music,Music
+229.txt,Football,Football
+506.txt,Mergers & Acq,Company News
+069.txt,Athletics,Athletics
+050.txt,Athletics,Athletics
+153.txt,tech,tech
+144.txt,tech,tech
+325.txt,Cinema,Cinema
+108.txt,Music,Music
+384.txt,Stock Market,Stock Market
+208.txt,Football,Football
+330.txt,Cinema,Cinema
+320.txt,Stock Market,Stock Market
+285.txt,Economy,Economy
+160.txt,politics,politics
+044.txt,tech,Economy
+295.txt,politics,politics
+098.txt,Football,Football
+502.txt,Tennis,Tennis
+155.txt,Mergers & Acq,Mergers & Acq
+405.txt,Football,Football
+241.txt,Music,Music
+003.txt,politics,politics
+247.txt,Football,Football
+092.txt,politics,politics
+305.txt,Rugby,Rugby
+094.txt,Cinema,Cinema
+101.txt,Stock Market,Stock Market
+106.txt,politics,politics
+353.txt,Stock Market,Stock Market
+438.txt,Football,Tennis
+047.txt,tech,tech
+137.txt,Football,Football
+258.txt,politics,politics
+070.txt,Stock Market,Stock Market
+176.txt,Company News,Company News
+100.txt,politics,politics
+037.txt,politics,politics

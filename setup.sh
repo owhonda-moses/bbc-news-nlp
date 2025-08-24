@@ -47,15 +47,16 @@ echo "Poetry installed."
 
 
 echo "Setting up environment and packages"
+rm -rf .venv
 poetry config virtualenvs.in-project true
 poetry config virtualenvs.options.system-site-packages true
 poetry env use python3.11
-# poetry lock
+poetry lock
 poetry install --no-root --no-interaction --no-ansi 2>/dev/null 
 
 echo "Python env ready: $(poetry run python -V)"
 
-echo "Installing compatible PyTorch version"
+# echo "Installing compatible PyTorch version"
 # poetry run pip uninstall -y torch torchvision torchaudio
 # poetry run pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
 

@@ -1,5 +1,3 @@
-# FILE: src/3_evaluate_classifier.py
-
 import os
 import pandas as pd
 import torch
@@ -15,8 +13,9 @@ from src.train_baseline import NewsClassifierDataset
 
 DATA_PATH = './data'
 # MODEL_PATH = './models/baseline-classifier'
-# MODEL_PATH = './models/weighted-classifier'
-MODEL_PATH = './models/augmented-classifier'
+MODEL_PATH = './models/weighted-classifier'
+# MODEL_PATH = './models/augmented-classifier'
+TEXT_PATH = os.path.join(DATA_PATH, 'train_data.csv') 
 MAX_LEN = 512
 BATCH_SIZE = 16
 
@@ -58,7 +57,17 @@ def main():
     print("Model and tokenizer loaded.")
 
     # load data and get label mappings from the model config
-    val_df = pd.read_csv(os.path.join(DATA_PATH, 'val_data.csv'))
+    # val_df = pd.read_csv(os.path.join(DATA_PATH, 'val_data.csv'))
+    
+    annotations_df = pd.read_csv(os.path.join(DATA_PATH, 'annotated_test_set.csv'))
+    source_df = pd.read_csv(TEXT_PATH)[['filename', 'text']].drop_duplicates(subset=['filename'])
+    val_df = pd.merge(annotations_df, source_df, on='filename', how='left')
+    if val_df['text'].isnull().any():
+        raise ValueError("Not all texts for gold-standard filenames were found.")    
+    val_df['gold_label'] = val_df['gold_label'].replace({'Mergers & Acq': 'Mergers & Acquisitions'})
+    val_df['target_label'] = val_df['gold_label']
+    print(f"Loaded {len(val_df)} samples from the gold-standard test set.")
+
     label2id = model.config.label2id
     id2label = model.config.id2label
     label_names = list(label2id.keys())
@@ -79,7 +88,7 @@ def main():
     report = classification_report(y_true_labels, y_pred_labels, labels=label_names, zero_division=0)
     print(report)
 
-    # save confusion matrix ---
+    # save confusion matrix
     cm = confusion_matrix(y_true_labels, y_pred_labels, labels=label_names)
     
     plt.figure(figsize=(12, 10))

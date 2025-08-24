@@ -14,8 +14,8 @@ from src.train_weighted import train_epoch_weighted
 DATA_PATH = './data' 
 MODEL_NAME = 'distilbert-base-uncased'
 MAX_LEN = 512
-BATCH_SIZE = 8
-EPOCHS = 4
+BATCH_SIZE = 4
+EPOCHS = 8
 LEARNING_RATE = 2e-5
 OUTPUT_MODEL_DIR = './models/augmented-classifier'
 
