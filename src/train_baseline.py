@@ -11,7 +11,7 @@ DATA_PATH = './data'
 MODEL_NAME = 'distilbert-base-uncased'
 MAX_LEN = 512
 BATCH_SIZE = 8
-EPOCHS = 3
+EPOCHS = 4
 LEARNING_RATE = 2e-5
 OUTPUT_MODEL_DIR = './models/baseline-classifier'
 
@@ -115,8 +115,7 @@ def eval_model(model, data_loader, device):
 
     avg_loss = total_loss / len(data_loader)
     metrics = compute_metrics(np.array(all_preds), np.array(all_labels))
-    print(f"  Validation loss: {avg_loss:.4f}")
-    print(f"  Validation Accuracy: {metrics['accuracy']:.4f} | F1: {metrics['f1']:.4f}")
+    print(f"  Loss: {avg_loss:.4f} | Accuracy: {metrics['accuracy']:.4f} | F1: {metrics['f1']:.4f}")
     return avg_loss, metrics
 
 
@@ -125,8 +124,8 @@ def main():
     print(f"Using device: {device}")
 
     # load data
-    train_df = pd.read_csv(os.path.join(DATA_PATH, 'train_data.csv'))
-    val_df = pd.read_csv(os.path.join(DATA_PATH, 'val_data.csv'))
+    train_df = pd.read_csv(os.path.join(DATA_PATH, 'train_zeroshot.csv'))
+    val_df = pd.read_csv(os.path.join(DATA_PATH, 'val_zeroshot.csv'))
     print("Train and test data loaded.")
 
     # create label mapping

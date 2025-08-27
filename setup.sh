@@ -56,9 +56,9 @@ poetry install --no-root --no-interaction --no-ansi 2>/dev/null
 
 echo "Python env ready: $(poetry run python -V)"
 
-# echo "Installing compatible PyTorch version"
-# poetry run pip uninstall -y torch torchvision torchaudio
-# poetry run pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
+echo "Installing compatible PyTorch version"
+poetry run pip uninstall -y torch torchvision torchaudio
+poetry run pip install torch==2.1.2 torchvision==0.16.2 torchaudio==2.1.2 --index-url https://download.pytorch.org/whl/cu121
 
 echo "Setting up spaCy transformer model"
 poetry run python -m spacy download en_core_web_trf

@@ -9,11 +9,12 @@ from tqdm import tqdm
 
 
 DATA_PATH = './data'
-NER_DATA_FILE = os.path.join(DATA_PATH, 'ner_training_data.csv')
+# NER_DATA_FILE = os.path.join(DATA_PATH, 'ner_training_data.csv')
+NER_DATA_FILE = os.path.join(DATA_PATH, 'ner_training_zeroshot.csv')
 MODEL_NAME = 'distilbert-base-uncased'
 MAX_LEN = 256 # shorter max length is fine for single sentences
-BATCH_SIZE = 16
-EPOCHS = 3
+BATCH_SIZE = 4
+EPOCHS = 10
 LEARNING_RATE = 3e-5
 OUTPUT_MODEL_DIR = './models/ner-model'
 

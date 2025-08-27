@@ -5,34 +5,42 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 from tqdm import tqdm
 
 
-CONFIGURATIONS = [
-    {
-        "mode": "heuristic",
-        "source_path": "./data/train_final.csv",
-        "output_path": "./data/heuristic_augmented.csv",
-        "target_classes": [
-            'Economy', 'Football', 'Mergers & Acquisitions', 'Music', 
-            'Rugby', 'Stock Market', 'TV & Radio', 'Tennis'
-        ],
-        "performance_threshold": 0.75
-    },
-    {
-        "mode": "zeroshot",
-        "source_path": "./data/train_zeroshot.csv",
-        "output_path": "./data/zeroshot_augmented.csv",
-        "target_classes": [
-            'Cinema', 'Company News', 'Economy', 'Music', 
-            'Politics', 'Stock Market', 'TV & Radio', 'Tech'
-        ],
-        "performance_threshold": 0.75
-    }
-]
-
 MODEL_NAME = 't5-base'
 BATCH_SIZE = 4
 MIN_AUGMENTATION = 1
 MAX_AUGMENTATION = 5
-TARGET_SAMPLES_PER_CLASS = 100
+
+# based on test set distribution and performance
+AUGMENTATION_TARGETS = {
+    "heuristic": {
+        "source_path": "./data/train_heuristic.csv",
+        "output_path": "./data/heuristic_augmented.csv",
+        # <75% F1 and 5+ test samples
+        "target_classes": {
+            'Economy': {'test_samples': 7, 'min_target': 100},
+            'Rugby': {'test_samples': 5, 'min_target': 80},
+            'TV & Radio': {'test_samples': 5, 'min_target': 80},
+            'Mergers & Acquisitions': {'test_samples': 6, 'min_target': 90},
+            'Music': {'test_samples': 7, 'min_target': 100},
+            'Tennis': {'test_samples': 8, 'min_target': 110},
+            'Football': {'test_samples': 11, 'min_target': 150}
+        }
+    },
+    "zeroshot": {
+        "source_path": "./data/train_zeroshot.csv",
+        "output_path": "./data/zeroshot_augmented.csv",
+        # classes with poor performance and adequate test samples
+        "target_classes": {
+            'Company News': {'test_samples': 13, 'min_target': 180},
+            'Economy': {'test_samples': 7, 'min_target': 100},
+            'TV & Radio': {'test_samples': 5, 'min_target': 80},
+            'Music': {'test_samples': 7, 'min_target': 100},
+            'Cinema': {'test_samples': 7, 'min_target': 100},
+            'Politics': {'test_samples': 21, 'min_target': 250},
+            'Tech': {'test_samples': 19, 'min_target': 230}
+        }
+    }
+}
 
 def batch_augment_text(texts, model, tokenizer, device, num_versions=3):
     """Generates paraphrased versions for a batch of texts."""
@@ -54,26 +62,36 @@ def batch_augment_text(texts, model, tokenizer, device, num_versions=3):
         paraphrased_texts.append(decoded_outputs[start_index:end_index])
     return paraphrased_texts
 
-def calculate_hybrid_augmentation(df, target_classes, target_per_class):
-    """Calculate augmentation factor based on performance and distribution."""
-    class_counts = df['target_label'].value_counts()
+def calculate_smart_augmentation(df, target_info):
+    """Calculate augmentation based on current count and target."""
     augmentation_plan = {}
+    class_counts = df['target_label'].value_counts()
     
-    for label in target_classes:
+    for label, info in target_info.items():
         if label not in class_counts.index:
-            print(f"{label} not found in data")
+            print(f"{label} not found in training data")
             continue
             
         current_count = class_counts[label]
+        min_target = info['min_target']
+        test_samples = info['test_samples']
         
-        if current_count < target_per_class:
-            samples_needed = target_per_class - current_count
+        # proportional augmentation based on test set representation
+        weight = test_samples / 111  # total test samples
+        adjusted_target = int(min_target * (1 + weight))
+        
+        if current_count < adjusted_target:
+            samples_needed = adjusted_target - current_count
             base_factor = samples_needed // current_count + 1
             augmentation_factor = min(max(base_factor, MIN_AUGMENTATION), MAX_AUGMENTATION)
         else:
-            augmentation_factor = MIN_AUGMENTATION
+            augmentation_factor = 0
         
-        augmentation_plan[label] = augmentation_factor
+        augmentation_plan[label] = {
+            'factor': augmentation_factor,
+            'current': current_count,
+            'target': adjusted_target
+        }
     
     return augmentation_plan
 
@@ -85,37 +103,37 @@ def main():
     tokenizer = T5Tokenizer.from_pretrained(MODEL_NAME)
     model = T5ForConditionalGeneration.from_pretrained(MODEL_NAME).to(device)
 
-    for config in CONFIGURATIONS:
-        print(f"\nProcessing '{config['mode']}' data")
+    for mode, config in AUGMENTATION_TARGETS.items():
+        print(f"Processing '{mode}' data")
         
         train_df = pd.read_csv(config['source_path'])
         
-        print(f"Target classes (performance < {config['performance_threshold']}): {config['target_classes']}")
+        augmentation_plan = calculate_smart_augmentation(train_df, config['target_classes'])
         
-        augmentation_plan = calculate_hybrid_augmentation(
-            train_df, 
-            config['target_classes'], 
-            TARGET_SAMPLES_PER_CLASS
-        )
-        
-        print("Augmentation plan:")
-        class_counts = train_df['target_label'].value_counts()
-        for label, factor in augmentation_plan.items():
-            current = class_counts.get(label, 0)
-            estimated_final = current + (current * factor)
-            print(f"  {label}: {current} samples -> augment {factor}x -> ~{estimated_final} samples")
+        print("\nAugmentation plan:")
+        for label, details in augmentation_plan.items():
+            if details['factor'] > 0:
+                print(f"  {label}: {details['current']} samples -> "
+                      f"augment {details['factor']}x -> target ~{details['target']} samples")
+            else:
+                print(f"  {label}: {details['current']} samples (sufficient, no augmentation)")
         
         augmented_rows = []
         
-        for label, aug_factor in augmentation_plan.items():
+        for label, details in augmentation_plan.items():
+            if details['factor'] == 0:
+                continue
+                
             target_df = train_df[train_df['target_label'] == label].copy()
             
             if len(target_df) == 0:
                 continue
             
             target_texts = target_df['text'].tolist()
+            aug_factor = details['factor']
             
-            for i in tqdm(range(0, len(target_texts), BATCH_SIZE), desc=f"Augmenting {label}"):
+            for i in tqdm(range(0, len(target_texts), BATCH_SIZE), 
+                         desc=f"Augmenting {label} ({aug_factor}x)"):
                 batch_texts = target_texts[i:i+BATCH_SIZE]
                 batch_rows = target_df.iloc[i:i+BATCH_SIZE]
                 
@@ -137,14 +155,14 @@ def main():
             print("No augmentation performed")
         
         final_train_df.to_csv(config['output_path'], index=False)
-        print(f"Saved to '{config['output_path']}'")
+        print(f"\nSaved to '{config['output_path']}'")
         
-        print("\nDistribution for augmented classes")
+        print("\nFinal class distribution:")
         final_counts = final_train_df['target_label'].value_counts()
-        for label in config['target_classes']:
+        for label in config['target_classes'].keys():
             if label in final_counts.index:
                 print(f"  {label}: {final_counts[label]} samples")
-
+                
     print("\nAugmentation complete.")
     if device.type == 'cuda':
         torch.cuda.empty_cache()

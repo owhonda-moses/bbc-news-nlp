@@ -213,3 +213,4 @@ models/augmented-classifier/model.safetensors
 models/baseline-classifier/model.safetensors
 models/weighted-classifier/model.safetensors
 models/ner-model/model.safetensors
+models/ner-model/pytorch_model.bin

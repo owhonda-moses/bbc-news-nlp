@@ -15,84 +15,62 @@ DATA_PATH = './data'
 # MODEL_PATH = './models/baseline-classifier'
 MODEL_PATH = './models/weighted-classifier'
 # MODEL_PATH = './models/augmented-classifier'
-TEXT_PATH = os.path.join(DATA_PATH, 'train_data.csv') 
+
+TEST_SET_PATH = os.path.join(DATA_PATH, 'test_set.csv')
 MAX_LEN = 512
 BATCH_SIZE = 16
 
-
-# evaluation function
 def get_predictions(model, data_loader, device):
     """Gets model predictions for a given dataset."""
     model.eval()
-    all_preds = []
-    all_labels = []
-
+    all_preds, all_labels = [], []
     with torch.no_grad():
         for batch in data_loader:
-            input_ids = batch['input_ids'].to(device)
-            attention_mask = batch['attention_mask'].to(device)
-            labels = batch['labels'].to(device)
-
-            outputs = model(
-                input_ids=input_ids,
-                attention_mask=attention_mask
-            )
-            
-            logits = outputs.logits
-            preds = torch.argmax(logits, dim=1).cpu().numpy()
-            all_preds.extend(preds)
-            all_labels.extend(labels.cpu().numpy())
-
-    return np.array(all_preds), np.array(all_labels)
-
+            outputs = model(input_ids=batch['input_ids'].to(device), attention_mask=batch['attention_mask'].to(device))
+            all_preds.extend(torch.argmax(outputs.logits, dim=1).cpu().numpy())
+            all_labels.extend(batch['labels'].cpu().numpy())
+    return all_preds, all_labels
 
 def main():
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print(f"Using device: {device}")
 
-    # load model and tokenizer
     tokenizer = DistilBertTokenizer.from_pretrained(MODEL_PATH)
-    model = DistilBertForSequenceClassification.from_pretrained(MODEL_PATH)
-    model.to(device)
-    print("Model and tokenizer loaded.")
+    model = DistilBertForSequenceClassification.from_pretrained(MODEL_PATH).to(device)
+    print(f"Model loaded from: {MODEL_PATH}")
 
-    # load data and get label mappings from the model config
-    # val_df = pd.read_csv(os.path.join(DATA_PATH, 'val_data.csv'))
+    test_df = pd.read_csv(TEST_SET_PATH)
+    test_df['target_label'] = test_df['gold_label'] # use annotated labels
     
-    annotations_df = pd.read_csv(os.path.join(DATA_PATH, 'annotated_test_set.csv'))
-    source_df = pd.read_csv(TEXT_PATH)[['filename', 'text']].drop_duplicates(subset=['filename'])
-    val_df = pd.merge(annotations_df, source_df, on='filename', how='left')
-    if val_df['text'].isnull().any():
-        raise ValueError("Not all texts for gold-standard filenames were found.")    
-    val_df['gold_label'] = val_df['gold_label'].replace({'Mergers & Acq': 'Mergers & Acquisitions'})
-    val_df['target_label'] = val_df['gold_label']
-    print(f"Loaded {len(val_df)} samples from the gold-standard test set.")
-
     label2id = model.config.label2id
+    known_labels = set(label2id.keys())
+    
+    # filter for labels the model was trained on
+    test_df = test_df[test_df['target_label'].isin(known_labels)].copy()
+    print(f"Loaded {len(test_df)} samples from the gold-standard test set.")
+    
     id2label = model.config.id2label
-    label_names = list(label2id.keys())
-    print("Loaded validation data.")
-
+    report_labels = sorted([label for label in test_df['target_label'].unique() if label in known_labels])
+    
     # create dataset and dataloader
-    val_dataset = NewsClassifierDataset(val_df, tokenizer, label2id, MAX_LEN)
-    val_loader = DataLoader(val_dataset, batch_size=BATCH_SIZE)
+    test_dataset = NewsClassifierDataset(test_df, tokenizer, label2id, MAX_LEN)
+    test_loader = DataLoader(test_dataset, batch_size=BATCH_SIZE)
     print("DataLoader created.")
 
-    y_pred, y_true = get_predictions(model, val_loader, device) # get predictions
+    y_pred_ids, y_true_ids = get_predictions(model, test_loader, device) # get predictions
     
     # convert numerical predictions back to string labels for report
-    y_pred_labels = [id2label[pred] for pred in y_pred]
-    y_true_labels = [id2label[true] for true in y_true]
+    y_pred_labels = [id2label.get(pred_id) for pred_id in y_pred_ids]
+    y_true_labels = [id2label.get(true_id) for true_id in y_true_ids]
 
-    # print classification report
-    report = classification_report(y_true_labels, y_pred_labels, labels=label_names, zero_division=0)
+    report = classification_report(y_true_labels, y_pred_labels, labels=report_labels, zero_division=0)
     print(report)
-
+    
     # save confusion matrix
-    cm = confusion_matrix(y_true_labels, y_pred_labels, labels=label_names)
+    cm = confusion_matrix(y_true_labels, y_pred_labels, labels=report_labels)
     
     plt.figure(figsize=(12, 10))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=label_names, yticklabels=label_names)
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=report_labels, yticklabels=report_labels)
     plt.title('Confusion Matrix')
     plt.ylabel('Actual Label')
     plt.xlabel('Predicted Label')

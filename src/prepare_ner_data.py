@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 
 DIR = './data'
-DATA_PATH = os.path.join(DIR, 'train_data.csv') 
+DATA_PATH = os.path.join(DIR, 'train_final.csv') 
 OUTPUT_NER_FILE = os.path.join(DIR, 'ner_training_data.csv')
 SPACY_MODEL = 'en_core_web_trf' 
 

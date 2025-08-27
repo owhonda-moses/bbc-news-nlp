@@ -100,7 +100,7 @@ This project is designed to be run in a containerized environment with GPU suppo
     ```
 
 2.  **Create Personal Access Token File**
-    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to .gitignore:
+    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to `.gitignore`:
     ```
     # pat.env
     GITHUB_TOKEN=your_personal_access_token_here
