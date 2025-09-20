@@ -4,7 +4,7 @@
 ![Frameworks](https://img.shields.io/badge/Frameworks-PyTorch%20%7C%20Transformers%20%7C%20spaCy-orange.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 
-This repository contains the complete workflow for an advanced Natural Language Processing (NLP) project performed on the BBC News dataset from 2004-2005. The project demonstrates a series of advanced techniques, including model fine-tuning, handling class imbalance, custom Named Entity Recognition (NER), and abstractive summarization.
+This repository contains the complete workflow for an advanced Natural Language Processing (NLP) project performed on the BBC News dataset from 2004-2005. The project demonstrates a series of state-of-the-art techniques, including data-centric AI for custom Named Entity Recognition (NER) using a Large Language Model (LLM), systematic hyperparameter tuning, advanced class imbalance handling, and abstractive summarization.
 
 ---
 ## Table of Contents
@@ -12,74 +12,46 @@ This repository contains the complete workflow for an advanced Natural Language 
 2.  [Repository Structure](#repository-structure)
 3.  [Setup and Installation](#setup-and-installation)
 4.  [Usage: Reproducing the Results](#usage-reproducing-the-results)
-5.  [Methodology and Iterations](#methodology-and-iterations)
+5.  [Methodology](#methodology)
     * [Sub-Category Classification](#sub-category-classification)
     * [Custom Named Entity Recognition](#custom-named-entity-recognition)
     * [Conditional Summarization](#conditional-summarization)
 6.  [Models](#models)
-7.  [Limitations](#limitations)
-8.  [Future Work](#future-work)
-9.  [Acknowledgments](#acknowledgments)
+7.  [Limitations and Future Work](#limitations-and-future-work)
+8.  [Acknowledgments](#acknowledgments)
 
 ---
 ## Project Goal
 
 The primary goal of this project was to perform a multi-faceted NLP analysis on a dataset of news articles. The defined problem consisted of three core tasks:
 
-1.  **Advanced Classification:** To classify news articles from broad categories ('Business', 'Entertainment', 'Sport') into more granular, meaningful sub-categories (e.g., 'Stock Market', 'Cinema', 'Football') using weakly supervised labels.
-2.  **Custom Entity Extraction:** To identify and extract named entities of media personalities from the text, while also classifying their professional roles (e.g., Politician, Musician, TV/Film Personality).
+1.  **Advanced Classification:** To classify news articles from broad categories into granular sub-categories (e.g., 'Economy', 'Cinema', 'Football') using weakly supervised labels and advanced training techniques.
+2.  **Custom Entity Extraction:** To build a high-performance NER model capable of identifying and classifying media personalities into specific professional roles (e.g., Politician, Musician, Athlete).
 3.  **Conditional Summarization:** To filter the dataset for all articles pertaining to events in the month of "April" and generate a concise, abstractive summary for each.
 
 ---
 ## Repository Structure
 
-The project is organized into a standard data science structure for clarity and reproducibility.
+The project is organized into a modular structure for clarity and reproducibility.
 
 ```
 bbc-nlp/
-├── .gitignore
+├── .env
 ├── README.md
-├── poetry.lock
-├── pyproject.toml
-└── setup.sh
-
+├── archive/
 ├── data/
 │   ├── bbc_raw/
-│   ├── bbc_prep/
-│   ├── annotated_test_set.csv
-│   ├── annotation_sample.csv
-│   ├── april_events_summaries.csv
-│   ├── gold_standard.csv
-│   ├── ner_training_data.csv
-│   ├── train_data_augmented.csv
-│   ├── train_data.csv
-│   ├── train_final.csv
-│   └── val_final.csv
-│
-├── img/
-│   └── confusion_matrix.png
-│
+│   └── output/
 ├── models/
-│   ├── baseline-classifier/
-│   ├── weighted-classifier/
 │   ├── augmented-classifier/
-│   └── ner-model/
-│
+│   ├── distilbert-model-v2/
+│   └── roberta-model-v2/
+├── params/
 └── src/
-    ├── __init__.py
-    ├── apply_annotations.py
-    ├── april_events.py
-    ├── augment_data.py
-    ├── evaluate.py
-    ├── gold_standard.py
-    ├── prepare_data.py
-    ├── prepare_ner_data.py
-    ├── split_data.py
-    ├── test_ner.py
-    ├── train_augmented.py
-    ├── train_baseline.py
-    ├── train_ner.py
-    └── train_weighted.py
+    ├── classification/
+    ├── ner/
+    ├── preprocessing/
+    └── summarization/
 ```
 
 ---
@@ -96,112 +68,111 @@ This project is designed to be run in a containerized environment with GPU suppo
 1.  **Clone the Repository**
     ```bash
     git clone https://github.com/owhonda-moses/bbc-news-nlp.git
-    cd bbc-news-nlp
+    cd bbc-nlp
     ```
 
-2.  **Create Personal Access Token File**
-    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to `.gitignore`:
+2.  **Create Environment File**
+    Create a file named `.env` in the root directory for your Gemini API key:
     ```
-    # pat.env
-    GITHUB_TOKEN=your_personal_access_token_here
+    # .env
+    GEMINI_API_KEY=your_api_key
     ```
 
 3.  **Run the Setup Script**
-    The `setup.sh` script automates the entire environment setup. It will install dependencies, configure the virtual environment to use the system's PyTorch (for efficiency), download NLP models, and perform a final cleanup.
+    The `setup.sh` script automates the environment setup, including dependency installation and downloading NLP models.
     ```bash
     bash setup.sh
     ```
-    This script must be run once at the beginning of each new ephemeral session.
 
 ---
 ## Usage: Reproducing the Results
 
-The project is broken down into a series of scripts within the `src/` directory. They should be run in the following order to reproduce the entire workflow. All commands should be run from the root `bbc-nlp` directory.
+The project is broken down into a series of scripts within the `src/` subdirectories. They should be run in the following order.
 
-### Sub-Category Classification
-1.  **Initial Data Preparation** (`src/prepare_data.py`): Creates the first training and validation sets from raw text.
-    ```bash
-    python -m src.prepare_data
-    ```
-2.  **Train Baseline Model** (`src/train_baseline.py`): Trains the first classifier on the initial data split.
-    ```bash
-    python -m src.train_baseline
-    ```
-3.  **Create Final Data Split** (`src/split_data.py`): Creates a more robust split that guarantees all classes are present in the training set.
-    ```bash
-    python -m src.split_data
-    ```
-4.  **Train Weighted Model** (`src/train_weighted.py`): Trains an improved classifier on the final split using class weights to handle imbalance. This was our best-performing model.
-    ```bash
-    python -m src.train_weighted
-    ```
-5.  **Evaluate on Gold-Standard Data** (`src/evaluate.py`): Tests the final model against our manually verified test set. The `MODEL_PATH` inside the script can be changed to test other models.
-    ```bash
-    python -m src.evaluate
-    ```
+### 1. Initial Data Split
+This is the first step for the entire project.
+```bash
+python -m src.preprocessing.main_split
+```
 
-### Custom Named Entity Recognition
-1.  **Prepare NER Data** (`src/prepare_ner_data.py`): Programmatically annotates the data and creates the training set for our custom NER model.
-    ```bash
-    python -m src.prepare_ner_data
-    ```
-2.  **Train NER Model** (`src/train_ner.py`): Fine-tunes a `DistilBertForTokenClassification` model on our custom data.
-    ```bash
-    python -m src.train_ner
-    ```
-3.  **Test NER Model** (`src/test_ner.py`): Runs inference with the custom NER model on test sentences to demonstrate its performance.
-    ```bash
-    python -m src.test_ner
-    ```
+### 2. Gold Standard Test Set Creation
+This creates the manually verified validation and test sets.
+```bash
+# 1. Manually create annotations in src/preprocessing/annotations.json
+# 2. Apply annotations to create the final test_set.csv
+python -m src.preprocessing.apply_annotations
+# 3. Split into ner_val.csv and ner_test.csv
+python -m src.preprocessing.ner_split
+```
 
-### Conditional Summarization
-1.  **Summarize April Events** (`src/april_events.py`): Filters for articles mentioning `April` and generates abstractive summaries.
-    ```bash
-    python -m src.april_events
-    ```
+### 3. Sub-Category Classification Pipeline
+This trains the text classifier used by the NER pipeline.
+```bash
+# 1. Prepare training data from weakly-supervised labels
+python -m src.classification.prepare_zeroshot
+# 2. Augment the data
+python -m src.classification.augment_data
+# 3. Train the final classifier
+python -m src.classification.train_augmented
+```
+
+### 4. Custom Named Entity Recognition (NER) Pipeline
+This is the core data-centric AI workflow for the NER task.
+```bash
+# 1. Build the knowledge base from Wikidata
+python -m src.ner.bulkseed
+# 2. Augment the knowledge base from Wikipedia
+python -m src.ner.scraper
+# 3. Merge knowledge bases
+python -m src.ner.merge
+# 4. Use the LLM to generate high-quality labels for the training data
+python -m src.ner.labeler_v2
+# 5. Pre-process the final, augmented data for model training
+python -m src.ner.preprocess
+# 6. Train the final v2 NER model
+python -m src.ner.train_ner
+# 7. Evaluate the final model
+python -m src.ner.evaluate
+```
+
+### 5. Conditional Summarization
+```bash
+python -m src.summarization.april_events
+```
 
 ---
-## Methodology and Iterations
+## Methodology
 
 ### Sub-Category Classification
-The primary challenge was the lack of pre-existing sub-category labels. Our approach was:
-1.  **Weak Supervision:** We generated initial noisy labels using a keyword-matching script.
-2.  **Baseline Model:** We fine-tuned a `DistilBERT` model, which revealed a significant class imbalance problem (accuracy ~0.90, F1-score ~0.51).
-3.  **Iteration and Refinement:** We improved the model by implementing **class weights**  to penalize errors on minority classes more heavily, which improved the F1-score to ~0.68 and creating a **guaranteed data split** to ensure all classes were seen during training, which significantly improved the model's balance.
- We also used a T5 model to generate synthetic data for the most underperforming classes, which provided a slight additional boost to the F1-score but showed signs of diminishing returns.
-4.  **Gold-Standard Evaluation:** We created a small, manually-verified test set. The final evaluation showed that the model's performance was ultimately limited by the quality of the initial noisy training labels.
+The primary challenge was the lack of pre-existing sub-category labels. Our final, successful approach was:
+1.  **Weak Supervision via Zero-Shot Learning:** We used a `facebook/bart-large-mnli` model to generate high-quality, zero-shot labels for our training data.
+2.  **Systematic Hyperparameter Tuning:** We used `Optuna` to perform a robust search for the optimal learning rate, weight decay, and random seed.
+3.  **Targeted Data Augmentation:** We used a T5 model with context-aware prompts to generate synthetic data for under-represented classes.
 
 ### Custom Named Entity Recognition
-To extract personalities and their jobs, we built a custom NER model.
-1.  **Programmatic Annotation:** We used `spaCy` to find `PERSON` entities and then applied keyword-based rules to assign custom labels (`POLITICIAN`, `MUSICIAN`, etc.).
-2.  **IOB Formatting:** This annotated data was converted into the standard IOB format required for training.
-3.  **Model Fine-Tuning:** A `DistilBertForTokenClassification` model was fine-tuned on this custom-generated dataset. The final model successfully identified the custom entities in test sentences.
+This task was approached with a state-of-the-art, data-centric pipeline to create a high-quality training set.
+1.  **Knowledge Base Creation:** We programmatically built a large knowledge base of over 1 million names and their professional roles by querying Wikidata (`bulkseed.py`) and scraping Wikipedia (`scraper.py`).
+2.  **Document-Level LLM Labeling:** We developed a sophisticated script (`labeler_v2.py`) that uses the Gemini 2.5 Flash model as a reasoning engine. For each article, it predicts the sub-category, links all mentions of the same person, and uses the full article context and the knowledge base to assign a highly accurate NER label in a single pass.
+3.  **Hybrid Augmentation:** To create a balanced training set, the `preprocess.py` script applies a hybrid strategy: it uses **oversampling** to synthetically increase the number of examples for minority classes and **undersampling** to reduce the dominance of the majority class (`ATHLETE`).
+4.  **Advanced Model Training:** The final `train_ner.py` script uses several state-of-the-art techniques, including a **weighted loss function** and **Automatic Mixed Precision (AMP)** to speed up training.
 
 ### Conditional Summarization
-This task was accomplished by:
-1.  **Filtering:** We filtered the entire dataset for articles containing the word "April".
-2.  **Abstractive Summarization:** We used a powerful, pre-trained `facebook/bart-large-cnn` model to generate high-quality, human-like summaries for each of the filtered articles.
+1.  **Filtering:** We filtered the dataset for articles containing "April".
+2.  **Abstractive Summarization:** We used a pre-trained `facebook/bart-large-cnn` model to generate high-quality summaries.
 
 ---
 ## Models
 The final models are saved in the `models/` directory:
-* `baseline-classifier`: The initial classification model.
-* `weighted-classifier`: The improved classifier trained with class weights. **(Recommended)**
-* `augmented-classifier`: The classifier trained with augmented data.
-* `ner-model`: The custom NER model for identifying personalities and jobs.
+* `augmented-classifier`: The final, best-performing sub-category classifier.
+* `distilbert-model-v2`: The final DistilBERT NER model.
+* `roberta-model-v2`: The final RoBERTa NER model. **(Recommended)**
 
 ---
-## Limitations
-* **Label Quality:** The performance of both the classifier and the NER model is fundamentally limited by the quality of our programmatically generated "weak" labels. They contain inherent noise and errors.
-* **Summarization Scope:** The summarization model was a pre-trained, general-purpose model. It was not fine-tuned on our specific BBC News dataset, which could have improved its stylistic consistency.
-
----
-## Future Work
-* **Manual Annotation:** The most impactful next step would be to manually annotate a larger portion of the training data to create a high-quality "gold standard" training set. This would significantly improve the performance of the final classifier.
-* **Experiment with Larger Models:** Re-train the final models using a more powerful base architecture like `RoBERTa` or `DeBERTa` to potentially increase performance.
-* **Fine-Tune Summarization Model:** Fine-tune the BART model on the BBC News dataset to make its summaries better match the specific journalistic style of the source text.
+## Limitations and Future Work
+* **Upstream Model Dependence:** The NER pipeline's quality is dependent on the performance of the sub-classification model and the initial entity recognition from spaCy.
+* **Knowledge Base Errors:** The programmatically-built knowledge base, while large, may contain some noise and errors.
 
 ---
 ## Acknowledgments
-* This project uses the [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html), originally collected for the publication: D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006.
+* This project uses the [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html).
 * The project heavily relies on the open-source work of Hugging Face, spaCy, PyTorch, and the broader Python data science community.
