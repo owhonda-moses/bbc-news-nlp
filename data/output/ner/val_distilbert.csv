@@ -1,0 +1,751 @@
+tokens,ner_tags
+sec to re ##thi ##nk post - en ##ron rules the us stock market watch ##dog ' s chairman has said he is willing to soft ##en tough new us corporate governance rules to ease the burden on foreign firms .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"in a speech at the london school of economics , william donaldson promised "" several initiatives "" .",O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O
+european firms have protested that us laws introduced after the en ##ron scandal make wall street listings too costly .,O O O O O O O O O O O O O O O O O O O O
+the us regulator said foreign firms may get extra time to comply with a key clause in the sar ##bane ##s - ox ##ley act .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+the act comes into force in mid - 2005 .,O O O O O O O O O O
+"it ob ##li ##ges all firms with us stock market listings to make declaration ##s , which , critics say , will add substantially to the cost of preparing their annual accounts .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"firms that break the new law could face huge fines , while senior executives risk jail terms of up to 20 years .",O O O O O O O O O O O O O O O O O O O O O O O
+"mr donaldson said that although the act does not provide exemption ##s for foreign firms , the securities and exchange commission ( sec ) would "" continue to be sensitive to the need to acc ##omo ##date foreign structures and requirements "" .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"there are few , if any , who disagree with the intentions of the act , which ob ##li ##ges chief executives to sign a statement taking responsibility for the accuracy of the accounts .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+but european firms with secondary listings in new york have objected - arguing that the compliance costs out ##weig ##h the benefits of a dual listing .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the act also applies to firms with more than 300 us shareholders , a situation many firms without us listings could find themselves in .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"the 300 - shareholder threshold has drawn anger as it effectively blocks the most obvious remedy , a del ##ist ##ing .",O O O O O O O O O O O O O O O O O O O O O O
+"mr donaldson said the sec would "" consider whether there should be a new approach to the der ##eg ##ist ##ration process "" for foreign firms unwilling to meet us requirements .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" we should seek a solution that will preserve investor protections "" without turning the us market into "" one with no exit "" , he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+he revealed that his staff were already weighing up the merits of delaying the implementation of the act ' s least popular measure - section 404 - for foreign firms .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"seen as particularly costly to implement , section 404 ob ##li ##ges chief executives to take responsibility for the firm ' s internal controls by signing a compliance statement in the annual accounts .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the sec has already delayed implementation of this clause for smaller firms - including us ones - with market capital ##isation ##s below $ 700 ##m ( £3 ##7 ##4 ##m ) .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"a delegation of european firms visited the sec in december to press for change , the financial times reported .",O O O O O O O O O O O O O O O O O O O O
+"it was led by dig ##by jones , director general of the uk ' s confederation of british industry ( cb ##i ) and included representatives of bas ##f , siemens and cad ##bury sc ##h ##we ##ppe ##s .",O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+compliance costs are already believed to be making firms wary of us listings .,O O O O O O O O O O O O O O
+air china picked the london stock exchange for its secondary listing in its $ 1 . 07 ##bn ( £5 ##58 ##m ) stock market debut last month .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+there are also rumours that two chinese state - run banks - china construction bank and bank of china - have abandoned plans for multi - billion dollar listings in new york later this year .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"instead , the cost of sar ##bane ##s - ox ##ley has persuaded them to stick to a single listing in hong kong , according to press reports in china .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"asia quake increases poverty risk nearly two million people across asia could be thrown into poverty because of the indian ocean tsunami , the asian development bank ( ad ##b ) has said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"in its first overview of the disaster , the ad ##b said the impact on economic growth would be slight because major cities and factories escaped damage .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but the blow to many low - income people could be "" enormous "" .",O O O O O O O O O O O O O O O
+the paris club of rich credit ##or nations on wednesday offered to freeze debts owed by tsunami - hit countries .,O O O O O O O O O O O O O O O O O O O O O
+"the move was aimed at helping south asian governments find budgets to rebuild devastated coastal areas , though so far only sri lanka , indonesia and the seychelles have indicated that they will take it up .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"other countries believe their economies are strong enough to cope or wish to avoid being viewed as credit risks . """,O O O O O O O O O O O O O O O O O O O O O
+"poverty is potentially the most important impact of this natural disaster , "" said ad ##b chief economist if ##zal ali .",O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+"donor nations have promised to give $ 71 ##7 ##m ( £3 ##7 ##9 ##m ) in disaster relief over the next six months , according to the united nations .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"mr ali added his voice to those warning that aid pledge ##s must be promptly delivered , saying the number of people at risk of poverty hi ##nged on "" concerns over sanitation and health conditions , and other basic needs "" being "" properly and quickly addressed "" .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+there are 1 . 9 billion people in asia living on less than $ 2 a day .,O O O O O O O O O O O O O O O O O O
+"the ad ##b fears that 1 million indonesian ##s could join them , while in india just over half a million people - 64 ##5 , 000 - are at risk of falling into poverty .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"a quarter of a million sri lankan ##s and 23 , 500 people in the maldives are also facing poverty .",O O O O O O O O O O O O O O O O O O O O O
+"in the maldives , where 43 % of the population already lives on less than $ 2 a day , this could rise to half .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+sri lanka and the maldives are the two countries the ad ##b fears are most at risk of suffering lasting economic damage from the tsunami .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+sri lanka ' s government has estimated reconstruction costs at nearly $ 3 ##bn .,O O O O O O O O O O O O O O O
+"a government task force held meetings to discuss an emergency rebuilding plan with the ad ##b , world bank and japanese aid agencies on wednesday , and promised to publish the plan within 10 days .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"indonesia , malaysia , thailand and india have enjoyed strong economic growth in recent years , which should cushion them against reconstruction costs .",O O O O O O O O O O O O O O O O O O O O O O O O
+"although indonesia ' s northern province of ace ##h suffered the worst death toll , the region ' s oil and natural gas production facilities "" have survived intact "" , the report said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"however , it remains too soon to ass ##es the damage to poor people ' s livelihood ##s in ace ##h because it would depend on how much farm land had been flooded by sea ##water . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+this is a profoundly tragic event for the region and for the millions who are suffering .,O O O O O O O O O O O O O O O O O
+"but the economies of the affected countries except sri lanka and the maldives should emerge with minimal damage , "" the ad ##b report said .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"some businesses may even gain from the reconstruction efforts , thereby creating jobs .",O O O O O O O O O O O O O O
+"at a meeting in thailand , abd president tha ##da ##o chin ##o said he was confident of the country ' s "" own capabilities to restore normal ##cy to the affected areas and meet the rehabilitation requirements "" .",O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"thailand has said it does not wish to opt for a debt repay ##ment freeze , while india has also rejected international aid , saying it can cope on its own resources .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"debt repay ##ment holidays carry the risk of credit ratings down ##grade ##s , making it more expensive to borrow money in future .",O O O O O O O O O O O O O O O O O O O O O O O O
+"indonesia , however , is pressing for greater help with its debts than the current freeze would bring .",O O O O O O O O O O O O O O O O O O O
+it is one of the world ' s most ind ##eb ##ted countries .,O O O O O O O O O O O O O O
+kraft cuts snack ads for children kraft plans to cut back on advertising of products like ore ##o cookies and sugar ##y ko ##ol - aid drinks as part of an effort to promote healthy eating .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the largest us food maker will also add a label to its more nutritional and low - fat brands to promote the benefits .,O O O O O O O O O O O O O O O O O O O O O O O O
+kraft rival pepsi ##co began a similar label ##ling initiative last year .,O O O O O O O O O O O O O
+the moves come as the firms face criticism from consumer groups concerned at rising levels of obesity in us children .,O O O O O O O O O O O O O O O O O O O O O
+major food manufacturers have recently been reform ##ulating the content of some cal ##ori ##e - heavy products .,O O O O O O O O O O O O O O O O O O O
+"kraft ' s new advertising policy , which covers advertising on tv , radio and in print publications , is aimed at children between the ages of six and 11 .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it means commercials for some of its most famous snacks and cereal ##s shown during early morning cartoon shows on tv will now be replaced by food and drink qualifying for kraft ' s new "" sensible solution "" label .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but the firm said it would continue to ad ##vert ##ise all its products in media seen by parents and "" all family "" audiences . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we ' re working on ways to encourage both adults and children to eat wise ##ly by selecting more nutritional ##ly balanced diet ##s , "" said lance friedman ##n , kraft senior vice president .",O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O
+rod ##dick into san jose final andy rod ##dick will play cyril saul ##nier in the final of the sap open in san jose on sunday .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O
+"the american top seed and defending champion overcame germany ' s tommy haas , the third seed , 7 - 6 ( 7 - 3 ) 6 - 3 .",O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O
+and saul ##nier survived an injury scare in his semi - final with seventh - seeded austrian jurgen mel ##zer .,O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O
+"the frenchman twisted his ankle early in the second set but overcame mel ##zer , who was left fu ##ming over a series of line calls , 6 - 7 ( 3 - 7 ) 6 - 3 6 - 3 . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i was feeling horrible earlier in the week , "" rod ##dick said . """,O O O O O O O O O O O O O O O
+"i thought tonight was another step in the right direction . """,O O O O O O O O O O O O
+"on my returns , i was standing in more and i ' m getting a little more depth , even if i don ' t hit a perfect return . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+rod ##dick won the last four points of the first - set tie - break before being broken at the start of the second set .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but he broke straight back and then broke haas again to lead 4 - 2 . """,O O O O O O O O O O O O O O O O O
+"it ' s extremely frustrating when you have chances against a top - five player and don ' t do anything with them , "" admitted haas . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i rushed a few back ##hand ##s and he took advantage . """,O O O O O O O O O O O O O
+"saul ##nier will move into the world ' s top 50 for the first time after his passage through to the final . """,O O O O O O O O O O O O O O O O O O O O O O O O
+"it ' s taken a lot of work and a lot of fighting in my mind , "" he revealed . """,O O O O O O O O O O O O O O O O O O O O O O
+sometimes i didn ' t believe i could get to a final and now i am here .,O O O O O O O O O O O O O O O O O O
+"i ' ve stayed mentally strong . """,O O O O O O O O
+i ' m on the way .,O O O O O O O
+"i ' ll keep fighting and work a lot and i ' ll be up there . """,O O O O O O O O O O O O O O O O O O
+"mccall earn ##s tan ##nad ##ice rep ##rie ##ve dundee united manager ian mccall has won a rep ##rie ##ve from the sack , with chairman eddie thompson calling for an end to speculation over his future .",O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O
+it is understood that mccall would have been sacked if sheffield wednesday manager paul stu ##rro ##ck had been willing to return to tan ##nad ##ice .,O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O
+"but stu ##rro ##ck has distance ##d himself from the position . """,O O O O O O O O O O O O O
+we ' re in a difficult situation .,O O O O O O O O
+"we must get out of it through the efforts of current personnel , "" said thompson . """,O O O O O O O O O O O O O O O O O O
+"ian mccall and i have had a long and detailed talk about a number of areas including the current league position and the manner of the exit from the league cup , "" he added . """,B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"however , the continuing speculation is doing no one any good , especially as we have several crucial games coming up . """,O O O O O O O O O O O O O O O O O O O O O O O
+"the minds of the coaching staff and the players have to be on those games and those games only . """,O O O O O O O O O O O O O O O O O O O O O
+"our season would of course improve considerably if in the next few weeks we achieved some improved league results and there is also the potential of another cup semi - final , subject to the draw .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" all that matters at the present time - is us all having a total focus on the games ahead and a positive series of results being achieved . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"dundee united players had expressed their solidarity with mccall after their side ' s 3 - 0 scottish cup win over queen of the south . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we want the boss to stay , we don ' t want someone else coming in , "" said jim mcintyre . """,O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O
+"hopefully now he gets the chance to stay . """,O O O O O O O O O O
+"keeper tony bullock echoed mcintyre ' s sentiments . """,O B-ATHLETE I-ATHLETE O O O O O O O
+"i think all the boys are behind ian mccall , "" he added . """,O O O O O O O B-ATHLETE I-ATHLETE O O O O O O
+"at the moment it is all speculation and we have got to rise above all that and do a job on the pitch . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"on saturday , stu ##rro ##ck insisted that he had unfinished business with wednesday , who are fourth in league one . """,O O O O O O O O O O O O O O O O O O O O O O O
+"i ' ve only been here five months and i don ' t expect to be leaving very , very soon , "" he said . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i can appreciate the rumours because i ' ve emphasis ##ed my thoughts and ambitions to go back to dundee united . """,O O O O O O O O O O O O O O O O O O O O O O O
+"i can assure you the times ##cal ##e is not the right one . """,O O O O O O O O O O O O O O O
+it ( dundee united ) is my team .,O O O O O O O O O
+"i had five years there as a coach , six as a player , two years as a manager - once you ' ve done that kind of thing , it ' s the result you look for . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the important thing now is i ' ve come here to do a job and i ' m going to try to finish it . """,O O O O O O O O O O O O O O O O O O O O O O O O O O
+us state acts to stop ' spa ##mmer ##s ' us state texas has filed a lawsuit against two men believed to be among the world ' s top five spa ##mmer ##s .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it is seeking millions of dollars in damages in a civil lawsuit filed earlier this week .,O O O O O O O O O O O O O O O O O
+the texas attorney general said it started the legal action as messages sent by the alleged spa ##mmer ##s broke three laws governing e - mail marketing .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the company named in the lawsuit denied any wrong ##do ##ing and said it complied with all relevant laws .,O O O O O O O O O O O O O O O O O O O O
+"the texas lawsuit was filed against ryan samuel pity ##lak , a university of ##te ##xa ##s student , and mark stephen tr ##otte ##r of california .",O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O
+"both are thought to be the top executives in three companies - pay ##per ##act ##ion llc . ,",O O O O O O O O O O O O O O O O O O O
+lead ##plex llc .,O O O O
+"and lead ##plex inc - that are suspected of sending out many millions of unwanted e - mail messages . """,O O O O O O O O O O O O O O O O O O O O O
+"illegal spa ##m must be stopped , "" said greg abbott , texas attorney general announcing the legal action . """,O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O
+"spa ##m is one of the most ag ##gra ##vating and per ##vas ##ive problems facing consumers today . """,O O O O O O O O O O O O O O O O O O O O
+the attorney general all ##ege ##s that messages sent by mr pity ##lak and mr tr ##otte ##r ' s companies broke the 2003 controlling the assault of non - sol ##ici ##ted pornography and marketing act ( can - spa ##m ) as well as the texas electronic mail and sol ##ici ##tation act and texas dec ##eptive trade practices act .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+all three acts con ##fer cash penalties for each violation of their terms .,O O O O O O O O O O O O O O
+"if the men are found guilty and all penalties are applied , the two men could face a damages bill running into millions .",O O O O O O O O O O O O O O O O O O O O O O O O
+"mr abbott said the messages sent by the pair broke laws by using misleading subject lines , not identifying themselves as ad ##vert ##s and offering services for which they had no licence to do so in texas .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"lawyers for the alleged spa ##mmer ##s said the lawsuit was ground ##less and the two men would defend themselves strongly against the accusations . """,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"lead ##plex and pay ##per ##act ##ion are legitimate internet marketing companies that are in complete compliance with the federal can - spa ##m act , "" said lin hughes , speaking on behalf of mr pity ##lak and mr tr ##otte ##r .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O
+in a similar move the us federal trade commission ( ft ##c ) has won a court order that stops an international group of spa ##mmer ##s sending sexually explicit e - mail .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the ft ##c took the action because the messages being sent violated several parts of the can - spa ##m act .,O O O O O O O O O O O O O O O O O O O O O O
+"in particular , the pornographic messages did not identify themselves as being sexually explicit , had dec ##eptive subject heading ##s , did not have working opt - out mechanisms , failed to mention they were ad ##vert ##s and did not give the send ##er ' s real world address .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the court order stops the spa ##mmer ##s sending e - mail and freeze ##s assets prior to a hearing on a permanent injunction .,O O O O O O O O O O O O O O O O O O O O O O O O O
+help for indies in download sales a campaign has been launched to help independent labels get their music online and benefit from the growing trend for download ##ing music .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the british ph ##ono ##graphic industry has identified a lack of independent music available for download . """,O O O O O O O O O O O O O O O O O O
+"we want to ensure that independent repertoire is as successful in the download world as it is in the physical world , "" said bp ##i chief peter jamie ##son .",O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O
+downloaded singles have now over ##taken physical singles in the uk .,O O O O O O O O O O O O
+"mr jamie ##son said his organisation was lobbying music service providers , which include itunes and nap ##ster , to urge them to promote independent releases .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"download sales are due to be incorporated into the uk singles chart later this year . """,O O O O O O O O O O O O O O O O O
+"with downloads shortly to be eligible for the singles chart , this is a key commercial issue on which the bp ##i committed to assisting its members , "" added mr jamie ##son .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as part of the campaign the bp ##i is running a series of seminars entitled getting your music online , focusing on how independent labels can embrace digital music .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the us has already begun incorporating download sales in the billboard ' s hot 100 chart .,O O O O O O O O O O O O O O O O O
+uefa approve ##s fake grass uefa says it will allow european matches to be played on artificial pitches from the start of next season .,O O O O O O O O O O O O O O O O O O O O O O O O O
+european football ' s governing body made the decision at a meeting of its executive committee on wednesday .,O O O O O O O O O O O O O O O O O O O
+"uefa explained that the move "" follows comprehensive studies into the sporting and medical aspects of using artificial playing surfaces . """,O O O O O O O O O O O O O O O O O O O O O O
+they can be used subject to comply ##ing with uefa quality criteria but there use will not be made obligatory .,O O O O O O O O O O O O O O O O O O O O O
+"luton , preston , queens park rangers and other clubs used to have plastic pitches during the the 1980s but , after a two - year study , uefa insists the surfaces have moved on .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"international matches can also be played on such pitches , although games at major tournaments have to be contested on grass .",O O O O O O O O O O O O O O O O O O O O O O
+"uefa spokesman rob faulkner said : "" people in england have bad memories of the artificial pitches of luton and q ##pr in the 1980s , but the latest generation are completely different and are much more like grass . """,O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we have sanctioned its use from the start of next season but only as long as it is the latest generation of artificial turf and meets a whole series of standards . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"several leading clubs from scandinavia , russia and eastern europe - especially those who only play champions league or uefa cup matches in winter - are now expected to ins ##tal artificial pitches .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+sport betting rules in spotlight a group of mps and peers has called for a tightening of regulations controlling betting on sport .,O O O O O O O O O O O O O O O O O O O O O O O
+the parliamentary group on betting and gaming held a substantial inquiry into betting last year .,O O O O O O O O O O O O O O O O
+"it followed fears that a massive increase in betting on sport , such as that done using the internet and mobile phones , has led to more cheating .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the all - party group recommended 15 ways to protect punt ##ers and improve the integrity of sports betting .,O O O O O O O O O O O O O O O O O O O O
+they include a proposal for raising the maximum jail sentence for gambling cheat ##s above the current two years .,O O O O O O O O O O O O O O O O O O O O
+"lord condo ##n , head of the international cricket council ' s anti - corruption unit , who originally made the call for longer prison sentences , said the two - year penalty was "" der ##iso ##ry "" . """,B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"you could get a bigger sentence for failing to pay your hotel bill criminal ##ly than you could for corruption in major sports . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"symbolic ##ally , a higher penalty , perhaps as the bill passes through the two houses , might be appropriate . """,O O O O O O O O O O O O O O O O O O O O O O
+"the report recommended the governing bodies of sports have a say in the type of bets offered to punt ##ers , and for book ##makers to set up "" audit trails "" - something the new betting exchanges already do - to allow suspicious betting patterns to be traced .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"lord faulkner of worcester , who chaired the inquiry , said : "" whilst we accept that the greater part of sports betting is neither corrupt nor unfair to punt ##ers , the evidence convinces us that the growth of betting exchanges - because of the facility they provide to bet against a result - has increased the potential for corruption . """,B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it is important that the government works with sporting administrators to review the difficulties faced by governing bodies in convict ##ing the guilty and penal ##ising them appropriately . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the panel ' s aim was to try to define what constitutes cheating , assess how much might be going on and suggest what the government might do to put it right .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as well as the growth of internet and mobile phone betting , there has been the creation of betting exchanges which allow punt ##ers to fix odds between themselves .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+betting exchanges allow punt ##ers to back ( to win ) but also lay ( to lose ) a horse .,O O O O O O O O O O O O O O O O O O O O O
+this means they can control their odds at winning by placing their money both ways .,O O O O O O O O O O O O O O O O
+apple ipod family expands market apple has expanded its ipod family with the release of its next generation of the digital music players .,O O O O O O O O O O O O O O O O O O O O O O O O
+its latest challenges to the growing digital music ga ##dget market include an ipod mini model which can hold 6 ##gb compared to a previous 4 ##gb .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the company , which hopes to keep its dominant place in the digital music market , also said the gold coloured version of the mini would be dropped .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+a 30 ##gb version has also been added to the ipod photo family .,O O O O O O O O O O O O O O
+the latest models have a longer battery life and their prices have been cut by an average of £ ##40 .,O O O O O O O O O O O O O O O O O O O O O
+the original ipod took an early lead in the digital music player market thanks to its large storage capacity and simple design .,O O O O O O O O O O O O O O O O O O O O O O O
+"during 2004 about 25 million portable players were sold , 10 million of which were apple ipod ##s .",O O O O O O O O O O O O O O O O O O O
+"but analysts agree that the success is also down to its integration with the itunes online store , which has given the company a 70 % share of the legal download music market .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"mike mcguire , a research director at analyst ga ##rt ##ner , told the bbc news website that apple had done a good job in "" sealing off the market from competition "" so far . """,B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"they have created a very seam ##less package which i think is the idea of the product - the design , function and the software are very impressive , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"he added that the threat from others was always present , however . """,O O O O O O O O O O O O O O
+"creative , other microsoft - partnered devices , real , sony and so on , are rat ##chet ##ing up the marketing message and advertising , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"creative was very upbeat about how many of its creative zen players it had shipped by the end of last year , he said .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"its second - generation models , like the creative zen micro photo , is due out in the summer .",O O O O O O O O O O O O O O O O O O O O
+it will have 5 ##gb of memory on board .,O O O O O O O O O O
+"digital music players are now the ga ##dget of choice among young americans , according to recent research by the pew internet and american life project .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+one in 10 us adults - 22 million people - now owns a digital music player of some sort .,O O O O O O O O O O O O O O O O O O O O
+"sales of legally downloaded songs also rose more than ten ##fold in 2004 , according to the record industry , with 200 million tracks bought online in the us and europe in 12 months .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the if ##pi industry body said that the popularity of portable music players was behind the growth .,O O O O O O O O O O O O O O O O O O
+analysts say that the ease of use and growth of music services available on the net will continue to drive the trend towards portable music players .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+people are also starting to use them in novel ways .,O O O O O O O O O O O
+"some are combining automatic sync ##ing functions many of them have with other net functions to automatically distribute di ##y radio shows , called podcast ##s .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+but 2005 will also see more competition from mobile phone operators who are keen to offer streaming services on much more powerful and sophisticated hands ##ets .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"according to mr mcguire , research suggests that people like the idea of building up huge libraries of music , which they can do with high - capacity storage devices , like ipod ##s and creative zen ##s .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"mobile ##s do not yet have this capacity though , and there are issues about the ease of port ##ability of mobile music .",O O O O O O O O O O O O O O O O O O O O O O O O
+mr mcguire said apple was ensuring it kept a foot in the mobile music door with its recent deal with motorola to produce a version of itunes for motorola phones .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+' hitler ' row over welsh arts cash an artist critical of welsh arts funding being brought under assembly government control has denied comparing the idea with dictatorship ##s in russia and germany .,O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+shan ##i rhys james is worried that the arts council of wales may be taken over by the welsh assembly government .,B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+"culture minister al ##un pu ##gh said it would be "" cr ##ass and ignorant "" to like ##n a quan ##go review to hitler ' s germany .",O O B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O B-POLITICIAN O O O O
+but ms james emphasis ##ed she had actually said artists needed freedom .,O O O O O O O O O O O O O
+the future of the arts council of wales has been in question since it was announced that most welsh quan ##gos would eventually be abolished .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it was announced last july that three welsh quan ##gos , education and training body el ##wa , the wales tourist board and the welsh development agency , would be brought under assembly government control .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the arts council of wales may be among the next to come under the assembly government ' s umbrella .,O O O O O O O O O O O O O O O O O O O O
+"but ms james , who won the £3 ##0 , 000 je ##rwood painting prize in 2003 , said arts funding should be separate from government .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"ms james told bbc radio wales : "" it ' s quite dangerous when you involve politicians because it ' s not like the health service and it ' s not like the railways . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+free expression is absolutely vital in a democratic society .,O O O O O O O O O O
+"you need distance , you do not need government interference because it could be taken the wrong way . """,O O O O O O O O O O O O O O O O O O O O
+but she said reports that she had likened the assembly government to total ##itarian regimes were inaccurate .,O O O O O O O O O O O O O O O O O O
+"she told good morning wales : "" just to put the record straight , that business in the paper where it said i likened the government to bolshevik russia or hitler ' s germany , the actual quote i gave was : ' it is vital to a civil ##ised society that we allow artists to express themselves without government control ' . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as we know from past european history , i . e . russia and germany in the early 20th century , artists will go underground or leave the country or rather than compromise their expression ' . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"artists need a free voice to express themselves - they reflect a truth through their own art forms . ' """,O O O O O O O O O O O O O O O O O O O O O
+she said the assembly government was not best placed to run the arts in wales .,O O O O O O O O O O O O O O O O
+"she added : "" it would be a moment ##ous change and devastating to the arts .",O O O O O O O O O O O O O O O O O
+"it would set the arts scene back 60 years , because i really don ' t think the government has the expertise . """,O O O O O O O O O O O O O O O O O O O O O O O O
+"if you have the national assembly taking control , i fear you are going to be going back to the dragons and lee ##ks and the choirs .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" wales has moved on .",O O O O O O
+it is international now .,O O O O O
+"it is not set back in how green was my valley ? """,O O O O O O O O O O O O O
+"responding to ms james ' criticisms , mr pu ##gh said : "" the structure of une ##le ##cted quan ##gos is under review and we have made it clear that further announcements are due shortly . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"comparing the welsh assembly government to hitler ' s germany is a cr ##ass and ignorant response to a real issue about democratic accountability . """,O O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O
+"ms james , whose father was welsh , was born in melbourne where her parents worked in the theatre .",O O O O O O O O O O O O O O O O O O O O
+she moved to pow ##ys nearly 20 years ago where she works from her studio near ll ##anga ##df ##an .,O O O O O O O O O O O O O O O O O O O O O
+she has won a number of arts prizes including the wales open in 1989 and the most ##yn open in 1991 .,O O O O O O O O O O O O O O O O O O O O O O
+"jobs go at oracle after takeover oracle has announced it is cutting about 5 , 000 jobs following the completion of its $ 10 . 3 ##bn takeover of its smaller rival peoples ##oft last week .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the company said it would retain more than 90 % of peoples ##oft product development and product support staff .,O O O O O O O O O O O O O O O O O O O O
+"the cuts will affect about 9 % of the 55 , 000 staff of the combined companies .",O O O O O O O O O O O O O O O O O O
+oracle ' s 18 - month fight to acquire peoples ##oft was one of the most drawn - out and hard - fought us takeover battles of recent times .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the merged companies are set to be a major force in the enterprise software market , second only in size to germany ' s sap .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"in a statement , oracle said it began not ##ifying staff of red ##unda ##ncies on friday and the process would continue over the next 10 days . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"by retaining the vast majority of peoples ##oft technical staff , oracle will have the resources to deliver on the development and support commitments we have made to peoples ##oft customers over the last 18 months , "" oracle ' s chief executive larry ellison said in a statement .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O
+"correspondent ##s say 6 , 000 job losses had been expected - and some suggest more cuts may be announced in future .",O O O O O O O O O O O O O O O O O O O O O O O
+they say mr ellison may be trying to pl ##aca ##te peoples ##oft customers ri ##led by oracle ' s determined takeover strategy .,O O O O O O O O O O O O O O O O O O O O O O O O
+"hours before friday ' s announcement , there was a fun ##ere ##al air at peoples ##oft ' s headquarters , reported ap news agency .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"a peoples ##oft sign had been turned into shrine to the company , with flowers , candles and company memorabilia . """,O O O O O O O O O O O O O O O O O O O O O O
+"we ' re mourning the passing of a great company , "" the agency quoted peoples ##oft worker david ogden as saying .",O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O
+"other employees said they would rather be sacked than work for oracle . """,O O O O O O O O O O O O O O
+"the new company is going to be totally different , "" said an ##il ag ##gar ##wal , peoples ##oft ' s director of database markets . """,O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O
+"peoples ##oft had an easy ##going , relaxed atmosphere .",O O O O O O O O O O
+"oracle has an ed ##gy , aggressive atmosphere that ' s not con ##du ##ci ##ve to innovative production . """,O O O O O O O O O O O O O O O O O O O O O
+"on the news , oracle shares rose 15 cents - 1 . 1 % - on nas ##da ##q .",O O O O O O O O O O O O O O O O O O O O
+in after - hours trading the shares did not move .,O O O O O O O O O O O
+warning over tsunami aid website net users are being told to avoid a sc ##am website that claims to collect cash on behalf of tsunami victims .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the site looks plausible because it uses an old version of the official disasters emergency committee web ##page .,O O O O O O O O O O O O O O O O O O O
+"however , dec has no connection with the fake site and says it has contacted the police about it .",O O O O O O O O O O O O O O O O O O O O
+the site is just the latest in a long list of sc ##ams that try to cash in on the goodwill generated by the tsunami disaster .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the link to the website is contained in a spa ##m e - mail that is currently circulating .,O O O O O O O O O O O O O O O O O O O
+"the message ' s subject line reads "" urgent tsunami earthquake appeal "" and its text bears all the poor grammar and bad spelling that character ##ises many other phi ##shing attempts .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the web address of the fake site is dec ##uk . org which could be close enough to the official www . dec . org . uk address to confuse some people keen to donate .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"patricia sanders , spoke ##sw ##oman for the disaster emergency committee said it was aware of the site and had contacted the computer crime unit at scotland yard to help get it shut down .",B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+she said the spa ##m e - mail ##s directing people to the site started circulating two days ago shortly after the domain name of the site was registered .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it is thought that the fake site is being run from romania .,O O O O O O O O O O O O O
+ms sanders said dec had contacted us net registrar ##s who handle domain ownership and the net hosting firm that is keeping the site on the web .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+dec was going to push for all cash donated via the site to be handed over to the official organisation .,O O O O O O O O O O O O O O O O O O O O O
+"bt and dec ' s hosting company were also making efforts to get the site shut down , she said .",O O O O O O O O O O O O O O O O O O O O O
+ms sanders said sending out spa ##m e - mail to sol ##ici ##t donations was not dec ' s style and that it would never canvas ##s support in this way .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+she said that dec hoped to get the fake site shut down as soon as possible .,O O O O O O O O O O O O O O O O O
+all attempts by the bbc news website to contact the people behind the site have failed .,O O O O O O O O O O O O O O O O O
+none of the e - mail addresses supplied on the site work and the real owner of the domain is obscured in publicly available net records .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+this is not the first attempt to cash in on the out ##pour ##ing of goodwill that has accompanied appeals for tsunami aid .,O O O O O O O O O O O O O O O O O O O O O O O O
+one e - mail sent out in early january came from someone who claimed that he had lost his parents in the disaster and was asking for help moving an inheritance from a bank account in the netherlands .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the con was very similar to the familiar nigerian forward fee fraud e - mail ##s that milk money out of people by promising them a cut of a much larger cash pile .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+other sc ##am e - mail ##s included a link to a website that supposedly let people donate money but instead loaded spy ##ware on their computers that grabbed confidential information .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+in a monthly report anti - virus firm so ##ph ##os said that two e - mail messages about the tsunami made it to the top 10 hoax list during january .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+another tsunami - related e - mail is also circulating that carries the za ##r worm which tries to spread via the familiar route of microsoft ' s outlook e - mail program .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+anyone opening the attachment of the mail will have their contact list pl ##under ##ed by the worm keen to find new addresses to send itself to .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"' fi ##do ' to be taken off vote lists the risk of pets and children being given votes could be cut by changing how people register to vote , the uk elections watch ##dog has said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"those are some of the mistakes found under the current system , where one person in each household applies for voting forms for the other occupants .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the electoral commission says enabling people to register individually could cut some errors and combat fraud .,O O O O O O O O O O O O O O O O O
+voters need to register by 11 march if the next poll is on 5 may as expected .,O O O O O O O O O O O O O O O O O O
+but any individual registration scheme would not be introduced in britain before that general election .,O O O O O O O O O O O O O O O O
+"the proposed scheme would mean voters using individual "" id ##ent ##ifiers "" when they vote - such as their own voting number , date of birth and signature .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the electoral commission says having voters register individually rather than the head of household do it for them fits better with human rights laws .,O O O O O O O O O O O O O O O O O O O O O O O O O
+chairman sam younger told mps on tuesday care was needed to ensure that people were not lost off the register in the process - which happened when northern ireland switched to a similar system .,O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"there have been rare cases when household pets have been put on the electoral roll , the mps heard .",O O O O O O O O O O O O O O O O O O O O
+"and some people have registered all their family , regardless of their age - birth dates are not included on the forms so election officers cannot easily check .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+non - british citizens who are not entitled to vote have also been registered in some cases .,O O O O O O O O O O O O O O O O O O
+"mr younger said there was an ##ec ##dot ##al evidence of ina ##cc ##ura ##cies in the register , the vast majority of which were caused by genuine mistakes .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"he argued local councils could look harder at promoting targeted campaigns at "" hard to reach "" voters , for example .",O O O O O O O O O O O O O O O O O O O O O O
+some authorities already run such programmes but in others councillors worry about the party political impact of encouraging particular areas to turn out .,O O O O O O O O O O O O O O O O O O O O O O O O
+"mr younger said using the royal mail ' s postal red ##ire ##ction service had already helped election officers re ##tra ##ce about 50 , 000 voters .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+he argued individual registration would also increase security for postal ballots and other new ways of voting .,O O O O O O O O O O O O O O O O O O
+there have been fears there are too few checks to ensure current postal votes are cast by the person on the voting form .,O O O O O O O O O O O O O O O O O O O O O O O O
+"he said it might also help register students in halls of residences , where the hall warden often has to do the job for everybody .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+the mps on the office of the deputy prime minister and constitutional affairs select committees pressed mr younger on how to avoid losing voters in any change ##over .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+he said the northern ireland example illustrated real difficulties to be confronted .,O O O O O O O O O O O O O
+"currently , british voters have to re - register to vote every year or face being removed from the electoral rolls if they fail to do so two years running .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+mr younger suggested the re - registration could happen less frequently but argued efforts were needed to check the electoral rolls were up - to - date .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+oscar host rock to keep it clean oscar host chris rock said he will steer clear of bad language when he fronts the awards on 27 february .,O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O
+"the comedian , who recently got into trouble for poking fun at the ceremony , is renowned for his heavy use of ex ##ple ##tive ##s during his stand - up routine .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the live ceremony will be broadcast with a transmission delay on us network abc to ensure swear words are removed . """,O O O O O O O O O O O O O O O O O O O O O O
+"i ' ve been on tv and been funny not cursing , "" he said during an interview for cbs network ' s 60 minutes show . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as far as content is concerned , i will talk about the movies .",O O O O O O O O O O O O O O
+i ' m not really worried about it .,O O O O O O O O O
+"i ' m sure abc might be more worried about it than me , "" he added .",O O O O O O O O O O O O O O O O O O
+"the 40 - year - old comedian caused a fur ##ore when he said in an interview with us magazine entertainment weekly recently that he hardly ever watched the oscar ##s and labelled awards ceremonies "" idiot ##ic "" .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the show ' s producers defended rock and confirmed that he would still be presenting the oscar ceremony , saying his comments were "" humorous dig ##s "" .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"meanwhile , the academy has announced that oscar - nominated actress natalie port ##man will present an award at the ceremony .",O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O
+"port ##man , who has been nominated for a best supporting actress gong for her role in mike nichols ' closer , joins a growing list of stars set to best ##ow an award at the ceremony including dustin hoffman , drew barry ##more , renee ze ##ll ##we ##ger and british - born actress kate wins ##let .",O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+"rank ' set to sell off film unit ' leisure group rank could un ##ve ##il plans to dem ##er ##ge its film services unit and sell its media business , reports claim .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"rank , formerly famous for the carry on series , will expose the shake - up at the announcement of its results on friday , the sunday telegraph reported .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"advisors goldman sachs are understood to have valued its dem ##er ##ged deluxe film unit at £3 ##00 ##m , the report added .",O O O O O O O O O O O O O O O O O O O O O O O O
+speculation of a possible shake - up has mounted since rank announced a study into a possible dem ##er ##ger in september .,O O O O O O O O O O O O O O O O O O O O O O O
+"since mike smith ' s appointment as chief executive in 1999 , the group has focused on fewer businesses and embarked on a major cost - cutting programme which has seen it dispose of a number of businesses , including the ode ##on cinema chain and the pine ##wood studios .",O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the move left the group with three core divisions : gaming , hard rock and deluxe films , which provides technical services to hollywood studios .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"rank now aims to concentrate on its gaming , bars and hotels business , including extending its hard rock brand to its casinos - trials of which have been a success .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it also owns deluxe media , which makes and distribute ##s dvds and videos .",O O O O O O O O O O O O O O O
+"however , that business is seen as less successful .",O O O O O O O O O O
+last year it made profits of £2 ##1 . 5 ##m on a turnover of £3 ##9 ##2 . 1 ##m and experts suggest its success in moving to dvds from vhs video could make it an attractive target for a private equity buyer .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"a spokesman for the firm refused to comment on the reports , but said any results from the dem ##er ##ger study were likely to be set out when it unveiled its results on friday .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+analysts predict the firm is likely to report a slight drop in annual pre - tax profits to £1 ##70 ##m from £1 ##9 ##4 ##m last year .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+formed in the 1940s the firm was a leading uk film producer and cinema owner for many years .,O O O O O O O O O O O O O O O O O O O
+"it has now diversified into a range of other leisure activities - mainly in the uk - including hotels , roadside service areas and holiday centres .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it now owns 34 gr ##os ##venor casinos , the mecca bingo chain and more than 100 hard rock cafes in 38 countries .",O O O O O O O O O O O O O O O O O O O O O O O O
+"uk house prices dip in november uk house prices dipped slightly in november , the office of the deputy prime minister ( o ##dp ##m ) has said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the average house price fell marginal ##ly to £1 ##80 , 226 , from £1 ##80 , 44 ##4 in october .",O O O O O O O O O O O O O O O O O O O O O O
+"recent evidence has suggested that the uk housing market is slowing after interest rate increases , and economists forecast a drop in prices during 2005 .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but while the monthly figures may hint at a cooling of the market , annual house price inflation is still strong , up 13 . 8 % in the year to november .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"economists , however , forecast that o ##dp ##m figures are likely to show a weakening in annual house price growth in coming months . """,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"overall , the housing market activity is slowing down and that is backed up by the mortgage lending and the mortgage approval ##s data , "" said mark miller , at hbo ##s treasury services . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O
+"the o ##dp ##m data is a fairly la ##gging indicator . """,O O O O O O O O O O O O O
+the figures come after the bank of england said the number of mortgage ##s approved in the uk has fallen to the lowest level for nearly a decade .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the halifax , meanwhile , said last week that house prices increased by 1 . 1 % in december - the first monthly rise since september .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the uk ' s biggest mortgage lend ##er said prices rose 15 . 1 % over the whole of 2004 , but by only 2 . 8 % in the second half of the year .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it is predicting a 2 % fall in overall prices in 2005 as the market stab ##ilis ##es after large gains in recent years .,O O O O O O O O O O O O O O O O O O O O O O O O O
+the o ##dp ##m attributed the monthly fall of prices in november to a drop in the value of detached houses and flats .,O O O O O O O O O O O O O O O O O O O O O O O O
+it said annual inflation rose between october and november because prices had fallen by 1 . 1 % in the same period in 2003 .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"the o ##dp ##m data showed the average house price was £1 ##9 ##2 , 71 ##3 in england ; £1 ##39 , 54 ##4 in wales ; £1 ##16 , 54 ##2 in scotland , and £1 ##11 , 314 in northern ireland .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"all areas saw a rise in annual house price inflation in november except for northern ireland and the west midlands , where the rate was unchanged , the o ##dp ##m said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the north east showed the highest rate of inflation at 26 . 2 % , followed by yorkshire and the hum ##ber on 21 . 7 % , and the north west on 21 . 1 % .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the east midlands , the west midlands and the south west all had an annual inflation rate of more than 15 % .",O O O O O O O O O O O O O O O O O O O O O O O
+"in london , the area with the highest average house price at £2 ##6 ##2 , 82 ##5 , annual inflation rose only slightly in november to 7 . 1 % from 7 % the previous month .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+berlin cheers for anti - nazi film a german movie about an anti - nazi resistance heroine has drawn loud applause at berlin film festival .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+sophie sc ##hol ##l - the final days portrays the final days of the member of the white rose movement .,B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O
+"sc ##hol ##l , 21 , was arrested and beheaded with her brother , hans , in 1943 for distributing leaflets condemning the "" ab ##hor ##rent ty ##ran ##ny "" of adolf hitler .",O O O O O O O O O O O O O O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O
+"director marc roth ##em ##und said : "" i have a feeling of responsibility to keep the legacy of the sc ##hol ##ls going . "" """,O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O
+"we must somehow keep their ideas alive , "" he added .",O O O O O O O O O O O O
+the film drew on transcript ##s of gestapo interrogation ##s and sc ##hol ##l ' s trial preserved in the archive of communist east germany ' s secret police .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"their discovery was the inspiration behind the film for roth ##em ##und , who worked closely with surviving relatives , including one of sc ##hol ##l ' s sisters , to ensure historical accuracy on the film .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+sc ##hol ##l and other members of the white rose resistance group first started distributing anti - nazi leaflets in the summer of 1942 .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"they were arrested as they dropped leaflets at munich university calling for a "" day of reckon ##ing "" with adolf hitler ' s regime .",O O O O O O O O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O
+the film focuses on the six days from sc ##hol ##l ' s arrest to the intense trial which saw sc ##hol ##l initially deny the charges and ended with a defiant appearance .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it is one of three german films v ##ying for a top prize at the festival .,O O O O O O O O O O O O O O O O O
+a south african film version of bi ##ze ##t ' s tragic opera carmen shot in cape town in the x ##hos ##a language has also premiered at the berlin festival .,O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O
+the film is entitled u - carmen ek ##hay ##eli ##ts ##ha or carmen in k ##hay ##eli ##ts ##ha after the township in which the story is set .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it is performed by a 40 - strong music and theatre troupe in their debut film performance .,O O O O O O O O O O O O O O O O O O
+the film is the first south african feature in 25 years and only the second to be nominated for a golden bear award .,O O O O O O O O O O O O O O O O O O O O O O O O
+"health ##so ##uth ex - boss goes on trial the former head of us medical services firm health ##so ##uth overs ##tated earnings and assets to boost the company ' s share price , it was claimed in court .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"richard sc ##rus ##hy , 52 , is accused of "" directing "" a $ 2 . 7 ##bn ( £1 . 4 ##bn ) accounting fraud at the company he co - founded in alabama in 1984 .",B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+prosecutors said he was motivated by wealth - spending about $ 200 ##m between 1996 and 2002 while earning much less .,O O O O O O O O O O O O O O O O O O O O O O
+defence lawyers said mr sc ##rus ##hy had been dec ##ei ##ved by other executives .,O O O O O O O O O O O O O O O O
+several former health ##so ##uth employees have already pleaded guilty to fraud and are expected to give evidence against mr sc ##rus ##hy .,O O O O O O O O O O O O O O O O O O O O O O O O
+""" we will present evidence that richard sc ##rus ##hy knew about the conspiracy , that he participated in the conspiracy and that he profit ##ed , "" prosecutor alice martin told the court .",O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O
+mr sc ##rus ##hy is the first chief executive to be tried for breach ##ing the sar ##bane ##s ox ##ley act - a law introduced in the wake of the en ##ron and world ##com fraud ##s which ob ##li ##ges corporate bosses to vo ##uch for the accuracy of their companies ' results .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"among the charges he faces are conspiracy to commit fraud , filing false statements and money laundering .",O O O O O O O O O O O O O O O O O O
+"after federal agents raided health ##so ##uth ' s offices in march 2003 , the company said none of its past financial statements could be relied on .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the firm has since re ##org ##ani ##sed its board and management team and currently operates about 1 , 400 health clinics .",O O O O O O O O O O O O O O O O O O O O O O O
+"lifestyle ' govern ##s mobile choice ' faster , better or funk ##ier hardware alone is not going to help phone firms sell more hands ##ets , research suggests .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"instead , phone firms keen to get more out of their customers should not just be pushing the technology for its own sake .",O O O O O O O O O O O O O O O O O O O O O O O O
+"consumers are far more interested in how hands ##ets fit in with their lifestyle than they are in screen size , onboard memory or the chip inside , shows an in - depth study by telecommunications company eric ##sson . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"historically in the industry there has been too much focus on using technology , "" said dr michael bjorn , senior advisor on mobile media at eric ##sson ' s consumer and enterprise lab . """,O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O
+"we have to stop saying that these technologies will change their lives , "" he said . """,O O O O O O O O O O O O O O O O O O
+"we should try to speak to consumers in their own language and help them see how it fits in with what they are doing , "" he told the bbc news website .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"for the study , eric ##sson interviewed 14 , 000 mobile phone owners on the ways they use their phone . """,O O O O O O O O O O O O O O O O O O O O O O
+"people ' s habits remain the same , "" said dr bjorn . """,O O O O O O O O O O O O O O
+"they just move the activity into the mobile phone as it ' s a much more convenient way to do it . """,O O O O O O O O O O O O O O O O O O O O O O O
+"one good example of this was diary - writing among younger people , he said .",O O O O O O O O O O O O O O O O
+"while diaries have always been popular , a mobile phone - - especially one equipped with a camera - - helps them keep it in a different form .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+young ##sters ' use of text messages also reflects their desire to chat and keep in contact with friends and again just lets them do it in a slightly changed way .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"dr bjorn said that although consumers do what they always did but use a phone to do it , the sheer variety of what the new hands ##et technologies make possible does gradually drive new habits and lifestyle ##s .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"eric ##sson ' s research has shown that consumers divide into different "" tribes "" that use phones in different ways .",O O O O O O O O O O O O O O O O O O O O O O
+"dr bjorn said groups dubbed "" pioneers "" and "" material ##ists "" were most interested in trying new things and were behind the start of many trends in phone use . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"for instance , "" he said , "" older people are using sms much more than they did five years ago . """,O O O O O O O O O O O O O O O O O O O O O O O
+"this was because younger users , often the children of age ##ing mobile owners , encouraged older people to try it so they could keep in touch .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+another factor governing the speed of change in mobile phone use was the simple speed with which new devices are bought by pioneers and material ##ists .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"only when about 25 % of people have hands ##ets with new innovations on them , such as cameras , can consumers stop worrying that if they send a picture message the person at the other end will be able to see it .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"once this significant number of users is passed , use of new innovations tends to take off .",O O O O O O O O O O O O O O O O O O
+dr bjorn said that early reports of camera phone usage in japan seemed to imply that the innovation was going to be a flop .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"however , he said , now 45 % of the japanese people eric ##sson questioned use their camera phone at least once a month .",O O O O O O O O O O O O O O O O O O O O O O O O O
+in 2003 the figure was 29 % .,O O O O O O O O
+"similarly , across europe the numbers of people taking snaps with cameras is starting to rise .",O O O O O O O O O O O O O O O O O
+in 2003 only 4 % of the people in the uk took a phone ##cam snap at least once a month .,O O O O O O O O O O O O O O O O O O O O O O
+now the figure is 14 % .,O O O O O O O
+similar rises have been seen in many other european nations .,O O O O O O O O O O O
+"dr bjorn said that people also used their camera phones in very different ways to film and even digital cameras . """,O O O O O O O O O O O O O O O O O O O O O O
+"usage patterns for digital cameras are almost exactly replacing usage patterns for analogue cameras , "" he said .",O O O O O O O O O O O O O O O O O O O
+"digital cameras tend to be used on significant events such as weddings , holidays and birthday ##s .",O O O O O O O O O O O O O O O O O O
+"by contrast , he said , camera phones were being used much more to capture a moment and were being woven into everyday life .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"sydney to host north v south game sydney will host a northern versus southern hemisphere charity match in june or july , the australian rugby union ( ar ##u ) said on wednesday .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the match will include players from the lions tour of new zealand . """,O O O O O O O O O O O O O O
+"the australian rugby union has thrown its support behind a proposed north - south match to raise funds for the tsunami appeals , "" the ar ##u said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the date is yet to be decided but the most likely venue is sydney ' s olympic stadium .,O O O O O O O O O O O O O O O O O O O
+"ar ##u chief executive gary flowers said the world cricket charity match in melbourne earlier this month had inspired the ar ##u . """,O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O
+"we still need to discuss the options with the ir ##b ( international rugby board ) , the lions and our san ##zar ( south africa , new zealand and australia rugby ) partners , but june or july is seen as a better option than march to ensure we have the cream of southern hemisphere rugby available , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"wall ##abi ##es captain george greg ##an said the charity match was a "" great initiative "" .",O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O
+"tri - nations rivals australia , new zealand and south africa would feature prominently in a southern team against a northern side comprised of six nations teams france , ireland , england , wales , italy and scotland .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"coach clive woodward ' s lions squad will tour new zealand in june and july , including tests on 25 june , 2 and 9 july .",O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O
+"almost 80 , 000 fans packed into melbourne cricket ground on 10 january for a charity match that raised £5 . 9 ##m for victims of the asian tsunami .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+cult band ka ##sa ##bian surge forward indie dance band ka ##sa ##bian built up a cult following throughout 2004 to secure three brit award nominations .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the four - piece leicester band blend ##s dark electronics with rock , earning ka ##sa ##bian places on the best british group , rock act and live act short ##lists .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"they have also earned a reputation as outspoken and charismatic , in contrast to fellow brit nominees such as keane and snow patrol . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"british music needs a kick up the ars ##e and britain needs a new band to breathe life into the british people again , "" declared ka ##sa ##bian ' s singer tom mei ##ghan .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN O
+""" no - one ' s doing it at the minute .",O O O O O O O O O O O O
+music feels like it ' s in the afterlife right now .,O O O O O O O O O O O O
+"we don ' t want people to give up on it . """,O O O O O O O O O O O O O
+"the serpent ' s going to rise from the sea and scare all the pirates away ! """,O O O O O O O O O O O O O O O O O O
+"mei ##ghan grew up in leicester with ka ##sa ##bian songwriter / guitarist sergio pi ##zzo ##rno and bassist chris edwards , a trio which began making music from the age of 17 .",O O O O O O O O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN I-MUSICIAN O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O
+"they enlisted guitarist and keyboard player christopher karl ##off after spotting him in a pub . """,O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN O O O O O O O O
+"we saw his long side ##burn ##s and thought ' hey , he looks the part , we ' ll ask him , ' "" said mei ##ghan .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"inspired by brit ##pop and a mutual love of hardcore , an early 1990s genre that fused house music with hip hop beats and a dark sen ##sibility , they added an electronic element to the traditional guitar sound . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we got a computer and we cut rock ' n ' roll up , because there ' s no point in going back to how it was , "" said mei ##ghan . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it ' s all about new ideas and creativity . """,O O O O O O O O O O O
+"the band ' s original approach is reflected in its name , inspired by linda ka ##sa ##bian - the get ##away driver of us serial killer charles manson .",O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+"coincidentally it is also the armenian term for "" butcher "" .",O O O O O O O O O O O O
+"ka ##sa ##bian moved into a remote farmhouse in rutland to record their debut album , benefit ##ing from its isolation but also managing to sneak in a few parties while they were there .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"signed to the rca record label , ka ##sa ##bian tested the water with two singles , club foot and l ##sf , which reached numbers 19 and 10 in the uk singles chart respectively .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"they built up their following on the summer festival circuit , opening both g ##las ##ton ##bury and t in the park , and at a series of "" gu ##eri ##lla gigs "" at unusual venues including half time orange , a pub next to leicester city football club ' s headquarters .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"ka ##sa ##bian ' s self - titled album was released last september to widespread critical acclaim , its indie dance stance drawing comparisons to the stone roses , primal scream and the happy mondays .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"regarding it as "" both a fiery assertion of rock ' n ' roll ethics and proof that a siege mental ##ity is alive and well in the bad ##lands of rutland water "" , the nme ' s praise was typical of the album ' s reception .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as 2004 progressed ka ##sa ##bian would score a further two hits - processed beats and cut ##t off - and embark upon a well - received uk tour . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we take our music seriously , definitely , but we want to have fun with it , "" said pi ##zzo ##rno . """,O O O O O O O O O O O O O O O O O O O O O O O O
+"this is not a job to us , "" added mei ##ghan . """,O O O O O O O O O O O O O O
+this is the best life we could ever have .,O O O O O O O O O O
+this is what it ' s all about and without it we ' d be lost souls .,O O O O O O O O O O O O O O O O O O
+"but music needs us as well . """,O O O O O O O O
+tough rules for ring ##tone sellers firms that fl ##out rules on how ring ##tones and other mobile extras are sold could be cut off from all uk phone networks .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the rules allow offenders to be cut off if they do not let consumers know exactly what they get for their money and how to turn off the services .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the first month under the new rules has seen at least ten firms suspended while they clean up the way they work .,O O O O O O O O O O O O O O O O O O O O O O O
+the rules have been brought in to ensure that the problems pl ##ag ##uing net users do not spread to mobile phones .,O O O O O O O O O O O O O O O O O O O O O O O
+"in the last couple of years ring ##tones , wall ##paper ##s , screens ##aver ##s and lots of other extras for phones have become hugely popular .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but fierce competition is making it difficult for firms to get their ware ##s in front of consumers , said jeremy flynn , head of third party services at vo ##da ##fo ##ne .",O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O
+""" if you are not on the operator ' s portal you are going to have quite heavy marketing costs because it ' s a problem of how people discover your services , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+to combat this many ring ##tone and other mobile content sellers started using a new tactic to squeeze more cash out of customers .,O O O O O O O O O O O O O O O O O O O O O O O O
+"this tactic involved signing people up for a subscription to give them , for instance , several ring ##tones per week or month instead of the single track they thought they were getting .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+mr flynn said that the move to using subscription ##s happened over the space of a few weeks at the end of 2004 .,O O O O O O O O O O O O O O O O O O O O O O O O
+"websites such as gr ##umble ##text . co . uk started getting reports from customers who were rack ##ing up large bills for phone content they did not know they had signed up for . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"what made us uncomfortable was that these services were not being marketed transparent ##ly , "" said mr flynn . """,O O O O O O O O O O O O O O O O O O O O O
+"people did not know they were being offered a subscription service . "" """,O O O O O O O O O O O O O O
+"we saw potential for substantial consumer harm here , "" he added .",O O O O O O O O O O O O O
+the swift adoption of subscription services led to the creation of a new code of conduct for firms that want to sell content for mobile phones .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the drafting of the new rules was led by the mobile entertainment forum and the uk ' s phone firms . """,O O O O O O O O O O O O O O O O O O O O O O
+"everyone is required to conform to this code of conduct , "" said andrew bud , regulatory head of the me ##f and executive chairman of messaging firm mb ##lo ##x .",O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O
+""" it ' s all about transparency , "" he said . """,O O O O O O O O O O O O O
+"consumers have to be told what they have got themselves into and how to get out of it . "" """,O O O O O O O O O O O O O O O O O O O O O
+"the consumer has a right to be protected , "" he said .",O O O O O O O O O O O O O
+"christian harris , partnership manager of mobile content firm ze ##d , said the new system was essential if consumers were to trust companies that sell ring ##tones and other downloads . """,B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the ground ##ru ##les must be applied across the whole industry and if that ' s done effectively we will see the cowboys driven out , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the new rules came in to force on 15 january and the first month under the new regime has seen many firms caution ##ed for not honour ##ing them .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"some have been told to rev ##amp websites so customers know what they get for their money and what they are signing up for , said mr flynn .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"also , said mr flynn , vo ##da ##fo ##ne has briefly cut off between eight and ten content sellers fl ##out ##ing the rules . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we have quite dr ##aco ##nian contracts with firms , "" he said . """,O O O O O O O O O O O O O O O
+we do not have to say why .,O O O O O O O O
+"we can just cut them off . """,O O O O O O O O
+"under the rules consumers must be able to switch off the services by using a universal "" stop "" command sent via text message .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"he said the system had been designed to limit how much a consumer will pay if they inadvertently signed up for a service . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"the mobile is so personal that people really res ##ent the abuse of what is effectively part of their personality , "" said mr flynn .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+kent ##eri ##s denies fa ##king road crash greek sprinter ko ##sta ##s kent ##eri ##s has denied claims that he fake ##d a motor ##bi ##ke crash to avoid a doping test days before the start of the olympics .,O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O
+kent ##eri ##s and fellow sprinter kate ##rina than ##ou are set to learn if they will face criminal charges this week .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O
+part of the investigation has centred on whether they staged the crash .,O O O O O O O O O O O O O
+"kent ##eri ##s insisted : "" the accident happened .",O O O O O O O O O O
+"i went crazy when i found out i had supposedly missed a test and i wanted to rush to the olympic village . """,O O O O O O O O O O O O O O O O O O O O O O O O
+"kent ##eri ##s , speaking on greece ' s alter television station , also claimed that he asked to be tested for banned substances in hospital after the crash . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i told the hospital , which was an olympics - accredited hospital , to call the ioc and have me tested on the spot but no - one came . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"after a drama which dominated newspaper headlines in greece as athens prepared for the start of the athens games , kent ##eri ##s and than ##ou eventually withdrew .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+but kent ##eri ##s has continually protested his innocence - and on sunday blamed greek olympic committee officials and his former coach christ ##os t ##zek ##os for failing to inform him of the test .,O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O
+"the 31 - year - old insisted he will be happy if he is charged so he can clear his name . """,O O O O O O O O O O O O O O O O O O O O O O O
+"if a decision is taken to have charges filed against me , i will accept it gladly . """,O O O O O O O O O O O O O O O O O O O
+"a prosecution means that the case will be cleared . . . i want to go to the end and then we ' ll see who ' s right and who isn ' t . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"kent ##eri ##s , a greek hero after winning gold in the 200 ##m at the 2000 olympics in sydney , also confirmed that he was due to light the flame at the athens opening ceremony . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i had even re ##hear ##sed lighting the ca ##uld ##ron , "" he said .",O O O O O O O O O O O O O O O O
+how the academy awards flourished the 77 ##th annual academy awards are taking place on 27 february with the stars of the movie - making world once again holding their breath to discover who will be showered with the honours this year .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but from humble beginnings , how did the modern day extra ##va ##gan ##za become the be ##hem ##oth it is today ?",O O O O O O O O O O O O O O O O O O O O O O O
+how it all started the first academy awards were handed out in 1929 at a comparatively low - key dinner held at the hollywood roosevelt hotel - just over the road from their modern day home .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+just 250 guests attended with ticket prices at $ 5 .,O O O O O O O O O O O
+"the first film to win was wings , which starred clara bow in the only silent movie to win the big award .",O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O
+"for the first 10 years or so , the winners list was handed to the newspapers so they could publish them at 11 ##pm , but in 1940 the winners were published in the los angeles times at 8 . 45 ##pm meaning guests entering the ceremony knew already knew the results .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"as a result the sealed envelope system was introduced , leading to the secrecy and suspense - filled night that happens today .",O O O O O O O O O O O O O O O O O O O O O O O
+when and where the tradition of holding the awards at a banquet continued until 1942 but with increasing interest came a growing guest list and it became imp ##rac ##tical to host it as a dinner .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the ceremonies were then transferred to theatres with the famous gr ##au ##man ' s chinese theatre the first to host the expanded event .,O O O O O O O O O O O O O O O O O O O O O O O O O
+other venues included the dorothy chandler pavilion and the shrine auditorium .,O O O O O O O O O O O O
+"they are now held at the ko ##dak theatre , which opened in 2002 just across the road from its original home and holds 6 , 000 people .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"until 1954 they were held on a thursday , then swapped around from monday to wednesday before sunday night was settled on , although the month swapped from may to april to march and now its current month of february .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the first televised ceremony was in 1953 , with bob hope as the mc .",O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O
+who was oscar ?,O O O O
+there is no solid evidence as to how the trophy became to be known as oscar .,O O O O O O O O O O O O O O O B-PUBLIC-FIGURE O
+one popular story is that academy librarian margaret herr ##ick said the statue looked like her uncle oscar .,O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O B-PUBLIC-FIGURE O
+a journalist apparently overheard this conversation and used the phrase in an article .,O O O O O O O O O O O O O O
+the first time it is thought to have been used in print was when columnist sidney sk ##ols ##ky used it to describe katherine hepburn ' s first best actress win in 1934 .,O O O O O O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O
+the academy officially adopted the nickname in 1939 .,O O O O O O O O O
+the trophy was designed by mgm art director cedric gibbons .,O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+"since its inception 2 , 530 oscar ##s have been handed out .",O O O O O O O O O O O O O
+"in support of the war effort , the academy handed out plaster oscar statue ##ttes during wwii .",O O O O O O O O O O O O B-PUBLIC-FIGURE O O O O O
+"after the war , winners exchanged the plaster awards for the real thing .",O O O O O O O O O O O O O O
+"fifty - five statues were stolen in en route to the awards in 2000 , 52 were recovered nine days later .",O O O O O O O O O O O O O O O O O O O O O O
+winners were unaffected as a new batch was rushed out .,O O O O O O O O O O O
+who sits in judgement ?,O O O O O
+the academy was set up in 1927 as a non - profit organisation with 36 members from different film disciplines .,O O O O O O O O O O O O O O O O O O O O O
+douglas fairbanks sr was the first president and oversaw the first awards .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O
+"there are now 5 , 700 members of the academy - with membership by invitation only to those who are seen to have achieved distinction in the movies and are therefore seen as fit to judge their peers .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"some of the criteria for admit ##tance includes : film credits that reflect the high standards of the academy , receipt of an academy award nomination , achievement of unique distinction , earning of special merit , or making an outstanding contribution to film .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the stars who left empty - handed while many of the biggest films and movie - makers have been honoured by the academy , there is still surprise at those that did not receive any nominations that later went on to become classics .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"among the overlooked films were ho ##bson ' s choice , dirty harry , the 39 steps , the search ##ers and king kong .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"actors that failed to win for their iconic roles included al jo ##lson in the jazz singer ( 1927 ) , humphrey bog ##art in casablanca ( 1944 ) , gene kelly in singing in the rain ( 1952 ) and henry fond ##a in 12 angry men ( 1957 ) .",O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O
+alfred hitchcock also failed to win an award despite five nominations .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O
+his enduring influence on the horror genre was finally recognised with an honorary gong in 1968 .,O O O O O O O O O O O O O O O O O
+the show always goes on not even war has halted the glittering hollywood event .,O O O O O O O O O O O O O O O
+"there were calls for it to be cancelled in 2003 during the war in iraq , but as it didn ' t stop during world war ii or the vietnam war .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+documentary winner michael moore ensured nobody forgot about the iraq war though and used his acceptance speech to critic ##ise the american invasion .,O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O
+the ceremony was muted with the g ##litz turned down and many female stars opt ##ing for dem ##ure dark dresses .,O O O O O O O O O O O O O O O O O O O O O O
+the ceremony has been postponed on three occasions .,O O O O O O O O O
+los angeles floods in 1938 saw it put back a week .,O O O O O O O O O O O O
+the death of martin luther king saw it postponed for two days in 1968 as a mark of respect and there was a 24 - hour delay following the assassination attempt on president ronald reagan .,O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN O
+"controversies and other ga ##ffe ##s three people have refused oscar ##s , including actor george c scott who said the whole thing was "" dem ##ean ##ing "" .",O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O
+writer dudley nichols refused his academy award in 1935 for his screenplay for the insider because the writers ' guild was striking at the time .,O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O
+marlon brand ##o turned down his best actor oscar for the godfather in 1973 in protest as hollywood ' s apparent discrimination against native american people .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+he sent along a woman called sac ##hee ##n little ##fe ##ath ##er to collect his award .,O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O
+she was later revealed to be native american actress maria cruz .,O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+"the following year robert op ##al interrupted proceedings when he streaked , flashing a peace sign as well as everything else .",O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O
+the tv network managed to pan away and avoid too much nu ##dity .,O O O O O O O O O O O O O O
+op ##al was murdered in 1979 .,O O O O O O O
+"frank cap ##ra was the butt of one major ga ##ffe in 1934 when the host opened out best picture envelope and declared "" come on up and get it , frank "" to which frank cap ##ra bounded up to the stage before realising that he had meant frank lloyd had won for ca ##val ##cade .",B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O
+cap ##ra vowed he would never to go the awards again but went the following year to collect his award for it happened one night .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+blu ##nk ##ett hints at election call ex - home secretary david blu ##nk ##ett has given fresh clues that the general election will be announced on monday .,O O O O O O O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O
+"he told bbc radio five live : "" i ' m out in my constituency getting ready for what we pre ##sume will be an announcement very shortly at the weekend . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"he clarified that he meant he would be in his sheffield seat this weekend , not that he expected an election call then .",O O O O O O O O O O O O O O O O O O O O O O O O
+tony blair is tipped to ask the queen on monday to dissolve parliament ready for a 5 may poll .,B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O
+profile : david mil ##iba ##nd david mil ##iba ##nd ' s rapid rise through the ranks of government continues with his promotion to cabinet office minister .,O O B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O
+elected in a safe labour seat in 2001 his previous job was school standards minister - a role he won in may 2002 .,O O O O O O O O O O O O O O O O O O O O O O O O
+prior to the last election he was a key figure in new labour as the head of the downing street policy unit where he was a key member of the manifesto writing team .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"seen as one of the more intellectual figures in the government , he was also working for tony blair in his policy unit when he was leader of the opposition .",O O O O O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+"a brief glance at mr mil ##iba ##nd ' s family background reveals an impressive socialist pe ##di ##gree in the form of his father ralph , who died in 1994 .",O O O O O O O O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE O O O O O O
+he was an eminent and influential left ##wing academic .,O O O O O O O O O O
+and while david mil ##iba ##nd is seen as a key blair lieutenant his brother ed is a special advisor to chancellor gordon brown .,O O B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O B-POLITICIAN O O O O O O B-POLITICIAN I-POLITICIAN O
+"prior to working for mr blair , david mil ##iba ##nd spent time at the left - leaning institute for public policy research .",O O O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O
+he then became secretary of the commission on social justice .,O O O O O O O O O O O
+"the 39 - year - old was educated at have ##rst ##ock comprehensive before going on to oxford to study politics , philosophy and economics .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+he also took an msc in political science from the massachusetts institute of technology .,O O O O O O O O O O O O O O O
+li ##b dem ##s ' new election pr chief the li ##b dem ##s have appointed a senior figure from bt to be the party ' s new communications chief for their next general election effort .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+sandy walking ##ton will now work with senior figures such as matthew taylor on completing the party manifesto .,B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O
+"party chief executive lord ren ##nard said the appointment was a "" significant strengthening of the li ##b dem team "" .",O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O
+"mr walking ##ton said he wanted the party to be ready for any "" mischief "" rivals or the media tried to throw at it .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" my role will be to ensure this new public profile is effectively communicated at all levels , "" he said . """,O O O O O O O O O O O O O O O O O O O O O O O
+"i also know the party will be put under scrutiny in the media and from the other parties as never before - and we will need to show ourselves ready and prepared to counter the mischief and mis ##re ##pres ##entation that all too often comes from the party ' s opponents . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the party is already demonstrating on every issue that it is the effective opposition . """,O O O O O O O O O O O O O O O O
+mr walking ##ton ' s new job title is director of general election communications .,O O O O O O O O O O O O O O O
+white prepared for battle tough - sc ##rum ##ma ##ging prop julian white is expecting a res ##urgent wales to give him a rough ride in england ' s six nations opener in cardiff on saturday .,O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O
+"the leicester tight - head is in the form of his life , making the england number three shirt his own .",O O O O O O O O O O O O O O O O O O O O O O
+"but he knows wales will put his technique under immense scrutiny . """,O O O O O O O O O O O O O
+"the welsh sc ##rum is a force to be reckon ##ed with , "" he told bbc sport . """,O O O O O O O O O O O O O O O O O O O O
+"they have made a lot of changes for the better over the last few years . """,O O O O O O O O O O O O O O O O O
+"white is also impressed with the welsh pack ' s strength in depth . """,O O O O O O O O O O O O O O O
+get ##hin jenkins is starting at loose - head for them .,B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O
+"he has played a bit at tight - head but i think his favoured position is loose - head and he is very good , "" he added .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the 31 - year - old has made a massive contribution to the england and leicester cause of late and is arguably the form tight - head prop in the world .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+he destroyed south africa ' s os du rand ##t in the sc ##rum at t ##wick ##enham last autumn to give england the platform for an impressive 32 - 16 victory .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O
+"leicester , who signed white from bristol when the west country side were relegated from the zurich premiership in the summer of 2003 , have also been aided by white ' s presence this season .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the tigers are sitting pretty at the top of the premiership table and have also booked their place in the last eight of the he ##ine ##ken cup . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i am pleased with my form , "" he said . """,O O O O O O O O O O O O
+"but my form is helped by the people i play with at leicester - people like martin johnson and graham row ##nt ##ree . """,O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O
+"it ' s been a good season so far and to be in the starting xv for the first game of the six nations is what every player wants . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"i am delighted with the way things have gone but we have to get it right this weekend . """,O O O O O O O O O O O O O O O O O O O O
+white is now one of the more experienced members of the england squad which takes to the field on saturday .,O O O O O O O O O O O O O O O O O O O O O
+"injuries have taken their toll and coach andy robinson has been deprived of richard hill , jonny wilkinson , martin co ##rry , mike tin ##dal ##l , will greenwood and stuart abbott .",O O O O O O O B-ATHLETE I-ATHLETE O O O O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O
+"and with 27 caps and a world cup winner ' s medal to his name , white is now in a position to offer his experience to young ##sters such as centres matthew tai ##t and jamie noon . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O O
+"i don ' t know how much experience a tight - head can give a centre but you are there to give them a pat on the back if things go wrong or to be there if they want to talk in any way , "" he added . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"when i first came into the squad , people like jason leonard and martin johnson were the first to come over and talk through things and help out .",O O O O O O O O O O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O
+""" it gives you a lot of confidence when people like that speak to you . """,O O O O O O O O O O O O O O O O O
+"i was in awe of a lot of them so to sit down and speak with them and realise you are on the same wavelength is good . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+white missed the vast majority of last year ' s six nations because of a knee injury and is ra ##ring for the 2005 event to get going .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"and that is despite the opening game taking place amid the red - hot atmosphere in cardiff . """,O O O O O O O O O O O O O O O O O O O
+i enjoy the atmosphere .,O O O O O
+"the millennium stadium is probably one of the best stadiums in the world , "" he said . """,O O O O O O O O O O O O O O O O O O O
+"to go down there and hear the shouting and the singing - it ' s one of my favourite places to play . """,O O O O O O O O O O O O O O O O O O O O O O O O
+this is probably the most even six nations for a long time .,O O O O O O O O O O O O O
+"england , ireland , france and wales are all contenders . """,O O O O O O O O O O O O
+"on form , ireland should be favourites but you just don ' t know - that ' s the great thing about this tournament . """,O O O O O O O O O O O O O O O O O O O O O O O O O O
+search sites get closer to users search sites want to get to know you better .,O O O O O O O O O O O O O O O O
+"not content with providing access to the millions of websites , many now offer ways that do a better job of remembering , catalog ##uing and managing all the information you come across .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"some of the latest to update their search systems are ask je ##eves and blink ##x , which have both released a series of utilities that try to help people get more from the web . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the future is all about developing your own personal web , "" said tony mack ##lin , spokesman for ask je ##eves .",O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O
+"mr mack ##lin said that too often when people use a search engine it was like the first time they ever used it , because there was no memory of what they had searched for before . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"each time you go back in you have to start all over again , "" he said .",O O O O O O O O O O O O O O O O O O
+"the series of updates to its service , collected under the my ask je ##eves banner , would help people remember where they had been before .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"ask je ##eves has added the ability to "" save "" websites of interest so the next time a users visits the site they can search through the sites they have previously found .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+sites saved in this way can be arranged in folder ##s and have notes attached to them to explain why they were saved .,O O O O O O O O O O O O O O O O O O O O O O O O
+mr mack ##lin said many people wanted to save sites they had seen but did not want to add them to their book ##marks or favourites not least because such lists cannot be easily searched .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"on average , said mr mack ##lin , users conduct between five and 10 searches per day and the tools in my ask je ##eves should stop them having to do searches twice and get to what they want much more easily .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"under my ask je ##eves users can search the web or through the results they have already noted as interesting . """,O O O O O O O O O O O O O O O O O O O O O O
+"it ' s about finding again what you found before , "" he said .",O O O O O O O O O O O O O O O
+the my ask je ##eves service lets people store up to a 1000 web links or 5000 if they sign up to the free service .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+by way of comparison google ' s desktop search tool catalogue ##s search histories informally and lets people look through the sites they have visited .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+"at the same time , search start - up blink ##x has released a second version of its eponymous software .",O O O O O O O O O O O O O O O O O O O O O
+"blink ##x is desktop search software that watches what someone is working on , be it a document or e - mail , and suggests websites , video clips , blogs or documents on a pc that are relevant to it .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"since blink ##x launched it has faced increased competition from firms such as google , cope ##rn ##ic , en ##fish , x ##1 and apple all of whom now have programs that let people search their pc as well as the web . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the competition has valid ##ated the problem we tackle , "" said sur ##anga chandra ##till ##ake , co - founder of blink ##x .",O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O
+"in the latest release of blink ##x , the company has added what it calls smart folder ##s .",O O O O O O O O O O O O O O O O O O O
+"once created the folder ##s act as persistent que ##ries that automatically sweep the web for pages related to their subject and catalogue ##s relevant information , documents or incoming e - mail ##s , on hard drives too .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"what users do with blink ##x and other desktop search engines shows that people tend to be very prom ##is ##cu ##ous in their use of search engines . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"blink ##x users do not stop using other web search systems , "" he said . """,O O O O O O O O O O O O O O O O O
+"they might use google to look up a company , or yahoo for travel because they know they are good at that , "" he said . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the classic thing we have seen recently , is people using blink ##x to look at the things they have searched on , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the variety of ways to search data was only helping users , said mr chandra ##till ##ake and that it was likely that in the future people would use different ones for different tasks .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+joke e - mail virus tricks users a virus that disguise ##s itself as a joke is spreading rapidly across the net .,O O O O O O O O O O O O O O O O O O O O O O O
+anti - virus firms are issuing high - level warnings about the new version of the bag ##le e - mail program that seems to be catching a lot of people out .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the windows virus grabs e - mail addresses from microsoft outlook and uses its own mail sending software to spread itself to new victims .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"when it in ##fect ##s a machine , the bag ##le variant turns off security measures that usually protect pcs .",O O O O O O O O O O O O O O O O O O O O O
+the new variant is called bag ##le .,O O O O O O O O
+"at , bag ##le .",O O O O O
+bb and bag ##le .,O O O O O
+"au and the attachment bearing the virus code is labelled as either "" joke "" or "" price "" .",O O O O O O O O O O O O O O O O O O O O
+the body of the virus usually contains nothing but a smiley or em ##otic ##on .,O O O O O O O O O O O O O O O O
+"the virus can strike computers running windows 95 , 98 , me , nt , 2000 and xp .",O O O O O O O O O O O O O O O O O O O
+users will be infected if they open the attachment that travels with the e - mail .,O O O O O O O O O O O O O O O O O
+"as well as pl ##under ##ing microsoft outlook for e - mail addresses to send itself to , bag ##le .",O O O O O O O O O O O O O O O O O O O O O
+at also tries to turn off the fire ##wall and security centre services on windows xp machines .,O O O O O O O O O O O O O O O O O O
+bbc news online has received five warnings about the virus from security companies .,O O O O O O O O O O O O O O
+"finnish company f - secure gave the virus its second highest threat level . """,O O O O O O O O O O O O O O O
+"we ' ve had several reports all over the world , "" said mi ##kko h ##yp ##pone ##n , director of anti - virus research for f - secure .",O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O
+"security firm network box said that it stopped more than 30 , 000 copies an hour of the virus as the outbreak reached a peak .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+black spider said it had stopped more than 1 million copies of bag ##le .,O O O O O O O O O O O O O O O
+at since the outbreak began at 06 ##30 bs ##t ( 05 ##30 gm ##t ) .,O O O O O O O O O O O O O O O O O
+anti - virus firms urged users to be wary of unexpected e - mail messages bearing attachment ##s and to update their software to ensure they are protected against the latest threats .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"nat insurance to rise , say tori ##es national insurance will be raised if labour wins the next election , tory leader michael howard has claimed .",O O O O O O O O O O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O
+tony blair has said he does not want higher tax rates for top earn ##ers but on wednesday said other tax promises would be left to labour ' s manifesto .,B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+prime minister ' s questions also saw mr blair predict that new plans would probably cut net immigration .,O O O O O O O O O O O O O O O O O O O
+he attacked tory plans to process asylum claims abroad - but mr howard said labour had proposed the idea too .,O O O O O O O O O O O O O O O O O O O O O
+the commons questions session again saw the leaders of the two biggest parties shape up for the forthcoming election campaign .,O O O O O O O O O O O O O O O O O O O O O
+the tori ##es have promised £ ##4 ##bn in tax cuts but have yet to say where they will fall .,O O O O O O O O O O O O O O O O O O O O O
+mr howard pointed to the institute for fiscal studies ' predictions that labour will need to increase taxes to cover an £1 ##1 ##bn gap in its spending plans .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+he accused ministers of wasting money on unsuccessful attempts to curb bad behaviour and tr ##uan ##cy in schools and on slow asylum processing .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"it was no good mr blair claiming tax pledge ##s were being left to the manifesto as he had given one to mps on tuesday about the top rate of income tax , argued mr howard .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"pointing to national insurance , he added : "" everyone knows tax will go up under labour : isn ' t it now clear which tax it would be ? """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"mr blair instead hailed labour ' s achievement in using a strong economy to invest in public services . """,O O O O O O O O O O O O O O O O O O O O
+"when we have money not only going into extra teachers and nurses but equipment in schools and hospitals , that money is not wasted , "" he said .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"on the tax questions , he added : "" we will make commitments on tax at the time of the manifesto . """,O O O O O O O O O O O O O O O O O O O O O O O
+"home secretary charles clarke this week published plans for a new points system for economic migrants , with only high - skilled workers allowed into the uk from outside the european union .",O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"mr blair said abuses would be weed ##ed out and chain migration , where families automatically get the right to settle with immigrant workers , would end .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"that would probably create a fall in the migrant numbers , he said .",O O O O O O O O O O O O O O
+the prime minister rid ##ic ##uled the tory plans for asylum quota ##s and for processing all asylum claims overseas .,O O O O O O O O O O O O O O O O O O O O O
+"he challenged the tori ##es on which country would house their processing centres - what he called a "" fantasy island "" .",O O O O O O O O O O O O O O O O O O O O O O O
+mr howard read from a letter about the government ' s own plans at the european council of ministers for processing asylum seekers outside the eu .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but mr blair said : "" all the other countries could not agree on the way forward , nor could the un . """,O O O O O O O O O O O O O O O O O O O O O O O O
+standard life concern at l ##se bid standard life is the latest shareholder in deutsche boer ##se to express concern at the german stock market operator ' s plans to buy the london stock exchange .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it said deutsche boer ##se had to show why its planned £1 . 35 ##bn ( $ 2 . 5 ##bn ) offer for the l ##se was good for shareholder value .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"reports say standard life , which owns a 1 % stake in deutsche boer ##se , may seek a shareholder vote on the issue .",O O O O O O O O O O O O O O O O O O O O O O O O O
+fellow shareholders us - based hedge fund attic ##us capital and uk - based tc ##i fund management have also expressed doubts .,O O O O O O O O O O O O O O O O O O O O O O O
+"deutsche boer ##se ' s supervisory board has approved the possible takeover of the l ##se despite the signs of opposition from investors . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"the on ##us is on deutsche boer ##se ' s management to demonstrate why the purchase of the l ##se creates more value for shareholders than other strategies , such as a buy ##back , "" said richard moffat , investment director of uk e ##qui ##ties at standard life investments .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O
+"attic ##us capital , holding 2 % of deutsche boer ##se , wants it to buy back its own shares rather than buy the l ##se .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"and tc ##i which holds about 5 % , has made a request for an extraordinary shareholders meeting to be held to vote on replacing the company ' s entire supervisory board .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it has also demanded that shareholders be consulted about the proposed acquisition , and whether the operator of the frankfurt stock exchange should return $ 500 ##m ( £2 ##66 ##m ) to shareholders instead .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"in december , deutsche boer ##se , which also owns the derivatives market eu ##re ##x and the clearing firm clears ##tream , put an informal offer of 530 pen ##ce per l ##se share on the table .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"however , the l ##se said the cash offer "" under ##val ##ue ##d "" both its own business and the benefits of such a tie - up .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+since then an improved offer from deutsche boer ##se has been anticipated as its management has continued talks with l ##se chief executive clara fur ##se .,O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O
+"but the london exchange is also holding talks with deutsche boer ##se ' s rival euro ##ne ##xt , which operates the amsterdam , brussels , lisbon and paris exchanges , as well as london - based international derivatives market li ##ffe .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+spike lee backs student directors film - maker spike lee says black representation is stronger than ever in cinema and tv but the true power in entertainment lies behind the camera .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O
+"the she hate me director urged students at his old atlanta university , more ##house college , to seek "" gate ##keeper positions "" behind the scenes .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"lee told them to "" work up the corporate ladder because everybody can ' t be an actor , everybody can ' t make a record "" .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"he spoke as part of a discussion panel , then led a retrospective of his films .",O O O O O O O O O O O O O O O O O
+"returning to his old university , which educate ##s only african american students , lee discussed the challenges facing black people in the entertainment industry . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"even den ##zel ( washington ) , he ' s getting $ 20 ##m a movie .",O O O O O O O O O O O O O O O O O
+"but when it comes time to do a movie , he has to go to one of those gate ##keepers , "" lee said .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"he told aspiring young film - makers in the audience not to ignore non - traditional routes to getting a movie made , including raising funds independently and releasing films straight to dvd . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"it ' s a huge market , "" the 47 - year - old director said . """,O O O O O O O O O O O O O O O O O O
+"it ' s not something that should be looked upon as a step ##child . """,O O O O O O O O O O O O O O O O
+"lee has made more than 25 films , including jungle fever , do the right thing , summer of sam and 1986 hit she ' s gotta have it .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+what now for kelly holmes ?,O O O B-ATHLETE I-ATHLETE O
+"last april , kelly holmes spoke to the bbc sport website about her loneliness , her fight to stay fit and her decision not to contest both the 800 ##m and 1500 ##m at the olympics .",O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+it just goes to show even the most met ##ic ##ulous and measured athletes cannot predict what fate has in store for them .,O O O O O O O O O O O O O O O O O O O O O O O O
+"four months later , holmes stormed to double olympic gold and has since been made a dame , won the bbc sport personality of the year and written a book whilst still finding time to coach aspiring athletes .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"with so much time spent in the spotlight , holmes has increasingly dropped hints that her ambition on the track has begun to wil ##t .",O O O O O O O O O O O O O O O O O O O O O O O O O O
+"and when asked about her plans for both the indoor and outdoor seasons ahead , the 34 - year - old has repeatedly chosen to tick the "" don ' t know "" box .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"holmes has now pulled out of this weekend ' s european indoor championships , where she was selected for both the 800 ##m and 1500 ##m , because of a ham ##st ##ring injury .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but should we be surprised if the olympic champion over both those distances decides she just does not feel like racing anymore ? """,O O O O O O O O O O O O O O O O O O O O O O O O
+"well , it ' s a lot easier being the double olympic champion , being fe ##ted by everybody , than training to be at the top in middle distance running , "" points out former olympian and bbc pun ##dit steve cr ##am . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O
+"you have to have a real strong desire to carry on doing it even if you ' re very talented . """,O O O O O O O O O O O O O O O O O O O O O O
+holmes ' drive and determination have always been un ##quest ##ion ##able - that is the reason she has battled back from a string of injuries that threatened to see her finish her career empty - handed .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but alarm bells start ringing when the kent athlete begins questioning herself . """,O O O O O O O O O O O O O O
+"will i have as much commitment , desire and energy to go through a major championship ? """,O O O O O O O O O O O O O O O O O O
+"holmes asked in the new year . """,O O O O O O O O
+"that is what i don ' t know . """,O O O O O O O O O O
+"at 34 , holmes will also be aware that time is running out .",O O O O O O O O O O O O O O
+"us 400 ##m and 200 ##m legend michael johnson , a five - time olympic gold medallist , retired shortly after his 34th birthday as did britain ' s double olympic champion dec ##ath ##lete dale ##y thompson .",O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O
+"the physical demands of the day - to - day grind will only get harder for holmes , who has already admitted she "" doesn ' t like the training anymore . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+whilst out on the circuit the all ##ure of defeating a double olympic champion will spur her opponents on .,O O O O O O O O O O O O O O O O O O O O
+holmes will not want to needles ##sl ##y suffer the ind ##ign ##ity of being beaten .,O O O O O O O O O O O O O O O O O
+"unless she is certain she has a strong chance of winning any race , she will not step onto the track .",O O O O O O O O O O O O O O O O O O O O O O
+"but if the kent athlete finds the form that fuel ##led her ambitions last summer , there are more prizes up for grabs .",O O O O O O O O O O O O O O O O O O O O O O O O
+"the day after completing her double in athens , the 34 - year - old revealed she would still like to win her first indoors title .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"holmes ' wish could easily be met in madrid before she goes on to prepare for the outdoor season where there are still scores to be settled , such as a first gold at the world championships in helsinki .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"there is just one small truth which could g ##na ##w away at holmes ' motivation - the real ##isation that no matter how hard she trains , nothing she wins now can sur ##pass her achievements in athens .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"on the other hand , if those achievements cannot be matched shouldn ' t they be at least shared and celebrated ? """,O O O O O O O O O O O O O O O O O O O O O O O
+"you don ' t get the chance very often in your career to step onto the track as the double olympic champion , "" agreed cr ##am . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"you want to be able to take your bow in front of the fans because it ' s a fantastic feeling . """,O O O O O O O O O O O O O O O O O O O O O O O
+i think deep down kelly wants to run .,O O O O O O O O O
+"i think she will compete and run races on the circuits but whether or not she runs in the major championships is much less certain . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+athletics fans had every reason to believe they would see the new - look kelly holmes tearing up the track again .,O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O
+after her olympic glory she em ##pha ##tically denied she planned to retire .,O O O O O O O O O O O O O O
+"so , why is holmes dragging her heels about making a decision on where , when or whether to even bother competing again ? """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"that ' s just kelly , "" explains cr ##am . """,O O O O O O O O O O O O
+"she ' s always been like that . """,O O O O O O O O O
+she enjoys people trying to guess what she is going to do next .,O O O O O O O O O O O O O O
+"she knows every time she makes a pro ##no ##unce ##ment now it ' s headline news . """,O O O O O O O O O O O O O O O O O O O
+"kelly has to figure out for herself what it is she wants and that will be based on athletics decisions , whether she can be competitive , if she is fit enough to put her neck on the line . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"and if she decides not to run again , no - one is going to turn round and say ' you ' re making the wrong decision . ' """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"rovers reject third ferguson bid blackburn have rejected a third bid from rangers for scotland captain barry ferguson , bbc sport has learnt .",O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O
+"it is thought blackburn want £ ##6 ##m for the midfielder but chief executive john williams has confirmed the club are still "" in dialogue "" with rangers .",O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O
+the 26 - year - old has already handed in a transfer request at e ##wood park as he seeks a return to ib ##ro ##x .,O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"but the clubs have been unable to reach agreement over a fee for ferguson , who moved to lancashire in 2003 for £ ##6 . 5 ##m . on thursday rangers said they would not be increasing their offer of £ ##4 ##m . blackburn have said all along that they want £ ##6 ##m for the midfielder and williams has rejected proposals from rangers over a player - swap deal .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"williams said : "" we are in dialogue with glasgow rangers but we have no agreement . """,O O O O O O O O O O O O O O O O O O
+"the negotiations will have to be concluded by midnight on monday , when the winter transfer window shut ##s .",O O O O O O O O O O O O O O O O O O O O
+"williams conceded any deal for ferguson was looking "" unlikely "" before the close of the transfer window but rangers still had a chance to seal the deal . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"we have no comment to make other than we have not got an agreement with glasgow rangers , "" he added . """,O O O O O O O O O O O O O O O O O O O O O O O
+"the way things are looking , i think it is unlikely we are going to . """,O O O O O O O O O O O O O O O O O
+"the ball is in their court but we have not got an offer that is acceptable at this moment . """,O O O O O O O O O O O O O O O O O O O O O
+it is understood that blackburn accepted a £5 ##m offer for ferguson from everton at the weekend .,O O O O O O O O O O O O O O O O O O
+but the player is determined to return to scotland and rejected a move to good ##ison park .,O O O O O O O O O O O O O O O O O O
+"ferguson did not play in the fa cup win over colchester on saturday despite recovering from a groin injury with rovers boss mark hughes claiming it had been an "" emotional and difficult time "" for the player .",O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O
+nad ##al marches on in mexico rafael nad ##al continued his run of fine form to beat guillermo can ##as and reach the mexican open semi ##s in ac ##ap ##ul ##co .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O
+"eighth seed nad ##al , who picked up his second atp title when he beat alberto martin in last week ' s brazil open , saw off the argentine third seed 7 - 5 6 - 3 .",O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O
+"he now meets argentine wild card mariano pu ##ert ##a , who followed up his win over top seed carlos mo ##ya by overcoming spain ' s felix man ##till ##a , 6 - 4 3 - 6 7 - 6 .",O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O
+czech fifth seed czech ji ##ri novak was eliminated 7 - 5 6 - 1 by agustin caller ##i .,O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O
+"the un ##see ##ded argentine , who won the tournament two years ago , now plays spain ' s albert montane ##s .",O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O
+montane ##s advanced to his first semi - final of the year with a 4 - 6 6 - 3 6 - 4 triumph over sixth - seeded italian filippo vol ##and ##ri .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O
+argentina ' s agustin caller ##i beat fourth seed ji ##ri novak 7 - 5 6 - 1 in a battle of former champions at the mexican open .,O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O
+caller ##i won his only atp title in ac ##ap ##ul ##co two years ago while novak won the singles and doubles titles in 1998 .,O O O O O O O O O O O O O O O O O O O O O O O O O O
+caller ##i will face albert montane ##s in the semi - finals after the span ##iard ousted sixth seed filippo vol ##and ##ri of italy 4 - 6 6 - 3 6 - 4 .,O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O
+"argentine wild card mariano pu ##ert ##a continued his imp ##ro ##ba ##ble run , out ##las ##ting felix man ##till ##a 6 - 4 3 - 6 7 - 6 .",O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O
+injury side ##lines philipp ##ous ##sis mark philipp ##ous ##sis withdrew from the sydney international tennis tournament as expected on sunday after suffering a groin injury during the hop ##man cup .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O
+"his participation in the australian open , which begins on 17 january in melbourne , also remains in doubt .",O O O O O O O O O O O O O O O O O O O O
+defending women ' s champion justine hen ##in - harden ##ne is also out of the sydney event because of a knee injury .,O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O
+"in the only main draw men ' s or women ' s singles match on sunday , nat ##hal ##ie dec ##hy beat american lisa raymond 7 - 5 6 - 3 .",O O O O O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O B-ATHLETE I-ATHLETE O O O O O O O
+number one men ' s seed ll ##ey ##ton hewitt begins his quest for a fourth sydney title on tuesday when he plays ka ##rol beck .,O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE O
+"lindsay davenport , top seed in the women ' s draw , has been handed a first - round bye and plays france ' s dec ##hy in the second round on tuesday .",B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+celebrities get their skate ##s on former england footballer paul gas ##co ##ign ##e will join eastenders ' actress scarlett johnson on bbc one ' s strictly ice dancing .,O O O O O O O O O B-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE I-ATHLETE O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O
+the one - off christmas special will also star television presenter carol sm ##ill ##ie and jessica taylor from liberty - x . each celebrity will be paired with a professional skater to impress a panel of judges and win the audience vote .,O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O
+the bbc is yet to confirm the final two stars who will battle it out to become ice king or queen .,O O O O O O O O O O O O O O O O O O O O O O
+"veteran presenter bruce forsyth and tess daly will host the programme , which follows hot on the heels of the current saturday night series strictly come dancing .",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O
+the celebrities will have to pr ##act ##ise a stipulated ice dance and perform it at an ice rink with their partner .,O O O O O O O O O O O O O O O O O O O O O O O
+"the judges will have 50 % of the vote to decide who wins the contest , with the ice rink audience making up the rest of the vote .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+the show forms part of the bbc ' s fest ##ive schedule .,O O O O O O O O O O O O O
+"ice skating duo jayne tor ##vill and christopher dean are to front a similar celebrity ice dance show for itv , titled stars on thin ice .",O O O B-ATHLETE I-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O
+the contestants on stars on thin ice will each be paired up with a professional skater and will learn a new routine every week .,O O O O O O O O O O O O O O O O O O O O O O O O O
+"at the end of the series , one celebrity will be crowned the winner .",O O O O O O O O O O O O O O O
+republic to face china and italy the republic of ireland have arranged friend ##lies against china and italy which will take place at lan ##sd ##own ##e road in march and august .,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+brian kerr ' s side will face the 54th ranked chinese on 29 march - just three days after the world cup qualifier against israel in tel aviv .,B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O
+italy will visit on 17 august in what will be a warm - up game ahead of the autumn world cup qualifiers .,O O O O O O O O O O O O O O O O O O O O O O O
+"in their last meeting , the irish beat italy in the 1994 world cup finals .",O O O O O O O O O O O O O O O O
+"however , that is the republic ' s only victory in eight attempts against the italians who have won all the other seven games .",O O O O O O O O O O O O O O O O O O O O O O O O O
+"the 29 march game will be the second time the republic have played china - the previous encounter back in june 1984 with the irish winning 1 - 0 in sap ##por ##o , japan .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"brian kerr said : "" china have made great progress over the last few years and will provide difficult opposition . """,B-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O
+"we all witnessed the performances of the asian teams in the last world cup , and china play a similar type of football . """,O O O O O O O O O O O O O O O O O O O O O O O O O
+"as for italy , they make a welcome return to dublin and will be a massive attraction because they are one of the great traditional powers in the world . """,O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"the game will be ideal preparation for the three important world cup qualifiers in the autumn . """,O O O O O O O O O O O O O O O O O O
+"ireland round off their world cup campaign with games against france on 7 september , cyprus on 8 october and switzerland on 12 october .",O O O O O O O O O O O O O O O O O O O O O O O O O
+what really divides the parties so what is the gap between labour and the tori ##es nowadays ?,O O O O O O O O O O O O O O O O O O
+"one starbucks , one ry ##mans and one small greek cafe as it happens .",O O O O O O O O O O O O O O O
+"both parties have now completed their moves to new headquarters , with labour creating its election hub just three doors away from the tori ##es ' new headquarters in victoria street , just down the road from the commons .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+that should make things a little easier if and when the crack - of - dawn election press conferences kick off .,O O O O O O O O O O O O O O O O O O O O O O
+"unlike 2001 , there should be no need for colleagues to have taxis gunn ##ing their engines outside , or to buy sc ##oot ##ers , to get themselves between the tightly - timetable ##d events .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"and , to all intent ##s and purposes , we already appear to be in that general election campaign .",O O O O O O O O O O O O O O O O O O O O
+"certainly the press conference hosted by election co - or ##dina ##tor alan mil ##burn , in the rather compact new conference room - still smelling of new carpet and with the ga ##rish new labour coffee mug ##s as yet un ##sta ##ined - had all the hallmark ##s of an election event .",O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+""" welcome to the un ##rem ##itt ##ingly new labour media centre , "" he said .",O O O O O O O O O O O O O O O O O
+and i ' ll bet he hadn ' t checked that one with gordon brown .,O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O
+"along with work and pensions secretary alan johnson and minister for work jane kennedy , he then went on to tear into the tory plans to scrap the new deal welfare - to - work scheme , which they claimed would lead to an increase of almost 300 , 000 in unemployment .",O O O O O O B-POLITICIAN I-POLITICIAN O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+and they rid ##ic ##uled the claims made on monday by michael howard that he could save £3 ##5 billion of labour waste and in ##ef ##fi ##ciency to spend on public services while also offering £ ##4 billion of tax cuts .,O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"labour has come up with a figure of £2 ##2 billions worth of efficiency savings so , understand ##ably perhaps , believe mr howard must be planning cuts to squeeze the extra £1 ##3 billion .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+"these figures , based on the two parties ' own detailed studies , will be battered to within an inch of their lives during the campaign .",O O O O O O O O O O O O O O O O O O O O O O O O O O O
+wednesday was just the start .,O O O O O O

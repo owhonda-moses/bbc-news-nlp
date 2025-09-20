@@ -1,0 +1,397 @@
+sentence_id,tokens,ner_tags
+politics_096.txt_237,"Shadow leader of the Commons Oliver Heald said : "" This will be part of our aim to reduce unnecessary and costly interference in people 's lives by reducing the size and role of the State "" .",O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_197.txt_0,Blair ' pressing US on climate ',B-POLITICIAN O O O O O O
+politics_197.txt_209,President Bush 's advisers have repeatedly denied global warming is taking place .,O B-POLITICIAN O O O O O O O O O O O
+politics_139.txt_224,"On Thursday Mr Straw was in India visiting Sikhism 's holiest shrine , the Golden Temple in Amritsar where he tried his hand at making Indian bread or roti .",O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_060.txt_357,Both the Cardinal and Archbishop of Canterbury Dr Rowan Williams appealed for the weapons inspectors to be given more time in Iraq before the war started .,O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O
+entertainment_317.txt_0,Patti Smith to host arts festival,B-MUSICIAN I-MUSICIAN O O O O
+entertainment_133.txt_337,"Black Eyed Peas singer Fergie was dressed in a tight orange top and purple hotpants , but nothing in her performance was likely to upset TV watchdogs .",O O O O B-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O
+politics_034.txt_313,The issue entered the public spotlight when Norfolk farmer Tony Martin was jailed for shooting dead a 16 - year - old burglar in 1999 as he ran away from the farm .,O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O
+politics_373.txt_367,"Shadow Europe minister Mr Brady said : "" I believe it is essential that Britain keeps the rebate and I think it 's a crucial test of how firmly the British government is prepared to stand up for Britain internationally in Europe .",O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_217.txt_57,Model Anna Nicole Smith 's reality show and The Dukes of Hazzard were runners - up in the Broadcast magazine survey .,O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+sport_010.txt_79,Collins ran in Birmingham at the 2003 World Indoor Championships .,B-ATHLETE O O O O O O O O O O
+sport_218.txt_666,"Mourinho had his say on that game , complaining : "" Five - four is a hockey score , not a football score .",B-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O
+politics_174.txt_382,Police said Ferguson posed a danger to the public .,O O B-PUBLIC-FIGURE O O O O O O O
+entertainment_153.txt_525,"Muse were also named best UK and Ireland act , ahead of Franz Ferdinand , Natasha Bedingfield , Jamelia and The Streets .",B-MUSICIAN O O O O O O O O O O B-MUSICIAN I-MUSICIAN O B-MUSICIAN O B-MUSICIAN O O B-MUSICIAN O
+entertainment_025.txt_97,"JK Rowling 's fifth book in the wizard series , Harry Potter and Order of the Phoenix was Amazon 's largest pre - ordered item ever , with 420,000 copies pre - ordered prior to its release in June 2003 .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_176.txt_282,"And David Schwimmer ( Ross ) directed during his time on Friends , and has also worked on Joey .",O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-PUBLIC-FIGURE O O O O O O O O O O O O B-PUBLIC-FIGURE O
+tech_228.txt_318,"Special guest , singer Gwen Stefani , joined her on - stage to promote her own range of HP digital cameras which Ms Stefani has helped design and which are heavily influenced by Japanese youth culture .",O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O B-MUSICIAN O O O O O O O O O O O O
+entertainment_305.txt_537,"The Incredible Hulk , The Mighty Thor , Iron Man and the rest all grappled with problems like drug abuse , bigotry and social inequality .",B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O
+entertainment_305.txt_628,"Some years ago the Marvel hero , Northstar , came out of the closet .",O O O O O O O B-PUBLIC-FIGURE O O O O O O O
+politics_241.txt_95,"Scottish Finance Minister , Tom McCabe MSP , said : "" Last week in parliament I announced an additional £ 419 m for core expenditure to local government in Scotland .",O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O
+sport_196.txt_0,Wenger signs new deal,B-ATHLETE O O O
+politics_366.txt_116,""" I believe that the generation that provided the finance to combat , cure and eradicate the world 's deadliest disease of today - and today the world 's least curable disease - HIV / Aids - will rightly earn the title ' the great generation ' , "" Mr Brown said in a speech during his African tour .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-POLITICIAN O O O O O O O O O
+politics_366.txt_527,"On Wednesday , Mr Brown visited slums in the Kenyan capital Nairobi .",O O O O B-POLITICIAN O O O O O O O O
+politics_334.txt_326,"Former union leader Sir Bill Morris has already accused both the big parties of engaging in a "" bidding war about who can be nastiest to asylum seekers "" .",O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_251.txt_57,"Muse , whose members met in south Devon , beat Franz Ferdinand , Jamie Cullum , Kasabian and The Libertines for best British live act .",B-MUSICIAN O O O O O O O O O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN O O B-MUSICIAN O O O O O O
+entertainment_251.txt_313,"Indie Rock group Muse consists of Matthew Bellamy , Chris Wolstenholme and Dominic Howard who met in their early teens in Teignmouth , south Devon .",O O O O B-MUSICIAN O O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O
+entertainment_304.txt_36,"Michelle Paver 's Wolf Brother , a fantasy set 6,000 years ago , is the first in a planned series of six books .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O
+entertainment_304.txt_238,Paver is currently writing the second book in the series .,B-AUTHOR-WRITER O O O O O O O O O O
+entertainment_304.txt_249,""" Michelle Paver lives and breathes the worlds she writes about , "" said a spokesman for the author .",O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O
+entertainment_017.txt_90,"
+
+ Gabriel Garcia Marquez , Saul Bellow , Milan Kundera and John Updike also feature on the 18 - strong list of world literary figures .",O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O B-AUTHOR-WRITER I-AUTHOR-WRITER O B-AUTHOR-WRITER I-AUTHOR-WRITER O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O
+entertainment_017.txt_221,"
+
+
+
+ Margaret Atwood ( Canada ) Saul Bellow ( Canada ) Gabriel Garcia Marquez ( Colombia ) Gunter Grass ( Germany ) Ismail Kadare ( Albania )",O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O
+entertainment_017.txt_248,Milan Kundera ( Czech Republic ) Stanislaw Lem ( Poland ) Doris Lessing ( UK ) Ian McEwan ( UK ) Naguib Mahfouz ( Egypt ) Tomas Eloy Martinez ( Argentina ) Kenzaburo Oe ( Japan ) Cynthia Ozick ( US ) Philip Roth ( US ) Muriel Spark ( UK ) Antonio Tabucchi ( Italy ) John Updike ( US ) Abraham B Yehoshua ( Israel ),B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O O O
+tech_260.txt_32,"Chief executive Steve Jobs showed off the new machine at his annual MacWorld speech , in San Francisco .",O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O
+tech_260.txt_508,Mr Jobs told the delegates at MacWorld that iPod already had a 65 % market share of all digital music players .,O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O
+business_076.txt_304,"This week Colin Powell , US Secretary of State was visiting the West Bank to stress US support for a smooth Palestinian election in January .",O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O
+politics_408.txt_428,""" She 's not a human shield Mr Blair , she 's a human being . """,O O O O O O O O B-POLITICIAN O O O O O O O O
+tech_295.txt_318,"Special guest , singer Gwen Stefani , joined her on - stage to promote her own range of HP digital cameras which Ms Stefani has helped design and which are heavily influenced by Japanese youth culture .",O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O B-MUSICIAN O O O O O O O O O O O O
+entertainment_241.txt_0,Youssou N'Dour wins music prize,B-MUSICIAN I-MUSICIAN O O O
+entertainment_241.txt_162,"Cuban pianist Bebo Valdes and flamenco singer Diego El Cigala , responsible for critically acclaimed album Lagrimas Negrasmusic , won an award in the "" boundary crossing "" category .",O O B-MUSICIAN I-MUSICIAN O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O
+entertainment_030.txt_193,Scrubs star Zach Braff was named best new director for his debut Garden State .,O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O
+entertainment_380.txt_155,"Clint Eastwood 's Million Dollar Baby re - entered the charts at number eight , following its recent success at the Oscars .",B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O
+business_008.txt_95,"Palaniappan Chidambaram , India 's finance minister , argued that these organisations need to take into account the changing world order , given India and China 's integration into the global economy .",B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_149.txt_0,Blair returns from peace mission,B-POLITICIAN O O O O
+entertainment_327.txt_0,Kidman wins photographer battle,B-ACTOR-DIRECTOR O O O
+entertainment_327.txt_4,"
+
+ Actress Nicole Kidman has won a restraining order against two paparazzi photographers who she claims left her fearful of leaving her Sydney mansion .",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O
+entertainment_327.txt_112,"According to local newspaper the Daily Telegraph , the incident involved paparazzi driving through red lights and on the wrong side of the road in pursuit of Kidman 's vehicle .",O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR O O O
+entertainment_327.txt_192,""" Nicole would like to make it clear that she acknowledges she is a public figure and that reporters and photographers have a job to do and she respects that , "" said Kidman 's publicist Wendy Day .",O B-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+politics_208.txt_307,The offer comes as the Foreign Secretary Jack Straw arrives in Indonesia for a special summit meeting on the disaster .,O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+entertainment_280.txt_180,"But you do n't know what the unexpected will be and as the musical director , it 's exciting , "" explains Conti .",O O O O O O O O O O O O O O O O O O O O O O B-MUSICIAN O
+entertainment_365.txt_0,Tarantino to direct CSI episode,B-ACTOR-DIRECTOR O O O O
+politics_327.txt_0,Goldsmith denies war advice claim,B-POLITICIAN O O O O
+sport_330.txt_0,Campese berates whingeing England,B-ATHLETE O O O
+business_391.txt_408,Mr Khodorkovsky is in jail on charges of fraud and tax evasion .,O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O
+sport_203.txt_28,""" Mutu will be in our club 's main stand to watch the match between Juventus and Fiorentina , "" said a Juventus official , who declined to be named .",O B-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_385.txt_62,Mr Brown has just returned from a tour of African nations .,O B-POLITICIAN O O O O O O O O O O
+business_164.txt_449,"Mr Khodorkovsky , once Russia 's richest man , is in prison , having been charged with fraud and tax evasion and repeatedly denied bail .",O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O
+politics_107.txt_0,Brown outlines third term vision,B-POLITICIAN O O O O
+sport_248.txt_392,Don was head of the referees for the Premier League and revealed all clubs were informed of free - kick options .,B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O
+politics_133.txt_0,Jowell rejects ' Las Vegas ' jibe,B-POLITICIAN O O O O O O
+politics_362.txt_95,"So if you are a couple with children , a pensioner , a patient or a youngster , there was something pulled from Mr Brown 's red box in an attempt to persuade you to stick with or switch to a New Labour government .",O O O O O O O O O O O O O O O O O O O O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O
+politics_100.txt_162,Mr Mubanga said he had been in Afghanistan and Pakistan to study Islam .,O B-PUBLIC-FIGURE O O O O O O O O O O O O
+business_478.txt_198,Egyptian President Hosni Mubarak has described Israeli Prime Minister Ariel Sharon as the best chance for the Palestinians to achieve peace .,O O B-POLITICIAN I-POLITICIAN O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O
+politics_288.txt_263,"Mr Houston is alleged to have said that the organs of the criminally insane should be "" made available to law - abiding members of the community "" and proposed the legalisation of drugs and the sex trade .",0 B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_243.txt_58,They will also talk to Fisheries Minister Ross Finnie and scientists .,O O O O O O O B-POLITICIAN I-POLITICIAN O O O
+entertainment_284.txt_565,""" Wes has a great broadcasting career ahead of him .",O B-PUBLIC-FIGURE O O O O O O O O O
+entertainment_253.txt_3206,"The only real challenger was Queen but hey , Another One Bites the Dust ! !",O O O O O B-MUSICIAN O O O O O O O O O O
+politics_018.txt_32,Prince Edward will also join the UK delegation in Poland for National Holocaust Memorial Day on 27 January .,B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O
+politics_018.txt_154,"In Britain , the Queen and Prince Philip will lead the nation 's commemoration at a service in Westminster Hall , London .",O O O O O B-PUBLIC-FIGURE O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O
+politics_018.txt_208,"The Queen 's grandson , Prince Harry , sparked outrage earlier this week after photographs of him wearing a Nazi uniform at a costume party emerged .",O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O
+politics_018.txt_265,"Prince Harry should see for himself "" the results of the hated symbol he so foolishly and brazenly chose to wear "" , Rabbi Marvin Hier , founder of Jewish human rights group the Simon Wiesenthal Center said .",B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O
+sport_090.txt_399,"- There was also recognition for James Clarke , chairman of the London Marathon .",O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O
+sport_245.txt_96,""" The police have said they have completed their search and have not found anything , "" said Real Madrid president Florentino Perez .",O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O
+sport_243.txt_0,Liverpool pledge to keep Gerrard,O O O O B-ATHLETE
+sport_027.txt_91,Swedish triple jumper Christian Olsson was voted male athlete of the year .,O O O B-ATHLETE I-ATHLETE O O O O O O O O
+entertainment_024.txt_309,"The National Book Awards non - fiction prize was awarded to Kevin Boyle 's for Arc of Justice , which focuses on a black family 's fight to live in a white Detroit neighbourhood in the 1920s .",O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_024.txt_384,Pete Hautman won the young people 's literature prize for his novel Godless .,B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O
+politics_164.txt_298,"Edinburgh architect , Dominic Stephenson , became the first Scot to be confirmed as a victim of the Asian tsunami .",O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O
+sport_166.txt_150,Redknapp himself sprinted along the touchline to help physio Jim Joyce and coach Denis Rofe shepherd the enraged Prutton away from referee 's assistant Norman .,B-ATHLETE O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O B-ATHLETE I-ATHLETE O O O B-ATHLETE O O O O B-ATHLETE O
+tech_133.txt_31,"Ellen Simonetti , known as Queen of the Sky , wrote an anonymous semi - fictional account of her life in the sky .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O
+politics_104.txt_31,Mrs Parker Bowles will take the title HRH Duchess of Cornwall after a civil ceremony to be held at Windsor Castle .,O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O
+politics_104.txt_151,"On Thursday night , Prince Charles , 56 , and Mrs Parker Bowles , 57 , hosted a dinner at Windsor Castle , their first public appearance since announcing their engagement .",O O O O O B-PUBLIC-FIGURE O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O
+politics_104.txt_257,"The Queen and Duke of Edinburgh said the news had made them "" very happy "" .",O B-PUBLIC-FIGURE O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O
+politics_104.txt_333,The marriage is likely to be a sensitive issue because Mrs Parker Bowles is divorced and her former husband is still alive .,O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O
+politics_331.txt_0,Labour attacked on Howard poster,O O O B-POLITICIAN O
+entertainment_182.txt_181,George Clooney recently reacted angrily to a TV host 's suggestion that not all funds raised would go towards tsunami relief .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O
+entertainment_182.txt_203,"Fox TV 's Bill O'Reilly said he would be "" watching to see if the money gets to the tsunami victims "" and warned the celebrities taking part "" had better be involved all the way down the line "" .",O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+sport_049.txt_469,"Jones , who is under investigation for steroid use by the US Anti - Doping Agency , has continually denied ever taking illegal substances since being investigated in the Balco scandal , although she praised a zinc supplement Conte marketed .",B-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_353.txt_203,Tony Blair himself has said people complain he does not listen .,B-POLITICIAN I-POLITICIAN O O O O O O O O O O
+politics_353.txt_332,"Writer Neil Coppendale , from West Sussex , asked of the Iraq war : "" Tens of thousands of innocent men , women and children died - how do you manage to sleep at night ? """,O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_353.txt_369,"On immigration , London teacher Diane Granger said : "" Where are you going to put everyone ? """,O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O
+sport_283.txt_528,""" When the whole world apart from the referee has seen there should be a goal at Old Trafford , that just reinforces what I feel - there should be video evidence , "" said Wenger .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE O
+entertainment_138.txt_283,"Rodgers was singer with early 1970s rockers Free , who had a global hit with All Right Now , before forming Bad Company , a successful "" supergroup "" with members of King Crimson and Mott the Hoople .",B-MUSICIAN O O O O O O O O B-MUSICIAN O O O O O O O O O O O O B-MUSICIAN O O O O O O O O B-MUSICIAN O O B-MUSICIAN O
+politics_187.txt_0,Jowell confirms casino climbdown,B-POLITICIAN O O O
+politics_154.txt_500,"On tape Mr Livingstone , who once worked as a freelance restaurant critic on the paper , is heard asking reporter Oliver Finegold if he is a "" German war criminal "" .",O O O B-POLITICIAN O O O O O O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O
+entertainment_282.txt_62,A man was shot in the thigh outside New York 's Hot 97 studios while 50 Cent was on air .,O O O O O O O O O O O O O O O B-MUSICIAN I-MUSICIAN O O O
+entertainment_282.txt_546,Tupac Shakur was shot dead in 1996 .,B-MUSICIAN I-MUSICIAN O O O O O O
+politics_025.txt_179,"Ms Roche , Labour MP for Hornsey and Wood Green , believes legal migration is something we should welcome .",O B-POLITICIAN O O O O O O O O O O O O O O O O O O
+entertainment_152.txt_137,He said the family of sound engineer Thorne Nogar did not want to divulge the price they had set or the offers they had received .,O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O
+sport_018.txt_0,Merritt close to indoor 400 m mark,B-ATHLETE O O O O O O
+business_273.txt_210,"The latest to pitch in has been President George W Bush himself , who told the Asia Pacific Economic Co - operation ( Apec ) summit in Chile that he remained committed to halving the budget deficit .",O O O O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O
+business_273.txt_277,And last week US Treasury Secretary John Snow told an audience in the UK that the policy remained unaltered .,O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+entertainment_262.txt_308,"Drummer Larry Mullen Jr echoed those sentiments : "" We 're very competitive - we want to be on the radio , have big singles .",O B-MUSICIAN I-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O
+tech_100.txt_5,"
+
+ Leading British computer games maker Peter Molyneux has been made an OBE in the New Year Honours list .",O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O
+politics_129.txt_112,"Prime Minister Tony Blair 's official spokesman said : "" There are British nationals in Ivory Coast and as you can imagine we are making the usual contingency plans in case the situation deteriorates further , but that 's all I can say at this stage . """,O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_165.txt_435,Home Secretary Charles Clarke is currently looking at the idea of a levy on the drinks industry to pay for the cost of extra policing .,O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O
+entertainment_004.txt_88,"This year 's winner , Alice Sebold 's The Lovely Bones , sold over one million .",O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O
+entertainment_004.txt_146,"David Mitchell 's Booker - shortlisted novel , Cloud Atlas , makes it into this year 's top 10 along with several lesser known works .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_171.txt_220,"Last year 's Janet Jackson ' wardrobe malfunction ' encouraged the FCC to impose tougher rules , but the US Congress adjourned last year without agreeing on a new level of fines .",O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_230.txt_450,"In one of Britain 's highest profile cases , Norfolk farmer Tony Martin was jailed for life for murdering 16 - year - old burglar Fred Barras , in 1999 .",O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O
+entertainment_195.txt_46,"Actress Sandra Bullock has donated $ 1 m ( £ 525,000 ) to The American Red Cross and actor Leonardo DiCaprio pledged a "" sizable "" aid contribution to Unicef .",O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O
+politics_205.txt_0,Tutu 's Guantanamo release call,B-PUBLIC-FIGURE O O O O
+politics_205.txt_5,"
+
+ Archbishop Desmond Tutu has called for the release of the remaining inmates at Guantanamo Bay and terror suspects detained without trial in the UK .",O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O
+politics_205.txt_89,"Referring to the detentions in Cuba , Archbishop Tutu told BBC News : "" It is utterly unacceptable .",O O O O O O O O B-PUBLIC-FIGURE O O O O O O O O O O
+politics_205.txt_387,"Archbishop Tutu criticised the measures , saying : "" I am opposed to any arbitrary detention that is happening , even in Britain . """,O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O
+sport_375.txt_400,"With sensational allegations of drug use - of which he was subsequently cleared - splashed across the front pages , a devastated Dallaglio stepped down as England skipper .",O O O O O O O O O O O O O O O O O O O O O O B-ATHLETE O O O O O O
+entertainment_203.txt_320,"Other celebrities to walk out of a reality show TV include Sex Pistol John Lydon , former EastEnders actress Danniella Westbrook and ex - E17 singer Brian Harvey who all left I 'm A Celebrity ... Get Me Out Of Here .",O O O O O O O O O O O B-MUSICIAN I-MUSICIAN O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O
+politics_290.txt_73,But thriller writer Frederick Forsyth tells BBC News of his personal response to the move .,O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O
+politics_290.txt_3535,Mr Forsyth is a wonderful writer and should keep his fiction where it belongs .,O B-AUTHOR-WRITER O O O O O O O O O O O O
+politics_290.txt_3752,"Hobbes has been roundly condemned by posterity , and rightly so .",B-PUBLIC-FIGURE O O O O O O O O O O O
+politics_290.txt_4562,"Mr Forsyth links "" Islamic fundamentalism "" to the new "" threat "" .",O B-AUTHOR-WRITER O O O O O O O O O O O O
+business_068.txt_25,"Kamal Nath , Commerce and Industry Minister , announced the decision in Delhi on Thursday following a cabinet meeting .",B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O
+politics_393.txt_407,"There are details of foreign nationals made British citizens by act of Parliament , including composer George Frideric Handel in 1727 .",O O O O O O O O O O O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN O O O
+entertainment_383.txt_232,"He also cited the director 's 2003 film The Life of David Gale , in which Kevin Spacey played a man on Death Row , as proof of his "" veritable artistic commitment against the death sentence "" .",O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O
+entertainment_097.txt_205,Fahrenheit 9/11 director Michael Moore dedicated his trophy to soldiers in Iraq .,O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O
+business_064.txt_204,"Central to the problem was that instead of half an hour , the arrival of President Bush on the German leg of his European tour took the best part of an hour , Lufthansa said .",O O O O O O O O O O O O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O
+business_064.txt_263,The extra time taken by President Bush and his entourage meant that there was a knock - on effect that led to significant delays .,O O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O
+entertainment_013.txt_48,Geraldine McCaughrean has picked up the children 's fiction award for the third time for Not the End of the World .,B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O
+entertainment_013.txt_284,Fletcher has recently graduated from graduated from the University of East Anglia creative writing course .,B-AUTHOR-WRITER O O O O O O O O O O O O O O
+tech_297.txt_32,"Chief executive Steve Jobs showed off the new machine at his annual MacWorld speech , in San Francisco .",O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O
+tech_297.txt_508,Mr Jobs told the delegates at MacWorld that iPod already had a 65 % market share of all digital music players .,O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O
+politics_262.txt_279,Mr Blair directly denied that quote on Wednesday .,O B-POLITICIAN O O O O O O O
+tech_143.txt_120,One such avatar is Jeremiah .,O O O O B-PUBLIC-FIGURE O
+entertainment_016.txt_271,"Hailey worked as a screenwriter for a couple of years , before turning to novels .",B-AUTHOR-WRITER O O O O O O O O O O O O O O
+entertainment_016.txt_308,"Flight into Danger was adapted to become Hailey 's first novel , Runaway Zero - Eight in 1958 .",O O O O O O O B-AUTHOR-WRITER O O O O O O O O O O O
+entertainment_016.txt_670,"The 1997 novel Detective proved to be Hailey 's final book , when at the age of 77 he decided to retire .",O O O O O O O B-AUTHOR-WRITER O O O O O O O O O O O O O O O
+entertainment_044.txt_294,Davis was also a prominent figure in the civil rights movement and was a voice for racial equality .,B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+entertainment_190.txt_0,Veteran comic Cyril Fletcher dies,O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_119.txt_33,"He started out as a singer and songwriter before going into music management , looking after country star Hank Williams Jr.",O O O O O O O O O O O O O O O O O O B-MUSICIAN I-MUSICIAN I-MUSICIAN
+tech_180.txt_31,"Ellen Simonetti , known as Queen of the Sky , wrote an anonymous semi - fictional account of her life in the sky .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O
+entertainment_087.txt_87,Howl 's Moving Castle is based on a children 's fantasy novel by UK author Diana Wynne Jones .,O O O O O O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER I-AUTHOR-WRITER O
+sport_025.txt_0,El Guerrouj targets cross country,B-ATHLETE I-ATHLETE O O O
+politics_024.txt_0,Brown visits slum on Africa trip,B-POLITICIAN O O O O O
+entertainment_242.txt_77,The show used Presley photos last week .,O O O B-MUSICIAN O O O
+sport_254.txt_443,"He said : "" Like Kevin I 'd like to see some players come in .",O O O O O B-ATHLETE O O O O O O O O O O
+entertainment_246.txt_97,"Sizzla , whose real name is Miguel Collins , has released 25 albums since 1995 and is credited with taking dancehall music back to its reggae origins .",B-MUSICIAN O O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O
+sport_337.txt_0,Prop Jones ready for hard graft,O B-ATHLETE O O O O
+politics_225.txt_0,Blair to face MPs amid feud talk,B-POLITICIAN O O O O O O
+sport_402.txt_178,"Wallabies captain George Gregan said the charity match was a "" great initiative "" .",O O B-ATHLETE I-GREGA O O O O O O O O O O O
+entertainment_360.txt_90,Co - star Richard Gere attended the event held in aid of the tsunami appeal .,O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O
+politics_392.txt_76,"South African president Thabo Mbeki has attacked British imperialists , saying they treated Africans like savages .",O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+entertainment_378.txt_62,"Directed by John Carpenter , it made over $ 60 m ( £ 31.3 m ) worldwide - a record for independent film at that time .",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O
+politics_198.txt_144,Among those who have criticised the plans are the UK 's top policeman Sir John Stevens .,O O O O O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+politics_186.txt_541,It has the power to suspend or bar Mr Livingstone from public office .,O O O O O O O O O B-POLITICIAN O O O O
+politics_106.txt_57,Mr Howard is expected to tell activists in Kent that voters ' tolerance and desire to help others are being abused .,O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O
+entertainment_324.txt_192,Sandino Moreno is now being regarded as one of the most promising actresses around at the moment .,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O
+politics_126.txt_0,End Bush ' denial ' Blair tells EU,O B-POLITICIAN O O O B-POLITICIAN O O
+politics_126.txt_64,"Mr Blair is at a summit in Brussels , where Iraq and European justice and immigration plans are on the agenda .",O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O
+politics_126.txt_164,""" The fact is that President Bush is there for four years .",O O O O O O B-POLITICIAN O O O O O O
+entertainment_199.txt_81,Stern recently announced he was leaving Viacom while the two DJs were sacked after their show featured a couple purporting to have sex in a church .,B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_083.txt_107,"Oliver Stone 's big - budget epic Alexander , starring Colin Farrell , followed last week 's disappointing sixth - place opening with a slump to seventh place and takings of $ 4.7 m ( £ 2.4 m ) .",B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_083.txt_192,"It is Cage 's fourth collaboration with Jerry Bruckheimer , who is usually noted for his male - orientated action films .",O O B-ACTOR-DIRECTOR O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O
+politics_246.txt_450,"The Higher Education Minister , Kim Howells , said : "" We are working in schools to raise the attainment and aspiration of young people in disadvantaged areas . """,O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_204.txt_0,"No charges against TV 's Cosby 
+
+ US comedian Bill Cosby will not face charges stemming from an allegation of sexual misconduct .",O O O O O B-ACTOR-DIRECTOR O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O
+entertainment_204.txt_235,Cosby emerged as one of the first black comics to have mainstream success in the US .,B-ACTOR-DIRECTOR O O O O O O O O O O O O O O O
+politics_400.txt_396,"Born in 1912 and educated at Portsmouth Northern Secondary School , Lord Callaghan became a clerk at the Inland Revenue .",O O O O O O O O O O O O B-POLITICIAN O O O O O O O
+sport_004.txt_152,""" I am very happy to see you all , members of the athletics family , respond positively to the IAAF call to sit together and discuss what more we can do in the fight against doping , "" said Diack .",O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER O
+entertainment_145.txt_337,"Black Eyed Peas singer Fergie was dressed in a tight orange top and purple hotpants , but nothing in her performance was likely to upset TV watchdogs .",O O O O B-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O
+politics_067.txt_552,"Theresa May , shadow secretary for the family , told BBC Radio 4 's Today programme that the government 's plans were "" inadequate "" and were "" papering over the cracks of the current system "" .",B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_153.txt_0,Clarke to unveil immigration plan,B-POLITICIAN O O O O
+entertainment_362.txt_92,"The prequel project was originally announced in 2001 , with actor Liam Neeson in the lead role and John Frankenheimer as director .",O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O
+business_357.txt_119,"In the Ukraine earlier this year , Mr Soros - who took on the Bank of England in the 1990s - and won , was pelted by protestors .",O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O
+entertainment_223.txt_0,"Singer Ferguson ' facing eviction ' 
+
+ Three Degrees star Sheila Ferguson is the favourite to be evicted from ITV 's I 'm A Celebrity ... Get Me Out Of Here on Monday .",O B-MUSICIAN O O O O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O
+entertainment_256.txt_1594,"I love Joss to bits and do n't care what her branding is - it 's amazing music , full stop .",O O B-MUSICIAN O O O O O O O O O O O O O O O O O O
+entertainment_256.txt_1709,"Joss Stone is simply singing a certain type of music that can be considered urban in style , just as someone from an inner city , and indeed not from the USA could sing country music .",B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_012.txt_210,""" Tony Blair has healed rifts , he is helping to heal wounds .",O B-POLITICIAN I-POLITICIAN O O O O O O O O O O
+entertainment_078.txt_30,"According to pundits , the film has overtaken previous favourite The Aviator , with Eastwood also tipped to take the best director award .",O O O O O O O O O O O O O B-ACTOR-DIRECTOR O O O O O O O O
+entertainment_078.txt_88,"The Aviator has scored a best director nomination for Martin Scorsese , who has never won an Oscar , while stars Leonardo DiCaprio and Cate Blanchett are both nominated for acting Oscars .",O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O
+tech_385.txt_0,"Beckham virus spotted on the net 
+
+ Virus writers are trading on interest in David Beckham to distribute their malicious wares .",B-ATHLETE O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O
+tech_385.txt_41,But anyone visiting the website mentioned in the message will not see pictures of Mr Beckham but will have their computer infected by a virus .,O O O O O O O O O O O O O O O B-ATHLETE O O O O O O O O O O
+tech_385.txt_87,The appearance of the Beckham Windows trojan is just another example in a long line of viruses that trade on interest in celebrities in an attempt to fuel their spread .,O O O O B-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O
+tech_385.txt_118,"Tennis player Anna Kournikova , popstars Britney Spears and Avril Lavigne as well as Arnold Schwarzenegger have all been used in the past to try to con people into opening infected files .",O O B-ATHLETE I-ATHLETE O O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O
+tech_385.txt_189,""" The public 's appetite for salacious gossip about the private life of the Beckhams might lead some into an unpleasant computer infection , "" said Graham Cluley from anti - virus firm Sophos .",O O O O O O O O O O O O O O B-ATHLETE O O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O
+entertainment_005.txt_55,Lead actress Laura Michelle Kelly soared over the heads of the audience holding the nanny 's trademark umbrella .,O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O
+entertainment_005.txt_145,"Mary Poppins was originally created by author Pamela Travers , who is said to have cried when she saw Disney 's 1964 film starring Julie Andrews .",B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+politics_274.txt_123,"Mr Brown 's message generally , that compassion must become action before that hope is squandered .",O B-POLITICIAN O O O O O O O O O O O O O O O
+politics_342.txt_0,Brown outlines third term vision,B-POLITICIAN O O O O
+entertainment_131.txt_736,"Franz Ferdinand , Travis and Snow Patrol are just recent examples of the success Scottish music can have in the world , so we should do what we Scots are good at and support our own goods !",B-MUSICIAN I-MUSICIAN O B-MUSICIAN O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_183.txt_244,Sir Nicholas claimed strong painkillers he was taking for a back problem had reacted badly with a small amount of alcohol .,B-POLITICIAN O O O O O O O O O O O O O O O O O O O
+entertainment_206.txt_154,Sharon Osbourne is currently appearing as a judge and mentor in ITV1 talent show The X - Factor alongside Simon Cowell and Louis Walsh .,B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O
+entertainment_064.txt_205,"Eastwood has won best director once before , for Unforgiven in 1993 .",B-ACTOR-DIRECTOR O O O O O O O O O O O O
+politics_119.txt_0,"Lord Scarman , 93 , dies peacefully",O B-PUBLIC-FIGURE O O O O O
+politics_119.txt_307,Lord Scarman will be remembered for the public inquiry he led into a string of race riots which began in Brixton when racial tensions rose after a police crackdown on street robbery .,O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_189.txt_0,Blair congratulates Bush on win,B-POLITICIAN O B-POLITICIAN O O
+entertainment_295.txt_174,The Mary Poppins musical has been masterminded by theatre impresario Sir Cameron Mackintosh and directed by Richard Eyre with choreography by Matthew Bourne .,O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+sport_088.txt_470,"Jones , who is under investigation for steroid use by the US Anti - Doping Agency , has continually denied ever taking illegal substances since being investigated in the Balco scandal , although she praised a zinc supplement Conte marketed .",B-ATHLETE O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_125.txt_97,Singer - songwriter Casey beat Brian McFadden and Damien Rice .,O O O B-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O
+entertainment_349.txt_87,"Khan told an Indian news channel on her mobile phone : "" They are not even letting me go home to get my bags .",B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O
+entertainment_349.txt_268,Khan was involved in controversy when topless photos alleged to be of her appeared in a Norwegian magazine .,B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+sport_274.txt_0,Gerrard happy at Anfield,B-ATHLETE O O O
+entertainment_149.txt_0,Spector facing more legal action,B-PUBLIC-FIGURE O O O O
+politics_390.txt_554,"Theresa May , shadow secretary for the family , told BBC Radio 4 's Today programme that the government 's plans were "" inadequate "" and were "" papering over the cracks of the current system "" .",B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_027.txt_6,"
+
+ The second Pop Idol - style search for literary talent has begun with the help of the brother of Simon Cowell .",O O O O O O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O
+entertainment_027.txt_278,"Paul Cavanagh , a former university professor and health care consultant from Ontario in Canada , was one of 1,466 aspiring novelists to enter the first contest .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O O O
+sport_399.txt_0,Farrell saga to drag on -,B-ATHLETE O O O O O
+sport_399.txt_358,""" Athletes like him - Ellery Hanley and Martin Johnson - do n't come along very often .",O O O O O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE O O O O O O O O
+business_379.txt_0,Reliance unit loses Anil Ambani,O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER
+entertainment_368.txt_902,"Charles Gant , Heat : Film - The Aviator ; director - Clint Eastwood ; actor - Jamie Foxx ; actress - Hilary Swank .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_368.txt_954,"
+
+ - Jamie Graham , Total Film : Film - The Aviator ; director - Martin Scorsese ; actor - Jamie Foxx ; actress - Hilary Swank .",O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_368.txt_1010,"
+
+ - Jonathan Ross , Film 2005 : Film - The Aviator ; director - Martin Scorsese ; actor - Jamie Foxx ; actress - Hilary Swank . 
+
+ -",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O
+entertainment_368.txt_1040,"Tim Dams , Screen International : Film - Million Dollar Baby ; director - Clint Eastwood ; actor - Jamie Foxx ; actress - Hilary Swank .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_308.txt_80,"She is currently starring in A Very Long Engagement , directed by Jean - Pierre Jeunet .",O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+sport_347.txt_0,Moore questions captaincy,B-ATHLETE O O
+entertainment_036.txt_271,"It is directed by Robert Zemeckis , who has previously worked with Hanks on Forrest Gump and Castaway .",O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O B-ACTOR-DIRECTOR O O O O O O
+politics_232.txt_0,Probe launched on Ken Nazi jibe,O O O B-POLITICIAN O O
+politics_232.txt_192,The Prime Minister Tony Blair is among those who have called for an apology but so far the mayor has refused .,O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O
+sport_102.txt_0,Gerrard plays down European hopes,B-ATHLETE O O O O
+politics_036.txt_0,Choose hope over fear - Kennedy,O O O O O B-POLITICIAN
+politics_086.txt_423,Former Superman actor the late Christopher Reeve was an advocate for the research after he was paralysed in a horse riding accident .,O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O
+entertainment_225.txt_0,"Stallone evicted from Big Brother 
+
+ Jackie Stallone , mother of actor Sylvester , has become the first star to be evicted from Celebrity Big Brother .",B-PUBLIC-FIGURE O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O B-ACTOR-DIRECTOR O O O O O O O O O O O O O
+politics_286.txt_109,"Mr Houston is alleged to have said that the organs of the criminally insane should be "" made available to law - abiding members of the community "" and proposed the legalisation of drugs and the sex trade .",O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_281.txt_0,Church urges Nelly show boycott,O O B-MUSICIAN O O
+entertainment_316.txt_0,Johnny Depp :,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_114.txt_0,Pete Doherty misses bail deadline,B-MUSICIAN I-MUSICIAN O O O
+entertainment_114.txt_90,"Musician Alan Wass , 23 , also of north London , appeared in court accused of the same offences .",O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O
+entertainment_110.txt_0,"Rap boss arrested over drug find 
+
+ Rap mogul Marion "" Suge "" Knight has been arrested for violating his parole after he was allegedly found with marijuana . 
+
+",O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O
+entertainment_110.txt_68,"Mr Knight , founder of Death Row Records , served a 10 - month jail term in 2004 for punching a man while on parole for an assault conviction .",O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_035.txt_119,"Director Martin Scorsese 's The Aviator , starring Leonardo DiCaprio went on general release on Christmas Day in the US , ensuring it just made the deadline .",O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O
+entertainment_093.txt_0,"Godzilla gets Hollywood fame star 
+
+ Movie monster Godzilla has received a star on Hollywood 's Walk of Fame , honouring both his 50th birthday and the launch of his 28th film .",B-PUBLIC-FIGURE O O O O O O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_093.txt_223,"So , I think Godzilla just deserves a vacation . """,O O O O B-PUBLIC-FIGURE O O O O O O
+entertainment_367.txt_94,"This echoed the views of Oscars host and comedian Chris Rock , who whipped up a media storm for saying he rarely watched them , calling award shows "" idiotic "" .",O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O
+entertainment_224.txt_217,"Other film stars to have appeared in Scrubs include Heather Graham , while Friends actor Matthew Perry has guest - starred and directed an episode of the show .",O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O
+entertainment_224.txt_246,"Its leading star , Zach Braff , has recently been seen on the big screen in Garden State , which he also directed .",O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O
+tech_101.txt_0,Bush website blocked outside US,B-POLITICIAN O O O O
+entertainment_057.txt_61,Van Gogh was shot and stabbed to death in Amsterdam six weeks ago .,B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O
+entertainment_057.txt_257,Photographer Jim de Booy then goes on the run from secret service agents who burgle his home and threaten his family .,O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O
+business_471.txt_129,President Kumaratunga attended a ceremony in the southern town of Hambantota .,O B-POLITICIAN O O O O O O O O O O
+entertainment_300.txt_36,"Directed by Bollywood veteran Subhash Ghai , the film is set in the British Raj and Bernath plays an army general 's daughter who falls in love with a rural boy , Kisna .",O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O B-ACTOR-DIRECTOR O O O O O O O O O O O O O O B-PUBLIC-FIGURE O
+entertainment_300.txt_478,"Actor and Producer Aamir Khan 's forthcoming venture The Rising is set against the backdrop of the Indian mutiny of 1857 , with British actor Toby Stephens in a key role .",O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O
+business_353.txt_734,"The EU 's Humanitarian Aid Commissioner , Louis Michel , was quoted as saying that it was key to bring aid "" in those vital hours and days immediately after the disaster "" .",O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O
+politics_057.txt_18,"Great Ormond Street Hospital professor of child health , Al Aynsley - Green , was chosen by the government and will start the £ 100,000 - a - year job immediately .",O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O
+sport_231.txt_0,Mourinho to escape FA charge,B-ATHLETE O O O O
+sport_231.txt_404,"Mr Mourinho should look at the facts . """,O B-ATHLETE O O O O O O O
+business_213.txt_90,"Mr Brown introduced Dr Greenspan to the 400 invited guests as the "" the world 's greatest economist "" .",O B-POLITICIAN O O B-PUBLIC-FIGURE O O O O O O O O O O O O O O
+politics_247.txt_0,Kennedy to make temple address,B-POLITICIAN O O O O
+business_243.txt_70,"This week , we 're hearing from Marianne Petersen , who is planning to convert a barn in Sweden into a base for her freelance writing work .",O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O
+politics_371.txt_126,Mr Howard - himself the son of immigrants - will acknowledge that racial discrimination still exists in the UK .,O B-POLITICIAN O O O O O O O O O O O O O O O O O O
+entertainment_288.txt_295,"50 Cent announced he has launched the G - Unity Foundation "" to help people overcome obstacles and make a chance for the better in their lives "" .",B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_009.txt_164,""" Dan Brown is the best writer I 've come across in the genre , but anyone who knows anything about 1st century history will see that this underlying material is laughable . """,O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_181.txt_0,Chris Evans back on the market,B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O
+sport_031.txt_0,Sprinter Walker quits athletics,O B-ATHLETE O O
+entertainment_354.txt_500,"Keanu Reeves , who presented the best actress award , said being on the red carpet was an "" exciting "" part of his job .",B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_020.txt_95,Joshua Reynolds : The Creation of Celebrity,B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O
+entertainment_248.txt_397,"
+
+ But the artists - Beenie Man , Sizzla , Elephant Man , Buju Banton , Bounty Killer , TOK , Capleton and Vybz Kartel - will not have to apologise for past songs or comments .",O O O O O B-MUSICIAN I-MUSICIAN O B-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN I-MUSICIAN O B-MUSICIAN O B-MUSICIAN O O B-MUSICIAN I-MUSICIAN O O O O O O O O O
+entertainment_358.txt_31,The star of film and TV hits Day of the Jackal and Edward and Mrs Simpson has joined forces with Swansea - born actor - director Terry Palmer .,O O O O O O O O O O O O B-PUBLIC-FIGURE O O B-PUBLIC-FIGURE O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+sport_159.txt_0,Mourinho defiant on Chelsea form,B-ATHLETE O O O O
+entertainment_070.txt_140,South American - themed cartoon Joko ! Jakamoko ! Toto ! won the honour for pre - school animation and its writer Tony Collingwood for original writer .,O O O O O O O O O O O O O O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O
+entertainment_070.txt_168,"Debbie Isitt won the award for best adapted writer for her work with Jacqueline Wilson 's The Illustrated Mum , which won the award for best schools drama .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O
+politics_294.txt_303,Deputy Prime Minister John Prescott held a private meeting with senior union figures on Thursday night .,O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+politics_323.txt_91,"He , like Mr Kennedy , pointed to the hundreds of thousands of people who demonstrated against plans for the Iraq war .",O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O
+entertainment_180.txt_0,McCririck out of Big Brother show,B-PUBLIC-FIGURE O O O O O
+entertainment_180.txt_6,"
+
+ Racing pundit John McCririck has become the latest contestant to be evicted from Celebrity Big Brother .",O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O
+politics_125.txt_107,"Mr Houston is alleged to have said that the organs of the criminally insane should be "" made available to law - abiding members of the community "" and proposed the legalisation of drugs and the sex trade .",O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_210.txt_383,"Piers Freelove is senior benefit officer on the picket line at Companies House , in Cardiff .",B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O
+entertainment_274.txt_0,TV presenter Deeley drops CD : UK,O O B-ACTOR-DIRECTOR O O O O
+politics_122.txt_515,"Immigration minister Des Browne quoted its five - year plan for immigration and asylum , as saying : "" We are implementing our existing powers by targeted health screening for TB in high - risk areas at the entry clearance stage .",O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_378.txt_0,Blair defends terror law changes,B-POLITICIAN O O O O
+sport_040.txt_0,Radcliffe tackles marathon tasks,B-ATHLETE O O O
+politics_155.txt_64,"She is very religious but she is very moderate , "" said General Musharraf .",O O O O O O O O O O O O O B-POLITICIAN O
+politics_155.txt_115,"Gen Musharraf told the BBC : "" Some people think that the women should be confined to their houses and put veils on and all that and they should not move out - absolutely wrong . """,O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_155.txt_263,"On Monday the Pakistani president met Prime Minister Tony Blair at 10 Downing Street , on his first official visit to London .",O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O
+politics_155.txt_387,"But standing next to Mr Blair he added that it was crucial to tackle the "" core of what creates terrorists , what creates an extremist , militant environment which then leads on to terrorism "" .",O O O O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_116.txt_503,"Theresa May , Tory shadow work and pensions secretary , said : "" We have got to find a way that 's going to ensure those payments get through to the people who are due them . """,B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_255.txt_279,"And I am not going to be diverted or distracted , nor is Tony Blair , by newspaper stories or books or rumours or gossip .",O O O O O O O O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O
+politics_191.txt_31,"President Bush has announced that an alliance of the US , India , Australia and Japan will co - ordinate a humanitarian drive .",O B-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O
+politics_184.txt_0,Blair rejects Iraq advice calls,B-POLITICIAN O O O O
+entertainment_158.txt_283,"Rodgers was singer with early 1970s rockers Free , who had a global hit with All Right Now , before forming Bad Company , a successful "" supergroup "" with members of King Crimson and Mott the Hoople .",B-MUSICIAN O O O O O O O O B-MUSICIAN O O O O O O O O O O O O B-MUSICIAN O O O O O O O O B-MUSICIAN O O B-MUSICIAN O
+politics_231.txt_0,Woolf murder sentence rethink,B-PUBLIC-FIGURE O O O
+politics_407.txt_31,"Mr Boateng , 53 , is to become the UK 's high commissioner to South Africa .",O B-POLITICIAN O O O O O O O O O O O O O O
+business_209.txt_121,"Manchester United past and present footballers Eric Cantona and Ole Gunnar Solskjaer , and club manager Sir Alex Ferguson , have lent their backing to the supporters ' group , Shareholders United .",O O O O O O B-ATHLETE I-ATHLETE O B-ATHLETE I-ATHLETE I-ATHLETE O O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O
+politics_120.txt_0,Tory leader urges Harry apology,O O O B-PUBLIC-FIGURE O
+politics_127.txt_0,Brown to outline presidency goals,B-POLITICIAN O O O O
+entertainment_222.txt_0,School tribute for TV host Carson,O O O O O B-ACTOR-DIRECTOR
+entertainment_222.txt_181,"When Carson died , President Bush led the public tributes , saying the presenter "" had a profound influence on American life and entertainment "" .",O B-ACTOR-DIRECTOR O O B-POLITICIAN O O O O O O O O O O O O O O O O O O O
+entertainment_292.txt_305,Sir Elton John has composed the music .,O B-MUSICIAN I-MUSICIAN O O O O
+entertainment_292.txt_313,"Daldry directed the successful film version of Billy Elliot , adapted from Lee Hall 's script .",B-ACTOR-DIRECTOR O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O
+entertainment_039.txt_394,"Chinese actress Ziyi Zhang , star of Crouching Tiger , Hidden Dragon , Hero and House of Flying Daggers ,",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O
+sport_120.txt_157,"David Beckham , watched by Sven - Goran Eriksson , came off in the 67th minute with a shoulder injury but should be fit for England 's game against Holland .",B-ATHLETE I-ATHLETE O O O B-ATHLETE I-ATHLETE I-ATHLETE O O O O O O O O O O O O O O O O O O O O
+business_358.txt_485,"Mr Khodorkovsky is in jail , and on trial for fraud and tax evasion .",O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O
+sport_212.txt_259,"Characters like Souness , Ferguson and current Ibrox manager Alex McLeish all cite Smith 's experience and his expansive knowledge of the Scottish game .",O O B-ATHLETE O B-ATHLETE O O O O B-ATHLETE I-ATHLETE O O B-ATHLETE O O O O O O O O
+entertainment_312.txt_210,"Clint Eastwood 's boxing drama Million Dollar Baby - recipient of four Academy Awards , including best picture - continued to perform well in sixth place with takings of $ 7.2 m ( £ 3.74 m ) .",B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+business_083.txt_586,"Mr Khodorkovsky , once Russia 's richest man , is in prison , having been charged with fraud and tax evasion and repeatedly denied bail .",O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O O O O
+business_487.txt_675,"Having already donated billions of dollars to the fight against Aids and Malaria , Mr Gates will call on world leaders to support a global vaccination campaign to protect children in developing countries from easily preventable diseases .",O O O O O O O O O O O O O O O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O O O O
+business_330.txt_637,"For President Kirchner , this proves a hopeless challenge .",O O B-POLITICIAN O O O O O O O
+business_497.txt_249,""" Elgindy 's conviction marks the end of his public charade as a crusader against fraud in the market , "" said Ms Mauskopf .",O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O B-PUBLIC-FIGURE O
+entertainment_008.txt_309,"And playwrights David Eldridge , Rebecca Lenkiewicz and Owen McCafferty will fight it out for The Charles Wintour Award and a £ 30,000 bursary .",O O B-AUTHOR-WRITER I-AUTHOR-WRITER O B-AUTHOR-WRITER I-AUTHOR-WRITER O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O
+entertainment_219.txt_0,US TV host Clark suffers stroke,O O O B-ACTOR-DIRECTOR O O
+entertainment_219.txt_6,"
+
+ Veteran US television host Dick Clark is in hospital in Los Angeles after suffering a mild stroke .",O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O
+entertainment_219.txt_102,"Clark 's publicist Paul Shefrin said the television host was "" recovering "" and there was no cause for alarm .",B-ACTOR-DIRECTOR O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O
+entertainment_219.txt_123,"Clark , who produces the Golden Globe and American Music Awards , disclosed last year that he was suffering from diabetes .",B-ACTOR-DIRECTOR O O O O O O O O O O O O O O O O O O O O
+politics_064.txt_36,Mr Blair has been a leading advocate of Turkish membership despite controversy surrounding the idea .,O B-POLITICIAN O O O O O O O O O O O O O O
+sport_060.txt_0,McIlroy wins 800 m indoor title,B-ATHLETE O O O O O
+entertainment_007.txt_128,"Small Island , Levy 's fourth novel , is set in post - war London and centres on a landlady and her lodgers .",O O O B-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O
+entertainment_007.txt_215,"The judges called Guy 's My Heart is My Own : The Life of Mary Queen of Scots "" an impressive and readable piece of scholarship , which can not fail but leave the reader moved and intrigued by this most tragic and likeable of queens "" .",O O O B-AUTHOR-WRITER O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_007.txt_317,Fletcher has recently graduated from the University of East Anglia 's creative writing course .,B-AUTHOR-WRITER O O O O O O O O O O O O O O
+entertainment_007.txt_363,"Geraldine McCaughrean is the final contender , having won the children 's fiction category for the third time for Not the End of the World .",B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O O O O
+entertainment_276.txt_0,Rocker Doherty in on - stage fight,O B-MUSICIAN O O O O O
+entertainment_068.txt_80,"She is currently starring in A Very Long Engagement , directed by Jean - Pierre Jeunet .",O O O O O O O O O O O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O
+entertainment_337.txt_266,"The Aviator has taken pole position in this year 's Oscars race with 11 nominations , including nominations for best film , best actor for DiCaprio and best director for Scorsese .",O O O O O O O O O O O O O O O O O O O O O O O O O B-ACTOR-DIRECTOR O O O O B-ACTOR-DIRECTOR O
+entertainment_108.txt_75,Mr Jackson denies child molestation .,O B-MUSICIAN O O O O
+entertainment_108.txt_103,"Meanwhile Michael Jackson 's mother has said she is "" 100 % certain "" her son did not commit the child abuse charges he faces .",O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O
+politics_014.txt_0,Blair rejects Tory terror offer,B-POLITICIAN O O O O
+tech_134.txt_43,"Mr Gates made no announcement about the next generation Xbox games console , which many gadget lovers had been hoping for .",O B-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O O O O O O O
+politics_167.txt_216,"Chairman of the Environmental Audit Committee Peter Ainsworth MP , said : "" The government 's housing policy is an alarming example of disjointed thinking in an areas where joined - up policy is crucial .",O O O O O O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_054.txt_240,"Paul Boateng MP , Labour 's Chief Secretary to the Treasury , said : "" The Lib Dems ' sums do n't add up .",B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O
+entertainment_215.txt_213,Author David Mitchell made up for losing out in the Booker Prize to Alan Hollinghurst by beating him to the literary award with his book Cloud Atlas .,O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+sport_152.txt_316,"It is a view shared by Rooney , who believes "" if we can get past Milan , we have a great chance "" .",O O O O O B-ATHLETE O O O O O O O O O O O O O O O O
+sport_284.txt_0,Hodgson shoulders England blame,B-ATHLETE O O O
+sport_242.txt_0,Wenger rules out new keeper,B-ATHLETE O O O O
+business_444.txt_0,Khodorkovsky quits Yukos shares,B-BUSINESS-EXECUTIVE-MANAGER O O O
+sport_199.txt_327,Chelsea 's move won backing from drug - testing expert Michelle Verroken .,O O O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O
+entertainment_028.txt_78,Cuaron 's other films include Mexican movie Y Tu Mama Tambien .,B-ACTOR-DIRECTOR O O O O O O O O O O O
+entertainment_028.txt_263,"After the erotic nature of Y Tu Mama Tambien , Cuaron was a surprise choice to direct the third Harry Potter film but his dark interpretation was received well by the public and critics alike .",O O O O O O O O O B-ACTOR-DIRECTOR O O O O O O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE O O O O O O O O O O O O
+politics_350.txt_0,Brown ' proud of economy record ',B-POLITICIAN O O O O O O
+sport_123.txt_92,"Terry , the captain of Chelsea as they push for the Premiership title , would have been a certain starter in the absence of Campbell and Ferdinand .",B-ATHLETE O O O O O O O O O O O O O O O O O O O O B-ATHLETE O B-ATHLETE O
+politics_346.txt_372,"And Tony Blair would be in the very front line of that campaign , he said .",O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O
+entertainment_258.txt_414,Cobain committed suicide in 1994 .,B-MUSICIAN O O O O O
+entertainment_298.txt_195,As well as Spider - Man,O O O B-PUBLIC-FIGURE I-PUBLIC-FIGURE I-PUBLIC-FIGURE
+entertainment_229.txt_168,"Singer Sam Endicott said he felt "" great "" about coming top of the Sound of 2005 list .",O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O
+tech_052.txt_182,"Microsoft chief , Bill Gates , used the GDC event to unveil the original Xbox five years ago .",O O O B-BUSINESS-EXECUTIVE-MANAGER I-BUSINESS-EXECUTIVE-MANAGER O O O O O O O O O O O O
+sport_281.txt_0,Wenger shock at Newcastle dip,B-ATHLETE O O O O
+entertainment_082.txt_394,"Chinese actress Ziyi Zhang , star of Crouching Tiger , Hidden Dragon , Hero and House of Flying Daggers ,",O O B-ACTOR-DIRECTOR I-ACTOR-DIRECTOR O O O O O O O O O O O O O O O
+politics_150.txt_0,Galloway plea for hostage release,B-POLITICIAN O O O O
+sport_216.txt_396,"Yet Rooney is seen only as the worst example of many England miscreants , with Gary Neville criticised for continuing the feud between Manchester United and Arsenal for his tackles on Jose Reyes .",O B-ATHLETE O O O O O O O O O O O B-ATHLETE I-ATHLETE O O O O O O O O O O O O O B-ATHLETE I-ATHLETE O
+tech_106.txt_58,Indian writer Rohit Gupta edits a group blog called Dogs without Borders .,O O B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O
+tech_106.txt_411,Dina Mehta is an Indian blogger who 's helping with the newly created South East Asia Earthquake and Tsunami Blog .,B-AUTHOR-WRITER I-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O
+tech_106.txt_607,Mr Kotamaraja wanted to help those affected by the tsunami by pooling money with concerned friends .,O B-PUBLIC-FIGURE O O O O O O O O O O O O O O O
+tech_106.txt_774,""" Well , "" Heretic writes , "" that was just the least affected areas - so you can just imagine - or can you ? """,O O O B-AUTHOR-WRITER O O O O O O O O O O O O O O O O O O O O
+tech_276.txt_587,Mr Bolz said video games firm had to work more closely with celebrities .,O B-PUBLIC-FIGURE O O O O O O O O O O O O
+politics_161.txt_155,Mr Blair has been a leading advocate of Turkish membership despite controversy surrounding the idea .,O B-POLITICIAN O O O O O O O O O O O O O O
+business_178.txt_66,His comments came as President George W Bush said the US backed Russian entry .,O O O O O B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O
+entertainment_147.txt_258,"Mr Newton is a critically acclaimed jazz and classical flutist , composer , performer , and university professor .",O B-MUSICIAN O O O O O O O O O O O O O O O O O
+sport_172.txt_0,Mourinho receives Robson warning,B-ATHLETE O B-ATHLETE O
+sport_282.txt_0,Ferguson hails Man Utd 's resolve,B-ATHLETE O O O O O
+business_167.txt_0,Hariri killing hits Beirut shares,B-POLITICIAN O O O O
+entertainment_345.txt_0,"Britney attacks ' false tabloids ' 
+
+ Pop star Britney Spears has attacked "" false "" and "" desperate "" US tabloid magazines , questioning their honesty after they reported she was pregnant .",B-MUSICIAN O O O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O O O O
+business_193.txt_0,Borussia Dortmund near bust,O O O O
+politics_305.txt_0,Labour battle plan ' hides Blair ',O O O O O B-POLITICIAN O
+politics_305.txt_570,""" Tony Blair seems to have disappeared from Labour leaflets and broadcasts , "" he said .",O B-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O
+entertainment_254.txt_28,"The Birmingham - born singer , full name Jamelia Davis , was signed to a record label at the age of 15 and released her first single So High at 18 .",O O O O O O O B-MUSICIAN I-MUSICIAN O O O O O O O O O O O O O O O O O O O
+politics_157.txt_88,"In January , Mr Kilroy - Silk quit his BBC One show for remarks he made about Arabs , who he called "" suicide bombers "" .",O O O O B-POLITICIAN -I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O
+politics_157.txt_505,"Mr Kilroy - Silk , an MEP for the East Midlands , resigned the UK Independence Party whip in the European Parliament in October , after criticising UKIP and stating his ambition to be leader .",O B-POLITICIAN I-POLITICIAN I-POLITICIAN O O O O O O O O O O O O O O O O O O O O O O O O O O O O O O
+politics_031.txt_0,Blunkett sorry over murder plan,B-POLITICIAN O O O O
+sport_227.txt_0,Wenger keeping faith with Almunia,B-ATHLETE O O O B-ATHLETE
+sport_227.txt_52,"Wenger said : "" You do n't think I would take out one goalkeeper for just one game , do you ?",B-ATHLETE O O O O O O O O O O O O O O O O O O O O

@@ -21,6 +21,9 @@ seaborn = "^0.13.2"
 sentencepiece = "^0.2.1"
 tqdm = "^4.67.1"
 optuna = "^4.5.0"
+seqeval = "^1.2.2"
+google-generativeai = "^0.8.5"
+python-dotenv = "^1.1.1"
 
 [build-system]
 requires = ["poetry-core"]

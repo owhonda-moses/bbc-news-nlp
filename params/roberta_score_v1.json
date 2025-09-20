@@ -1,0 +1,10 @@
+{
+  "model": "roberta",
+  "best_validation_f1": 0.2582849072285761,
+  "seed": 188322,
+  "epoch": 25,
+  "learning_rate": 1e-05,
+  "weight_decay": 0.01,
+  "accum_steps": 2,
+  "sampler": "token_balanced"
+}

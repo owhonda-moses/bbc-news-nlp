@@ -1,0 +1,10 @@
+{
+  "model": "distilbert",
+  "best_validation_f1": 0.47871127308059297,
+  "seed": 300990,
+  "epoch": 6,
+  "learning_rate": 3e-05,
+  "weight_decay": 0.01,
+  "accum_steps": 2,
+  "sampler": "token_balanced"
+}

@@ -65,23 +65,10 @@ poetry run python -m spacy download en_core_web_trf
 
 poetry run python -m ipykernel install --user --name="bbc-nlp" --display-name="python-bbc-nlp"
 
-echo "Cleaning up package manager and model caches"
+echo "Cleaning up"
 rm -rf ~/.cache/pip
 rm -rf ~/.cache/huggingface
 rm -rf ~/.cache/torch
-
-# echo "Verifying setup"
-# poetry run python -c "
-# import torch
-# import spacy
-# print(f'PyTorch version: {torch.__version__}')
-# gpu_available = torch.cuda.is_available()
-# print(f'GPU available: {gpu_available}')
-# if gpu_available:
-#     print(f'CUDA version: {torch.version.cuda}')
-# print('Loading spaCy model en_core_web_trf...')
-# nlp = spacy.load('en_core_web_trf')
-# print('SpaCy transformer model loaded.')
-# "
+rm -rf /notebooks/.Trash-0/*
 
 echo "Setup complete"

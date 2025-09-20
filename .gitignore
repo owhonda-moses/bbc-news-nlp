@@ -212,5 +212,7 @@ setup.md
 models/augmented-classifier/model.safetensors
 models/baseline-classifier/model.safetensors
 models/weighted-classifier/model.safetensors
-models/ner-model/model.safetensors
-models/ner-model/pytorch_model.bin
+models/distilbert-model-v1/model.safetensors
+models/distilbert-model-v2/model.safetensors
+models/roberta-model-v1/model.safetensors
+models/roberta-model-v2/model.safetensors

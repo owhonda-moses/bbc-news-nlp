@@ -1,0 +1,355 @@
+sentence,ner_entities
+"Virtual weight"" measurements are based on research by California Institute of Technology professor Roy Williams.","[{""text"": ""roy williams"", ""label"": ""BUSINESS""}]"
+"Britain has become a nation of information hoarders with a ferocious appetite for data,"" said Martin Larsson, general manager of Toshiba's European storage device division.","[{""text"": ""martin larsson"", ""label"": ""BUSINESS""}]"
+"Duff sustained a knee injury in the FA Cup defeat at Newcastle and manager Jose Mourinho said: ""He cannot run.","[{""text"": ""duff"", ""label"": ""ATHLETE""}, {""text"": ""jose mourinho"", ""label"": ""ATHLETE""}]"
+"Consumer electronics companies want UWB to replace cables and simplify set-up,"" Jeff Ravencraft, technology strategist at Intel and chairman of the Wireless USB Promoter Group, told technology site ZDNet. ""","[{""text"": ""jeff ravencraft"", ""label"": ""BUSINESS""}]"
+"Here in Asia, we consider a double-digit increase in retail on the order of 10 to 15% to be realistic on the basis of current features,"" said Helmut Panke, BMW's group chief executive.","[{""text"": ""helmut panke"", ""label"": ""BUSINESS""}]"
+"Stephen Toulouse, a Microsoft security manager, said the flaws were known about, and although the firm had not seen any attacks exploiting the flaw, he did not rule them out.","[{""text"": ""stephen toulouse"", ""label"": ""BUSINESS""}]"
+"That gives them some head room to invest in growth now,"" said Hannes Wittig, telecoms analyst at Dresdner Kleinwort Wasserstein.","[{""text"": ""han"", ""label"": ""BUSINESS""}, {""text"": ""##nes wittig"", ""label"": ""BUSINESS""}]"
+"Redknapp's Saints face Pompey tie
+
+New Southampton manager Harry Redknapp faces an immediate reunion with his old club Portsmouth after they were drawn together in the FA Cup fourth round.","[{""text"": ""redknapp"", ""label"": ""ATHLETE""}, {""text"": ""harry redknapp"", ""label"": ""ATHLETE""}]"
+Birmingham manager Steve Bruce admitted their trip to Stamford Bridge to face Premiership leaders Chelsea was the toughest draw possible.,"[{""text"": ""steve bruce"", ""label"": ""ATHLETE""}]"
+"At the risk of stating the obvious, he was an extraordinary song writer and his stage act was perhaps the greatest I've ever seen.",[]
+": ""I recall in 1978 he came to the UK for Top of the Pops and a Daily Mirror journalist did a half-hour interview.",[]
+"""While HSDPA theoretically enables data rates up to a maximum of 14Mbps, practical throughputs will be lower than this in wide-area networks,"" said Dr Alastair Brydon, author of the Analysys report: Pushing Beyond the Limits of 3G with HSDPA and Other Enhancements. ""","[{""text"": ""alasta"", ""label"": ""BUSINESS""}, {""text"": ""##ir brydon"", ""label"": ""BUSINESS""}]"
+"We are ""expanding our network and deploying EV-DO technology to meet customer demand for faster wireless speeds,"" said Oliver Valente, Sprint's vice president for technology development, when the contract was announced.","[{""text"": ""oliver valente"", ""label"": ""BUSINESS""}]"
+"SEC to rethink post-Enron rules
+
+The US stock market watchdog's chairman has said he is willing to soften tough new US corporate governance rules to ease the burden on foreign firms.",[]
+"Retail Decisions chief executive Carl Clump told the BBC that there was ""no doubt"" that chip and pin would ""reduce card fraud in the card-present environment"". ""","[{""text"": ""carl clump"", ""label"": ""BUSINESS""}]"
+"Chief executive Bill Gammell added: ""The more we progress in Rajasthan the better we feel about it.""","[{""text"": ""bill gammell"", ""label"": ""BUSINESS""}]"
+"In 2004, our company gained momentum, delivering...more new products, and more innovative breakthroughs, such as the Escape Hybrid, the industry's first full-hybrid sport utility vehicle,"" said chairman and chief executive officer Bill Ford.""","[{""text"": ""bill ford"", ""label"": ""BUSINESS""}]"
+"His comments come as the co-chairman of the Conservative Party, Liam Fox, on Saturday called him ""a disappointment of historic proportions"" as a prime minister.","[{""text"": ""liam fox"", ""label"": ""POLITICIAN""}]"
+"Chief executive Jim Skinner attributed an 8.3% increase in January worldwide sales to the ""vitality of our menu"", among other things.","[{""text"": ""jim skinner"", ""label"": ""BUSINESS""}]"
+"Those cases included a warehouse manager who had waited for a burglar, tied him up, beat him and set him alight, he said.",[]
+"These assets significantly increase our exploration portfolio in Egypt and we continue to investigate further opportunities in this region,"" said chief executive Finian O'Sullivan.","[{""text"": ""fin"", ""label"": ""BUSINESS""}, {""text"": ""##ian o ' sullivan"", ""label"": ""BUSINESS""}]"
+"They have got strength in depth, great players, an outstanding manager in Jose Mourinho and finances no other club in the world can match.","[{""text"": ""jose mourinho"", ""label"": ""ATHLETE""}]"
+"As I said, winning the major honours is the hardest task of all, but in Mourinho they have a manager who will make it a whole lot easier to handle the anticipation and expectation that will come their way now.",[]
+BBC Scotland political correspondent Glenn Campbell said the first minister had ordered an urgent report into the situation.,"[{""text"": ""glenn campbell"", ""label"": ""AUTHOR""}]"
+"One of the biggest changes of 2004 was the waning influence of the boy hackers keen to make a name by writing a fast-spreading virus, said Kevin Hogan, senior manager in Symantec's security response group.","[{""text"": ""kevin hogan"", ""label"": ""BUSINESS""}]"
+The devices gained new prominence this week after Alastair Campbell used his to accidentally send an expletive-laden message to a Newsnight journalist.,"[{""text"": ""alasta"", ""label"": ""POLITICIAN""}, {""text"": ""##ir campbell"", ""label"": ""POLITICIAN""}]"
+"Clark Boyd is technology correspondent for The World, a BBC World Service and WGBH-Boston co-production","[{""text"": ""clark boyd"", ""label"": ""AUTHOR""}]"
+"Smith aims to bring back respect
+
+Scotland manager Walter Smith says he wants to restore the national team's respectability in world football.","[{""text"": ""smith"", ""label"": ""ATHLETE""}, {""text"": ""walter smith"", ""label"": ""ATHLETE""}]"
+"US Attorney Paul McNulty said at the time: ""John Sankus and his techno-gang operated in the faceless world of the internet and thought they would never be caught. ""","[{""text"": ""paul mcnulty"", ""label"": ""POLITICIAN""}, {""text"": ""john sankus"", ""label"": ""BUSINESS""}]"
+"US Customs claimed Mr Griffiths was one of DOD's leaders but his lawyer, Antony Townsden, told the BBC News website it was a laughable suggestion and added: ""He was living on welfare and had such an old computer that he couldn't even download software. ""","[{""text"": ""griffiths"", ""label"": ""PUBLIC""}, {""text"": ""antony townsden"", ""label"": ""PUBLIC""}]"
+"Electoral Commission chairman Sam Younger said: ""There is no doubt that political parties have a vital role to play in maintaining the health of our democracy and for this they need to be adequately resourced. ""","[{""text"": ""sam younger"", ""label"": ""POLITICIAN""}]"
+The Northern Irishman is hoping manager Ricky Simms can swing it for him to compete after he initially withdrew after contracting a cold.,"[{""text"": ""ricky simms"", ""label"": ""ATHLETE""}]"
+"Since Mike Smith's appointment as chief executive in 1999, the group has focused on fewer businesses and embarked on a major cost-cutting programme which has seen it dispose of a number of businesses, including the Odeon cinema chain and the Pinewood studios.","[{""text"": ""mike smith"", ""label"": ""BUSINESS""}]"
+"Blunkett tells of love and pain
+
+David Blunkett has spoken of his love for married publisher Kimberly Quinn for the first time.","[{""text"": ""blunkett"", ""label"": ""AUTHOR""}, {""text"": ""david blunkett"", ""label"": ""AUTHOR""}, {""text"": ""kimberly quinn"", ""label"": ""AUTHOR""}]"
+BBC political correspondent Carole Walker said the timing of the broadcast was unlikely to help his efforts to show that he is concentrating on getting on with the job of home secretary.,"[{""text"": ""carole walker"", ""label"": ""AUTHOR""}]"
+He was assigned to the comics division and - thanks to a fertile imagination - rose to editor by the age of 18.,[]
+Committee chairman John Denham said drugs of alcohol were sometimes used as an excuse.,"[{""text"": ""john denham"", ""label"": ""POLITICIAN""}]"
+"February was another good month in the manufacturing sector,"" said ISM survey chairman Norbert Ore.
+
+""While the overall rate of growth is slowing, the overall picture is improving as price increases and shortages are becoming less of a problem.","[{""text"": ""nor"", ""label"": ""BUSINESS""}, {""text"": ""##bert ore"", ""label"": ""BUSINESS""}]"
+"Glen Wood, Vice President of Deutsche Securities Japan, asks; ""Who's going to fund the pension fund for the next generation and indeed who are going to be the new Japanese worker? ""","[{""text"": ""glen wood"", ""label"": ""BUSINESS""}]"
+"Wenger signs new deal
+
+Arsenal manager Arsene Wenger has signed a new contract to stay at the club until May 2008.","[{""text"": ""wenger"", ""label"": ""ATHLETE""}, {""text"": ""arsene wenger"", ""label"": ""ATHLETE""}]"
+"Chairman Peter Hill-Wood said: ""We are absolutely delighted that Arsene has signed an extension to his contract. ""","[{""text"": ""peter hill - wood"", ""label"": ""BUSINESS""}, {""text"": ""arsene"", ""label"": ""ATHLETE""}]"
+The Chartered Institute of Purchasing and Supply (CIPS) said its purchasing manager index (PMI) fell to 51.8 from a revised 53.3 in December.,[]
+"Fantasy book wins Hollywood deal
+
+A British author has had the film rights to her children's bestseller snapped up for a seven-figure sum, with Ridley Scott set to direct.","[{""text"": ""ridley scott"", ""label"": ""ACTOR""}]"
+"Paver, who lives in London and previously worked as a lawyer, began writing the book in 1982 while studying biochemistry at Oxford University.","[{""text"": ""paver"", ""label"": ""AUTHOR""}]"
+She was an established author of love stories when she turned the work-in-progress into a children's novel.,[]
+"Michelle Paver lives and breathes the worlds she writes about,"" said a spokesman for the author. ""","[{""text"": ""michelle paver"", ""label"": ""AUTHOR""}]"
+"Takeover offer for Sunderland FC
+
+Bob Murray, chairman of Sunderland FC, has launched a £1.5m ($2.8m) bid for the club after buying broadcaster BSkyB's stake in the business.","[{""text"": ""bob murray"", ""label"": ""BUSINESS""}]"
+"Gilles Babinet, chief executive of mobile music firm Musiwave, said: ""Music downloads on mobiles have the potential to be the biggest-ever medium for music.""","[{""text"": ""gilles babinet"", ""label"": ""BUSINESS""}]"
+"We are working in the hard disk area and we will be bringing out exciting devices,"" Jonas Guest, vice president for entertainment at Nokia, told the BBC News website.","[{""text"": ""jonas guest"", ""label"": ""BUSINESS""}]"
+"The line between online and wireless is going to blur,"" predicted Ted Cohen, senior vice president of digital development and distribution at EMI.","[{""text"": ""ted cohen"", ""label"": ""BUSINESS""}]"
+"To get any profit growth in the coming years, they will have to lower costs, so shedding jobs makes total sense,"" Ivo Geijsen, an analyst with Bank Oyens & Van Eeghen, told Bloomberg.","[{""text"": ""ivo geijsen"", ""label"": ""BUSINESS""}]"
+The prize commends an author for their body of work instead of one book.,[]
+"It will reward an author - who must be living - for ""continued creativity, development and overall contribution to fiction on the world stage"".",[]
+An author can only win once.,[]
+"USADA chief executive officer Terry Madden said the action taken against Collins was further proof of that. ""","[{""text"": ""terry madden"", ""label"": ""BUSINESS""}, {""text"": ""collins"", ""label"": ""ATHLETE""}]"
+"Ian Harris, deputy editor of UK magazine Mac Format, said the machine would appeal to PC-owning consumers who had purchased an iPod.","[{""text"": ""ian harris"", ""label"": ""BUSINESS""}]"
+"But the results also may reflect the untrammelled confidence of people who are subject to endless government propaganda about their country's rosy economic future, our correspondent says.",[]
+"Veteran star Ossie Davis, a well-known civil rights activist, died in Miami at the age of 87 on 4 February 2005.","[{""text"": ""ossie davis"", ""label"": ""ACTOR""}]"
+"He frequently collaborated with director Spike Lee, starring in seven Lee films including Jungle Fever, Do The Right Thing and Malcolm X. Attallah Shabazz, the daughter of activist Malcolm X, recalled the famous eulogy delivered by Davis at her father's funeral. ""","[{""text"": ""spike lee"", ""label"": ""ACTOR""}, {""text"": ""malcolm x"", ""label"": ""ACTOR""}, {""text"": ""attallah shabazz"", ""label"": ""PUBLIC""}, {""text"": ""malcolm x"", ""label"": ""PUBLIC""}, {""text"": ""davis"", ""label"": ""PUBLIC""}]"
+"It is hard to fathom that we will no longer be able to call on his wisdom, his humour, his loyalty and his moral strength to guide us in the choices that are yet to be made and the battles that are yet to be fought,"" said Belafonte, himself an ardent civil rights activist who had been friends with Davis for over 60 years. ""","[{""text"": ""belafonte"", ""label"": ""PUBLIC""}, {""text"": ""davis"", ""label"": ""PUBLIC""}]"
+"'Blog' picked as word of the year
+
+The term ""blog"" has been chosen as the top word of 2004 by a US dictionary publisher.",[]
+"But he rejected the comparison made in some media sources with Berti Vogts, recently sacked as Scotland football manager after a poor run of results.","[{""text"": ""berti vogts"", ""label"": ""ATHLETE""}]"
+"A question of trust and technology
+
+A major government department is without e-mail for a week, and technology analyst Bill Thompson wants to know what happened.","[{""text"": ""bill thompson"", ""label"": ""BUSINESS""}]"
+"We've got to the point where we can't live our lives without certain technology,"" said Adam Vaughan, editor of Stuff Essentials.","[{""text"": ""adam vaughan"", ""label"": ""AUTHOR""}]"
+"Scarlets chief executive Stuart Gallacher confirmed that 17 of the current squad would be out of contract in the summer. ""","[{""text"": ""stuart gallacher"", ""label"": ""BUSINESS""}]"
+"In a statement to parliament, Mr McConnell said that the licensed trade would be asked to join an expert committee prior to the ban coming into force.","[{""text"": ""mcconnell"", ""label"": ""POLITICIAN""}]"
+"""We are in touch with the concerned Russian entities about the Yukos assets and other opportunities in Russia,"" said ONGC chairman Subir Raha.","[{""text"": ""subir raha"", ""label"": ""BUSINESS""}]"
+"The awards will be hosted by American Idol presenter Ryan Seacrest, and will feature performances by Usher, Gwen Stefani, Nelly and Green Day.","[{""text"": ""ryan seacrest"", ""label"": ""ACTOR""}, {""text"": ""usher"", ""label"": ""MUSICIAN""}, {""text"": ""gwen stefani"", ""label"": ""MUSICIAN""}, {""text"": ""nelly"", ""label"": ""MUSICIAN""}, {""text"": ""green day"", ""label"": ""MUSICIAN""}]"
+"As chief operating officer, Toshiyuki Shiga will run Nissan on a daily basis, although Mr Ghosn, who masterminded its recovery, will remain chief executive.","[{""text"": ""##yuki shiga"", ""label"": ""BUSINESS""}, {""text"": ""ghosn"", ""label"": ""BUSINESS""}]"
+"Mr Ghosn is to become chairman and chief executive of Renault, which owns 44% of the Japanese carmaker, in April.","[{""text"": ""ghosn"", ""label"": ""BUSINESS""}]"
+"In his new job as Renault chief executive, Mr Ghosn will devote 40% of his time to Renault, 40% to Nissan and the rest to the group's activities in North America and other key markets.","[{""text"": ""ghos"", ""label"": ""BUSINESS""}, {""text"": ""##n"", ""label"": ""BUSINESS""}]"
+"Livi manager Richard Gough made three changes at the interval, bringing on defender Goran Stanic, midfielder Gabor Vincze, and striker Ferenc Horvath for Bahoken, Derek Lilley and Mark Wilson.","[{""text"": ""richard gough"", ""label"": ""ATHLETE""}, {""text"": ""goran stanic"", ""label"": ""ATHLETE""}, {""text"": ""gabor vincze"", ""label"": ""ATHLETE""}, {""text"": ""ferenc horvath"", ""label"": ""ATHLETE""}, {""text"": ""derek lilley"", ""label"": ""ATHLETE""}, {""text"": ""mark wilson"", ""label"": ""ATHLETE""}]"
+"""The settlement is very significant in holding these outside directors at least partially personally responsible,"" William Lerach, the lawyer leading the class action suit against Enron, said. ""","[{""text"": ""william lerach"", ""label"": ""BUSINESS""}]"
+"Clark Boyd is technology correspondent for The World, a BBC World Service and WGBH-Boston co-production.","[{""text"": ""clark boyd"", ""label"": ""AUTHOR""}]"
+"However, Dick Pound, the chairman of the World Anti-Doping Authority, has said he will appeal against the decision if the IAAF does not.","[{""text"": ""dick pound"", ""label"": ""BUSINESS""}]"
+"In an interview with the BBC's political editor Andrew Marr, Mr Blair said getting progress between Israelis and Palestinians would be ""tough, but at least we have got the first step"".","[{""text"": ""andrew marr"", ""label"": ""AUTHOR""}, {""text"": ""blair"", ""label"": ""POLITICIAN""}]"
+"The chairman of the Bar Council, Guy Mansfield QC warned there was a real risk that people on the ""margins of society"" would be driven into the hands of extremists. ""","[{""text"": ""guy mansfield qc"", ""label"": ""BUSINESS""}]"
+"Former virus writer Marek Strihavka, aka Benny from the 29A virus writing group, recently quit the malware scene partly because it was being taken over by spyware writers, phishing gangs, and spammers who are more interested in money rather than the technology.","[{""text"": ""marek strihavka"", ""label"": ""AUTHOR""}, {""text"": ""benny"", ""label"": ""AUTHOR""}]"
+The economic figures come on the back of increased fears that the Federal Reserve chairman may be about to raise interest rates in order to stifle any inflationary pressures.,[]
+"The concern is that traders might interpret this big jump in the core PPI as an impetus for the Fed to be more aggressive than a measured move in moving rates,"" said Paul Cherney, chief market analyst at Standard & Poor's.","[{""text"": ""paul cherney"", ""label"": ""BUSINESS""}]"
+"""I don't think the threat is overplayed,"" Barry Beal, global security manager for Capgemini, told the BBC News website.","[{""text"": ""barry beal"", ""label"": ""BUSINESS""}]"
+Legal expert William Butler said there was no treaty between the US and Russia to recognise the other's legal rulings.,"[{""text"": ""william butler"", ""label"": ""AUTHOR""}]"
+"Goldsmith: 'I was not leant on'
+
+The attorney general has again denied being ""leant on"" by Downing Street to make the legal case for invading Iraq.","[{""text"": ""goldsmith"", ""label"": ""POLITICIAN""}]"
+Many Labour MPs have since indicated that the attorney general's answer played a pivotal role in their willingness to back the conflict.,[]
+"In the House of Lords, the attorney general faced a call by former Tory lord chancellor Lord Mackay to now publish the ""full text"" of the advice - the suggestion was rejected.","[{""text"": ""lord mackay"", ""label"": ""POLITICIAN""}]"
+"The attorney general may never have presented his answer as a summary, but others certainly did,"" he said. """,[]
+"Tony Blair has dismissed questions about the attorney general's advice, and said his Parliamentary statement had been a ""fair summary"" of his opinion. ""","[{""text"": ""tony blair"", ""label"": ""POLITICIAN""}]"
+"Mr Mates added: ""This may be one of those special occasions... when it would be in the public interest to see the advice which the attorney general gave to the prime minister.""","[{""text"": ""mates"", ""label"": ""POLITICIAN""}]"
+"The reason for this is that it would have weakened ministers' case for war, Lord Butler said in his Spectator interview, which was conducted by the magazine's editor, Conservative MP Boris Johnson.","[{""text"": ""lord butler"", ""label"": ""POLITICIAN""}, {""text"": ""boris johnson"", ""label"": ""POLITICIAN""}]"
+"Beckham rules out management move
+
+Real Madrid midfielder David Beckham has no plans to become a manager when his playing career is over.","[{""text"": ""beckham"", ""label"": ""ATHLETE""}, {""text"": ""david beckham"", ""label"": ""ATHLETE""}]"
+"I was lucky because I had a manager, Sir Alex Ferguson, who supported me and a strong family behind me but I believe that changed me. ""","[{""text"": ""sir alex ferguson"", ""label"": ""ATHLETE""}]"
+"Moyes U-turn on Beattie dismissal
+
+Everton manager David Moyes will discipline striker James Beattie after all for his headbutt on Chelsea defender William Gallas.","[{""text"": ""moyes"", ""label"": ""ATHLETE""}, {""text"": ""##tie"", ""label"": ""ATHLETE""}, {""text"": ""david moyes"", ""label"": ""ATHLETE""}, {""text"": ""james beattie"", ""label"": ""ATHLETE""}, {""text"": ""william gallas"", ""label"": ""ATHLETE""}]"
+"At the same time, reported fraud throughout the EU dropped from 10,276 cases worth £808m to 8,177 cases worth £644m. Edward Leigh, chairman of the Commons public accounts committee, said Britain had to set an example when it assumed the EU presidency.","[{""text"": ""edward leigh"", ""label"": ""POLITICIAN""}]"
+US Attorney David Kelley said he expects the nine vendors will plead guilty to the charges.,"[{""text"": ""david kelley"", ""label"": ""BUSINESS""}]"
+"Others include Michael Hannigan of Sugar Foods; Peter Marion of Maritime Seafood Processors and First Choice Foods; Gordon Redgate of Commodity Manager and Private Label Distribution; Bruce Robinson of Basic American Foods and Michael Rogers, formerly of Tyson Foods.","[{""text"": ""michael hannigan"", ""label"": ""BUSINESS""}, {""text"": ""peter marion"", ""label"": ""BUSINESS""}, {""text"": ""gordon redgate"", ""label"": ""BUSINESS""}, {""text"": ""bruce robinson"", ""label"": ""BUSINESS""}, {""text"": ""michael rogers"", ""label"": ""BUSINESS""}]"
+But Lions chairman Theo Paphitis has denied the claims.,"[{""text"": ""theo paphitis"", ""label"": ""BUSINESS""}]"
+"Mike McGuire, a research director at analyst Gartner, told the BBC News website that Apple had done a good job in ""sealing off the market from competition"" so far. ""","[{""text"": ""mike mcguire"", ""label"": ""BUSINESS""}, {""text"": ""gartner"", ""label"": ""BUSINESS""}]"
+"Southcorp's board has informed Foster's that it is not prepared to recommend the offer as it does not adequately reflect the strategic value of the company,"" said Southcorp chairman Brian Finn.","[{""text"": ""foster"", ""label"": ""BUSINESS""}, {""text"": ""brian finn"", ""label"": ""BUSINESS""}]"
+"The combination of Foster's and Southcorp will transform the global wine industry and significantly enhance Australia's competitive position on the global stage,"" said Trevor O'Hoy, Foster's chief executive officer.","[{""text"": ""foster"", ""label"": ""BUSINESS""}, {""text"": ""trevor o ' hoy"", ""label"": ""BUSINESS""}, {""text"": ""foster"", ""label"": ""BUSINESS""}]"
+"Other films generating interest before this year's festival include Hustle & Flow, about an aspiring rapper, The Squid and the Whale, an autobiographical film by writer-director Noah Baumbach, and comedy/drama Pretty Persuasion.","[{""text"": ""the squid"", ""label"": ""MUSICIAN""}, {""text"": ""whale"", ""label"": """"}, {""text"": ""noah baumbach"", ""label"": ""ACTOR""}]"
+"We're working on ways to encourage both adults and children to eat wisely by selecting more nutritionally balanced diets,"" said Lance Friedmann, Kraft senior vice president.","[{""text"": ""lance friedmann"", ""label"": ""BUSINESS""}]"
+"Voice command-and-control unlocks the potential of devices that can store large digital music collections,"" said Ross Blanchard, vice president of business development for Gracenote. ""","[{""text"": ""ross blanchard"", ""label"": ""BUSINESS""}]"
+"Speech is a natural fit for today's consumer devices, particularly in mobile environments,"" said Alan Schwartz, vice president of SpeechWorks, a division of ScanSoft. ""","[{""text"": ""alan schwartz"", ""label"": ""BUSINESS""}]"
+"There are 74 different devices that are being sold as HD but are not HD-ready, according to Alexander Oudendijk, senior vice president of marketing for satellite giant Astra.","[{""text"": ""alexander oudendijk"", ""label"": ""BUSINESS""}]"
+"We believe the DS will appeal to all ages, both genders and gamers of any skill,"" said David Yarnton, Nintendo Europe's general manager said at the recent press launch for the handheld.","[{""text"": ""david yarnton"", ""label"": ""BUSINESS""}]"
+"""And certainly if I was still a manager in England I would be supporting any calls for its introduction. """,[]
+"Sluggish demand reported previously for November and now December 2004 continues,"" said Virgin Blue chief executive Brett Godfrey.","[{""text"": ""brett godfrey"", ""label"": ""BUSINESS""}]"
+"Goldsmith denies war advice claim
+
+The attorney general has denied his statement to Parliament about the legality of the Iraq war was drafted by Downing Street officials.","[{""text"": ""goldsmith"", ""label"": ""POLITICIAN""}]"
+"Earlier, Tony Blair dismissed questions about the attorney general's advice, and said his Parliamentary statement had been a ""fair summary"" of his opinion. ""","[{""text"": ""tony blair"", ""label"": ""POLITICIAN""}]"
+The Conservatives and Liberal Democrats say they still want the publication of the full legal advice given by the Attorney General.,[]
+"The chief executive would be abandoning his duty if he didn't talk to rivals, but a deal doesn't seem likely,"" Reuters quoted one trader as saying.",[]
+"Mary Kayitesi Blewitt, founder of the Survivors Fund (SURF), one of the organisations through which the funds are being channelled, said it was a recognition, before it was too late, that the survivors should be a priority for help.","[{""text"": ""mary kayitesi blewitt"", ""label"": ""BUSINESS""}]"
+"Kerr frustrated at victory margin
+
+Republic of Ireland manager Brian Kerr admitted he was frustrated his side did not score more than one goal in their friendly win over Croatia.","[{""text"": ""kerr"", ""label"": ""ATHLETE""}, {""text"": ""brian kerr"", ""label"": ""ATHLETE""}]"
+"Brent Bozell, PTC president and conservative activist said: ""MTV is blatantly selling raunchy sex to kids. ""","[{""text"": ""brent bozell"", ""label"": ""BUSINESS""}]"
+"This preliminary data is surprising and somewhat shocking to us,"" said Marcel Nienhuis, market analyst at the Radicati Group. ""","[{""text"": ""marcel nienhuis"", ""label"": ""BUSINESS""}]"
+The firm has failed to make money since the state sold a majority stake to hotel tycoon Gordon Stewart in 1994.,"[{""text"": ""gordon stewart"", ""label"": ""BUSINESS""}]"
+"Michael Raftery, project manager at the Hansard Society, said: ""The Y Vote Mock Elections for schools mirror the excitement and buzz of a real election, raising awareness of citizenship, and the benefits of active democracy.""","[{""text"": ""michael raftery"", ""label"": ""BUSINESS""}]"
+"The litigation risks are real,"" said Credit Suisse First Boston analyst Vadim Mitroshin The dispute with the Russian authorities is partly driven by President Putin's clampdown on the political ambitions of ex-Yukos boss Mikhail Khodorkovsky.","[{""text"": ""va"", ""label"": ""BUSINESS""}, {""text"": ""##dim mitroshin"", ""label"": ""BUSINESS""}, {""text"": ""putin"", ""label"": ""POLITICIAN""}, {""text"": ""mikhail khodorkovsky"", ""label"": ""BUSINESS""}]"
+"Rather than confronting the issue of reporter's privilege head-on, Apple is going to the journalist's ISPs for his e-mails,"" said EFF lawyer Kurt Opsahl. ""","[{""text"": ""kurt opsahl"", ""label"": ""PUBLIC""}]"
+"Apple also sent requested information from the Nfox.com, the internet service provider of PowerPage's publisher Jason O-Grady.","[{""text"": ""jason o - grady"", ""label"": ""BUSINESS""}]"
+"The EFF has gained some powerful allies in its legal battle with Apple, including Professor Tom Goldstein, former dean of the Journalism School at the University of California and Dan Gillmor, a well-known Silicon Valley journalist.","[{""text"": ""tom goldstein"", ""label"": ""AUTHOR""}, {""text"": ""dan gillmor"", ""label"": ""AUTHOR""}]"
+"We are seeing evidence that inflation is moving higher,"" said Ken Kim, an analyst at Stone & McCarthy Research. ""","[{""text"": ""ken kim"", ""label"": ""BUSINESS""}]"
+"High, the Rugby Football Union's referees' manager, claimed Kaplan made three major errors which changed the outcome of Sunday's match.","[{""text"": ""high"", ""label"": ""BUSINESS""}, {""text"": ""kaplan"", ""label"": ""ATHLETE""}]"
+"Mutu, 25, sacked by Chelsea and banned for seven months for taking cocaine, is now represented by Alessandro Moggi, son of Juve manager Luciano Moggi.","[{""text"": ""mutu"", ""label"": ""ATHLETE""}, {""text"": ""alessandro moggi"", ""label"": ""BUSINESS""}, {""text"": ""luciano moggi"", ""label"": ""BUSINESS""}]"
+"Kel Coslett, who famously moved from Wales to league in the 1960s, is currently Saints' football manager, while Clive Griffiths - Wales' defensive coach - is a former St Helens player and is thought to be the man behind the latest initiative.","[{""text"": ""kel coslett"", ""label"": ""ATHLETE""}, {""text"": ""clive griffiths"", ""label"": ""ATHLETE""}]"
+"Our aim is not to rewrite the storyline of EastEnders but simply to ensure that the BBC is as accountable to parliament as any other organisation spending public money,"" said the committee chairman, MP Edward Leigh. ""","[{""text"": ""edward leigh"", ""label"": ""POLITICIAN""}]"
+The Sunday Times reported that hedge funds TCI and Atticus were planning to demand the removal of the group's chairman and chief executive.,"[{""text"": ""tc"", ""label"": ""BUSINESS""}, {""text"": ""attic"", ""label"": ""BUSINESS""}]"
+The Sunday Times reported that TCI had been drawing up a list of heavyweight executives to replace Deutsche's chairman Rolf Breuer and chief executive Werner Seifert.,"[{""text"": ""rolf breuer"", ""label"": ""BUSINESS""}, {""text"": ""werner seifert"", ""label"": ""BUSINESS""}]"
+BNP founding chairman John Tyndall was arrested on Sunday on the same charge.,"[{""text"": ""john tyndall"", ""label"": ""BUSINESS""}]"
+Yukos claims that the rights of its shareholders have been ignored and that is has been punished for the political ambitions of its founder Mikhail Khodorkovsky.,"[{""text"": ""mikhail khodorkovsky"", ""label"": ""BUSINESS""}]"
+"A former critic of the House of Lords, he has said he will use the Upper House to advocate its reform and to talk on issues like higher education. """,[]
+"As he assumes the title of Lord Kinnock, he has also become chairman of the British Council, which promotes the UK's reputation for arts, science and education.","[{""text"": ""kinnock"", ""label"": """"}]"
+"BBC political editor Andrew Marr said that Mr Brown's article was ""a warning shot"" to Mr Blair not to try and cut him out of the manifesto writing process. ""","[{""text"": ""andrew marr"", ""label"": ""AUTHOR""}, {""text"": ""brown"", ""label"": ""POLITICIAN""}, {""text"": ""blair"", ""label"": ""POLITICIAN""}]"
+"""Ultimately, we see RipGuard DVD... evolving beyond anti-piracy, and towards enablement of legitimate online transactions, interoperability in tomorrow's digital home, and the upcoming high-definition formats,"" said Steve Weinstein, executive vice president and general manager of Macrovision's Entertainment Technologies Group.","[{""text"": ""steve weinstein"", ""label"": ""BUSINESS""}]"
+"His lawyer Louise Christian said: ""'We are hoping to issue proceedings for the misfeasance of officials who colluded with the Americans in effectively kidnapping him and taking him to Guantanamo.""","[{""text"": ""louise christian"", ""label"": ""AUTHOR""}]"
+"Attacks are getting more diffuse and more sophisticated,"" said Malcolm Seagrave, security expert at Energis. ""","[{""text"": ""malcolm seagrave"", ""label"": ""AUTHOR""}]"
+Committee chairman Austin Mitchell said some way has to be found of harvesting mixed fisheries without wasting stocks.,"[{""text"": ""austin mitchell"", ""label"": ""BUSINESS""}]"
+"Our financial performance was strong, meeting or exceeding all of our full-year objectives and greatly enhancing our flexibility,"" chairman and chief executive Richard Parsons said.","[{""text"": ""richard parsons"", ""label"": ""BUSINESS""}]"
+"The company said it was unable to estimate the amount it needed to set aside for legal reserves, which it previously set at $500m. It intends to adjust the way it accounts for a deal with German music publisher Bertelsmann's purchase of a stake in AOL Europe, which it had reported as advertising revenue.","[{""text"": ""bertelsmann"", ""label"": ""BUSINESS""}]"
+"A Department for Work and Pensions spokeswoman said of Mr Smith's honour: ""The award reflects all that he has achieved in a Civil Service career, principally in the Inland Revenue, spanning over 40 years - not just his role as chief executive of the Child Support Agency.","[{""text"": ""smith"", ""label"": ""POLITICIAN""}]"
+"Former NatWest chief executive Mr Wanless, 57, has delivered not one but two major reports on the NHS.","[{""text"": ""wanless"", ""label"": ""BUSINESS""}]"
+"""The process has stopped by paying 50,000 euros,"" said Anton Winkler, spokesman for the Munich prosecutor.","[{""text"": ""anton winkler"", ""label"": ""BUSINESS""}]"
+"IHRC chairman Massoud Shadjareh accused Ms Blears of ""playing an Islamophobia card"" in the run-up to a general election.","[{""text"": ""massoud shadjareh"", ""label"": ""POLITICIAN""}, {""text"": ""blears"", ""label"": ""PUBLIC""}]"
+Public accounts committee chairman Edward Leigh was giving his reaction to a report by a government watchdog on lessons to be learnt from the crisis.,"[{""text"": ""edward leigh"", ""label"": ""POLITICIAN""}]"
+"However, all sides are anxious to avoid a major confrontation in the run up to the general election, said BBC labour affairs correspondent Stephen Cape.","[{""text"": ""stephen cape"", ""label"": ""AUTHOR""}]"
+"This would allow months of tough negotiations to follow, said our correspondent.",[]
+"Privately ministers believe this will be the ""less painful"" option, our correspondent added.",[]
+"Kenteris's lawyer, Gregory Ioannidis, said: ""The decision means Mr Kenteris has been exonerated of highly damaging and unfounded charges which have been extremely harmful for his career.","[{""text"": ""kent"", ""label"": ""AUTHOR""}, {""text"": ""gregory ioannidis"", ""label"": ""BUSINESS""}, {""text"": ""kenteris"", ""label"": ""BUSINESS""}]"
+"James Wareham, a lawyer representing one of the directors, told Reuters the 10 had agreed to pay those who lost billions when the firm collapsed.","[{""text"": ""james wareham"", ""label"": ""BUSINESS""}]"
+"But, a spokesman for the prosecutor, New York State Comptroller Alan Hevesi, said no formal agreement had been made.","[{""text"": ""alan hevesi"", ""label"": ""BUSINESS""}]"
+"""Directors very rarely pay,"" said Charles Elson, chairman of the Center for Corporate Governance at the University of Delaware.","[{""text"": ""charles elson"", ""label"": ""BUSINESS""}]"
+The company emerged from Chapter 11 protection last year and changed its name to MCI Inc. Former WorldCom chief executive Bernard Ebbers is to face trial this month on criminal charges that he oversaw the fraud.,"[{""text"": ""bernard ebbers"", ""label"": ""BUSINESS""}]"
+"Professor Angela MacFarlane, based at Bristol University, has spent several years researching how games can be incorporated into classrooms.","[{""text"": ""angela macfarlane"", ""label"": ""AUTHOR""}]"
+"John Woodward, chief executive of the UK Film Council, said it was ""extremely heartening"" to see British filmmaking talent recognised on the global stage. ""","[{""text"": ""john woodward"", ""label"": ""BUSINESS""}]"
+"Argonaut founder rebuilds empire
+
+Jez San, the man behind the Argonaut games group which went into administration a week ago, has bought back most of the company.","[{""text"": ""jez san"", ""label"": ""BUSINESS""}]"
+"The group's three subsidiaries were placed in administration a week ago, with Mr Sans resigning as the company's CEO and some 100 staff being fired.","[{""text"": ""sans"", ""label"": ""BUSINESS""}]"
+"On Tuesday Labour chairman Ian McCartney said his party was ""ambitious"" to improve black and Asian representation. ""","[{""text"": ""ian mccartney"", ""label"": ""POLITICIAN""}]"
+"Liverpool pledge to keep Gerrard
+
+Liverpool chief executive Rick Parry insists the club will never sell Steven Gerrard amid reports Chelsea will renew their bid to lure him from Anfield.","[{""text"": ""ge"", ""label"": ""ATHLETE""}, {""text"": ""rick parry"", ""label"": ""BUSINESS""}, {""text"": ""steven gerrard"", ""label"": ""ATHLETE""}]"
+"Reds manager Rafael Benitez believes Gerrard can win everything he wants to without moving clubs. ""","[{""text"": ""rafael benitez"", ""label"": ""ATHLETE""}, {""text"": ""gerrard"", ""label"": ""ATHLETE""}]"
+"Irish finish with home game
+
+Republic of Ireland manager Brian Kerr has been granted his wish for a home game as the final World Cup qualifier.","[{""text"": ""brian kerr"", ""label"": ""ATHLETE""}]"
+"Manager Brian Kerr and FAI officials met representatives from Switzerland, France, Cyprus, Israel and the Faroe Islands to arrange the fixture schedule.","[{""text"": ""brian kerr"", ""label"": ""ATHLETE""}]"
+The manager got his wish to avoid a repeat of finishing their bid to qualify with too many away matches.,[]
+"We are all getting more and more files on our desktop but the real commercial opportunity lies with linking this through to web content,"" said Julian Smith, an analyst with research firm Jupiter. ""","[{""text"": ""julian smith"", ""label"": ""BUSINESS""}]"
+"Alexander Linden, vice president of emerging technologies at analyst firm Gartner,downloaded the Google product but has since removed it. ""","[{""text"": ""alexander linden"", ""label"": ""BUSINESS""}]"
+"A new book, Brown's Britain by Sunday Telegraph journalist Robert Peston, says Mr Blair went back on a pledge to make way for Mr Brown after Cabinet allies intervened in June 2004.","[{""text"": ""robert peston"", ""label"": ""AUTHOR""}, {""text"": ""blair"", ""label"": ""POLITICIAN""}, {""text"": ""brown"", ""label"": ""POLITICIAN""}]"
+"Conservative co-chairman Liam Fox likened the two men to ""self-obsessed schoolboys"".","[{""text"": ""liam fox"", ""label"": ""POLITICIAN""}]"
+"Liberal Democrat parliamentary chairman Matthew Taylor said their personal ambition was ""getting in the way of good government"".","[{""text"": ""matthew taylor"", ""label"": ""POLITICIAN""}]"
+"LTA chief executive, John Crowther, added: ""The relationship that Jimmy's already started to develop with the coaches and the players has said to us that we'd like some more of it. ""","[{""text"": ""john crowther"", ""label"": ""BUSINESS""}, {""text"": ""jimmy"", ""label"": ""ATHLETE""}]"
+"Helen Sudell, editor of the IDS Pensions Service, said the rise in contributions was ""staggering"" and the highest ever recorded by IDS. ""","[{""text"": ""helen sudell"", ""label"": ""AUTHOR""}]"
+"Electronic Arts was named top publisher of the year, taking the crown from Nintendo which won in 2003.",[]
+A legal expert in the US speculated that Delta might be concerned that the fictional content on the blog may be linked back to the airline after the images were posted.,[]
+"Rory O' Neill, editor of union-backed Hazards magazine, which conducted the research, said: ""Giving union safety reps more rights in more workplaces is the ultimate win-win. ""","[{""text"": ""rory o ' neill"", ""label"": ""AUTHOR""}]"
+The image prompted concern from the editor of the Jewish Chronicle but Labour insists it is simply anti-Tory.,[]
+"Jewish Chronicle editor Ned Temko said there had been a mixed reaction to the first poster but e-mails from Jewish Chronicle readers showed deeper concern about the hypnotism image. ""","[{""text"": ""ned temko"", ""label"": ""AUTHOR""}]"
+On infected machines the virus tries to disable anti-virus and firewall software and opens up a backdoor on the PC to hand over control to the writer of the virus.,[]
+The prime minister and chancellor faced backbench discontent at Monday's meeting of the Parliamentary Labour Party over claims made in journalist Robert Peston's new book.,"[{""text"": ""robert peston"", ""label"": ""AUTHOR""}]"
+"Gervais and The Office co-writer Stephen Merchant received a special award for writing, presented by Noel Gallagher and Tom Stoppard.","[{""text"": ""gervais"", ""label"": ""ACTOR""}, {""text"": ""stephen merchant"", ""label"": ""AUTHOR""}, {""text"": ""noel gallagher"", ""label"": ""MUSICIAN""}, {""text"": ""tom stoppard"", ""label"": ""AUTHOR""}]"
+Mercedes' profits over the period compared unfavourably with 2003's 784m euro figure and were well below analyst expectations of 374m euros.,[]
+"While all these divisions are doing well the big worries continue to surround Mercedes-Benz,"" Michael Rabb, an analyst with Bank Sal Oppenheim, told Reuters.","[{""text"": ""michael rabb"", ""label"": ""BUSINESS""}, {""text"": ""oppen"", ""label"": """"}]"
+"After the ABC television program earlier this month, Jones' lawyer Richard Nicholls said: ""Marion has steadfastly maintained her position throughout: she has never, ever used performance-enhancing drugs. ""","[{""text"": ""jones"", ""label"": ""PUBLIC""}, {""text"": ""richard nicholls"", ""label"": ""PUBLIC""}, {""text"": ""marion"", ""label"": ""PUBLIC""}]"
+"Horak, Staniforth, Penney, Nordt, Bishop; Mapletoft, Edwards; Hatley, van der Walt, Hardwick; Kennedy, Casey; Gustard, Dawson, Murphy.","[{""text"": ""horak"", ""label"": ""PUBLIC""}, {""text"": ""staniforth"", ""label"": ""PUBLIC""}, {""text"": ""penney"", ""label"": ""PUBLIC""}, {""text"": ""mapletoft"", ""label"": ""PUBLIC""}, {""text"": ""edwards"", ""label"": ""PUBLIC""}, {""text"": ""hatley"", ""label"": ""PUBLIC""}, {""text"": ""van der walt"", ""label"": ""BUSINESS""}, {""text"": ""hardwick"", ""label"": ""PUBLIC""}, {""text"": ""kennedy"", ""label"": ""POLITICIAN""}, {""text"": ""casey"", ""label"": ""ACTOR""}, {""text"": ""gustard"", ""label"": ""ACTOR""}, {""text"": ""dawson"", ""label"": ""ACTOR""}, {""text"": ""murphy"", ""label"": ""ACTOR""}]"
+"New speculation about the state of their relationship was sparked by claims in Brown's Britain, by Sunday Telegraph journalist Robert Peston, which suggested Mr Blair went back on a pledge to make way for Mr Brown.","[{""text"": ""brown"", ""label"": ""POLITICIAN""}, {""text"": ""robert peston"", ""label"": ""AUTHOR""}, {""text"": ""blair"", ""label"": ""POLITICIAN""}, {""text"": ""brown"", ""label"": ""POLITICIAN""}]"
+"Yet aviation analyst Mike Powell of Dresdner Kleinwort Wasserstein says BA's estimated annual surcharge revenues - £160m - will still be way short of its additional fuel costs - a predicted extra £250m. Turnover for the quarter was up 4.3% to £1.97bn, further benefiting from a rise in cargo revenue.","[{""text"": ""mike powell"", ""label"": ""BUSINESS""}]"
+"Aviation analyst Nick Van den Brul of BNP Paribas described BA's latest quarterly results as ""pretty modest"". ""","[{""text"": ""nick van den brul"", ""label"": ""BUSINESS""}]"
+"For your money you get a 1.8GHz AMD Sempron processor, 512MB of Ram, 120GB hard drive, DVD writer, 16-inch monitor, mouse, keyboard and Windows XP2
+
+Much more than the basics.",[]
+"Nick Ross, deputy labs editor at PC Pro, said the important point about buying a cheap and cheerful PC is the upgrade path.","[{""text"": ""nick ross"", ""label"": ""BUSINESS""}]"
+"A surprisingly good PC sporting an AMD Athlon XP 2500 processor, 512 megabytes Ram, a graphics card with 128 Ram on board plus TV out, a 40 GB hard drive, CD-writer and DVD player, Windows XP Home.",[]
+"Labour's Mr Livingstone, who says he is ""standing by"" his remarks, had accused an Evening Standard journalist of being like a ""concentration camp guard"".","[{""text"": ""livingstone"", ""label"": ""POLITICIAN""}]"
+Organisers said the rising popularity of documentary films led them to honour a writer for a documentary screenplay for the first time.,[]
+"Elliott Wilson, editor-in-chief of hip-hop magazine XXL, said the feud would boost publicity for 50 Cent's release. ""","[{""text"": ""elliott wilson"", ""label"": ""BUSINESS""}, {""text"": ""50 cent"", ""label"": ""MUSICIAN""}]"
+"In many ways the different DRM systems are akin to the different physical formats, such as Betamax and VHS, that consumers have seen in the past,"" said Ian Fogg, personal technology and broadband analyst at Jupiter Research. ""","[{""text"": ""ian fogg"", ""label"": ""BUSINESS""}]"
+"Shelley Taylor, analyst and author of a report about online music services, said the locks and limits on digital files were done to maximise the cash that firms can make from consumers.","[{""text"": ""shelley taylor"", ""label"": ""AUTHOR""}]"
+"Clearly the Chinese are trying to get some leverage [in Russia],"" said Dmitry Lukashov, an analyst at brokerage Aton. ""","[{""text"": ""dmitry lukashov"", ""label"": ""BUSINESS""}]"
+"John Peel replacement show begins
+
+The permanent replacement for late DJ John Peel's BBC Radio 1 show goes on air on Tuesday, with three hosts chosen to fill the legendary presenter's slot.","[{""text"": ""john peel"", ""label"": ""MUSICIAN""}, {""text"": ""john peel"", ""label"": ""MUSICIAN""}]"
+"Its protagonist is a Harvard professor likened to a contemporary Indiana Jones, who also appeared in Brown's first book Angels and Demons.","[{""text"": ""indiana jones"", ""label"": ""PUBLIC""}, {""text"": ""brown"", ""label"": ""AUTHOR""}]"
+"The last thing they need is additional production capacity in Europe,"" said Patrick Juchemich, auto analyst at Sal Oppenheim Bank.","[{""text"": ""patrick juchemich"", ""label"": ""BUSINESS""}]"
+Blackground Records' lawyer Frank Penski said he had yet to examine the decision and did not know whether they would pursue the case.,"[{""text"": ""frank penski"", ""label"": ""BUSINESS""}]"
+"Former British TV presenter Andrea Arnold, who hosted children's shows Motormouth and Number 73 in the 1980s, won best short film for Wasp.","[{""text"": ""andrea arnold"", ""label"": ""ACTOR""}]"
+"Fidelis Nanga, a journalist based in the Cameroon capital Yaounde, said the government was considering taking criminal action against those found guilty and forcing them to repay any money owed. ""","[{""text"": ""fide"", ""label"": ""AUTHOR""}, {""text"": ""##lis nanga"", ""label"": ""AUTHOR""}]"
+"It would allow people to give somebody the power of attorney to make decisions on their behalf, which could be challenged by doctors.",[]
+"The athletes' lawyer Grigoris Ioanidis said he believed the independent disciplinary committee set up by the Greek Athletics Federation (SEGAS) would find them innocent. ""","[{""text"": ""grigo"", ""label"": ""BUSINESS""}, {""text"": ""##ris ioanidis"", ""label"": ""BUSINESS""}]"
+The author of one such article began a petition drive against the use of the ink.,[]
+Marsh is also the focus of an inquiry the New York attorney-general into whether insurers rigged the market.,"[{""text"": ""marsh"", ""label"": ""PUBLIC""}]"
+Mr Spitzer has built up a reputation as a fierce critic and campaigner against corporate America's misdeeds.,"[{""text"": ""spitzer"", ""label"": ""POLITICIAN""}]"
+The figures echo similar research from net analyst WebSideStory which suggested that IE had 92.9% of users in October compared to 95.5% in June.,[]
+"The band have done ""everything in their considerable powers"" to ensure they remain the biggest band in the world, according to Q magazine editor Paul Rees.","[{""text"": ""paul rees"", ""label"": ""AUTHOR""}]"
+"Cross-selling opportunities between banks and brokers are increasing thanks to deregulation, so we can expect the relationship to get even stronger,"" said Heronry Nozaki, an analyst at NikkoCitigroup.","[{""text"": ""heronry nozaki"", ""label"": ""BUSINESS""}]"
+"A lot of this is driven by just the ability to do it,"" said Stephen Baker, a consumer electronics analyst with retail research firm NPD Group. ""","[{""text"": ""stephen baker"", ""label"": ""BUSINESS""}]"
+"Claude Errera, editor of fansite Halo.","[{""text"": ""claude errera"", ""label"": ""ACTOR""}]"
+"Children in the UK between the ages of 10 and 17 had an annual income of £775, said market analyst Datamonitor.",[]
+"The magazine's music editor Mark Robertson said: ""The idea behind the project was simple - to rediscover the very best of Scottish music, from the finest musical talent spanning from the age of 70s rock through to 80s pop, right up to today's international stars."" ""","[{""text"": ""mark robertson"", ""label"": ""BUSINESS""}]"
+"BBC Radio Scotland presenter Vic Galloway, who has been involved in the project, said it had been ""great fun"" to look back at Scotland's musical heritage and take note of up-and-coming Scottish acts.","[{""text"": ""vic galloway"", ""label"": ""ACTOR""}]"
+"Following Mr Straw's announcement, lawyer Louise Christian, who represents Mr Abbasi and Mr Mubanga, said the government should have acted sooner.","[{""text"": ""straw"", ""label"": ""POLITICIAN""}, {""text"": ""louise christian"", ""label"": ""PUBLIC""}, {""text"": ""abbasi"", ""label"": ""POLITICIAN""}, {""text"": ""mubanga"", ""label"": ""POLITICIAN""}]"
+"Prosecuting attorney Carol Lam said: ""All US companies should take note that attempting to bribe foreign officials is criminal conduct and will be appropriately prosecuted.""","[{""text"": ""carol lam"", ""label"": ""BUSINESS""}]"
+"The feminist writer and broadcaster said Big Brother had behaved ""like a child rather than a parent"" by taunting contestant John McCririck after denying him a cola drink. ""","[{""text"": ""john mccririck"", ""label"": ""PUBLIC""}]"
+"The idea of a ""civic commons"" was originally proposed by Stephen Coleman, professor of e-democracy at the Oxford Internet Institute.","[{""text"": ""stephen coleman"", ""label"": ""AUTHOR""}]"
+"The citizen can be arrested and held without charge or trial, not even on the careful consideration of an experienced judge, but the whim of a political activist called a government minister.",[]
+"There are common musical elements linking nearly all the big Christmas number ones of recent times,"" said editor David Roberts.","[{""text"": ""david roberts"", ""label"": ""AUTHOR""}]"
+"A senior defence official, speaking to the BBC's defence correspondent Paul Adams, said that although the figures were still not good enough, the report reflected unrealistic expectations early on in the project cycle.","[{""text"": ""paul adams"", ""label"": ""AUTHOR""}]"
+"The latest findings follow a string of critical reports issued within the last 12 months, and, according to our correspondent, contain few new surprises.",[]
+"Our correspondent said it was the same projects, including the Joint Strike Fighter, the Nimrod and A400M aircraft and the Type 45 Destroyer, which were resonsible for the bulk of the cost over-runs and delay.",[]
+Professor Etzioni was a senior adviser to President Carter's White House and is the guru behind communitarian ideas which influenced the development of Blairite Third Way politics.,"[{""text"": ""etzioni"", ""label"": ""PUBLIC""}, {""text"": ""carter"", ""label"": ""POLITICIAN""}, {""text"": ""blair"", ""label"": ""POLITICIAN""}]"
+"So far, we are faring better than expected, but the results are still split,"" Ken Perkins, an analyst at research firm RetailMetrics LLC, told Associated Press. ""","[{""text"": ""ken perkins"", ""label"": ""BUSINESS""}]"
+"Malcolm Seagrave, security expert at Energis, said the most common types of attacks hit sites with 10 megabytes of data over short periods of time.","[{""text"": ""malcolm seagrave"", ""label"": ""AUTHOR""}]"
+"Jarre joins fairytale celebration
+
+French musician Jean-Michel Jarre is to perform at a concert in Copenhagen to mark the bicentennial of the birth of writer Hans Christian Andersen.","[{""text"": ""jarre"", ""label"": ""MUSICIAN""}, {""text"": ""jean - michel jarre"", ""label"": ""MUSICIAN""}, {""text"": ""hans christian andersen"", ""label"": ""AUTHOR""}]"
+"Denmark is holding a three-day celebration of the life of the fairy-tale author, with a concert at Parken stadium on 2 April.",[]
+"The pair were at a Manhattan library to honour US literary critic Harold Bloom ""the international icon we thought we knew so well"".","[{""text"": ""harold bloom"", ""label"": ""AUTHOR""}]"
+"His film was highly critical of President George W Bush and the US-led invasion of Iraq, and Moore was an outspoken Bush critic in the 2004 presidential campaign inwhich Democratic challenger John Kerry lost.","[{""text"": ""george w bush"", ""label"": ""POLITICIAN""}, {""text"": ""moore"", ""label"": ""ACTOR""}, {""text"": ""bush"", ""label"": ""POLITICIAN""}, {""text"": ""john kerry"", ""label"": ""POLITICIAN""}]"
+"A panel of judges including Sir Trevor McDonald, actor Hugh Grant and writer Joanne Harris will meet up on 25 January to decide the overall winner, with the announcement being made later that evening.","[{""text"": ""trevor mcdonald"", ""label"": ""ACTOR""}, {""text"": ""hugh grant"", ""label"": ""ACTOR""}, {""text"": ""joanne harris"", ""label"": ""ACTOR""}]"
+"As a relatively unknown author this award will give her exposure to a wider and mass audience that she may not have reached and is a perfect example of the influence of the Whitbread. """,[]
+"He is a fellow at Clare College, Cambridge and became a honorary research professor of the University of St Andrews in 2003.",[]
+"Scotsman journalist Hamish MacDonell said he believed the bigger picture had been ""obscured"" by the remark.","[{""text"": ""hamish macdonell"", ""label"": ""AUTHOR""}]"
+"Mr MacDonell, political editor of The Scotsman, said: ""I think we have to say right at the outset that this was a very stupid and ill-advised remark by the first minister. ""","[{""text"": ""macdonell"", ""label"": ""AUTHOR""}]"
+"There is a whiff of a sweetener in there,"" Anais Faraj, an analyst at Nomura told the BBC's World Business Report. ""","[{""text"": ""anais faraj"", ""label"": ""PUBLIC""}]"
+"That was up from the third quarter, when it fell 3.0%, but was well below analyst forecasts. """,[]
+"A lawyer for the victims, Eduardo Contreras, told Reuters news agency: ""This demonstrates that the horrors of the Pinochet dictatorship are not a mystery to anyone and that the whole world knows his victims deserve reparations.""","[{""text"": ""eduardo contreras"", ""label"": ""AUTHOR""}]"
+"The possibility of carrying out this project is next to zero,"" said Atinc Ozkan, analyst at Finans Investment in Istanbul.","[{""text"": ""atinc ozkan"", ""label"": ""BUSINESS""}]"
+"It is a positive development for carriers and the investment community, looking to take a longer-term view of the huge growth in the Indian telecoms market,"" said Gartner's principal analyst Kobita Desai. ""","[{""text"": ""gartner"", ""label"": ""BUSINESS""}, {""text"": ""kobita desai"", ""label"": ""BUSINESS""}]"
+"""It was a respectable report,"" said Michael Moran, analyst at Daiwa Securities.","[{""text"": ""michael moran"", ""label"": ""BUSINESS""}]"
+"Arthur Hailey: King of the bestsellers
+
+Novelist Arthur Hailey, who has died at the age of 84, was known for his bestselling page-turners exploring the inner workings of various industries, from the hotels to high finance.","[{""text"": ""arthur hailey"", ""label"": ""AUTHOR""}, {""text"": ""arthur hailey"", ""label"": ""AUTHOR""}]"
+"He wanted to be a writer from an early age, but did not take it up professionally until his mid-thirties, when he was inspired to write his first screenplay while on a return flight to Toronto.",[]
+"The writer was known for his painstaking research into the professions around which each novel was centred, drawing his characters ""from real life"" and taking up to three years to produce each book. """,[]
+"Learning to love broadband
+
+We are reaching the point where broadband is a central part of daily life, at least for some, argues technology analyst Bill Thompson.","[{""text"": ""bill thompson"", ""label"": ""AUTHOR""}]"
+One of the nice things about being a writer is that I rarely have to go to an office to work.,[]
+"But Louise Christian, the lawyer representing Mr Abbasi and Mr Mubanga, said the families would be reunited with the men away from the station.","[{""text"": ""louise christian"", ""label"": ""PUBLIC""}, {""text"": ""abbasi"", ""label"": ""POLITICIAN""}, {""text"": ""mubanga"", ""label"": ""POLITICIAN""}]"
+"Gareth Peirce, lawyer for Mr Begg, said she was shocked at the condition of the men and appalled that the authorities felt the need to detain them.","[{""text"": ""gareth peirce"", ""label"": ""PUBLIC""}, {""text"": ""begg"", ""label"": ""PUBLIC""}]"
+"G Money, a presenter on the BBC's urban music station 1Xtra, thinks a hiatus is inevitable after such a sustained period of exposure - giving the band time to think about other interests. ""","[{""text"": ""g money"", ""label"": ""MUSICIAN""}]"
+"Davis, whose 65-year career included credits as a producer, director, actor and writer for stage and screen, was also a civil rights activist.","[{""text"": ""davis"", ""label"": ""ACTOR""}]"
+"The American forensics expert said there were roughly 200,000-300,000 backlogged DNA samples in US labs.",[]
+"Ring of Fire hit co-writer dies
+
+Merle Kilgore, co-writer of the country hit Ring of Fire, has died of congestive heart failure aged 70.","[{""text"": ""merle kilgore"", ""label"": ""AUTHOR""}]"
+"According to the Financial Times' China correspondent, the new rules highlight the political sensitivities that surround foreign involvement in China's media sector.",[]
+"On Tuesday, the company's administrator, turnaround expert Enrico Bondi, sued Morgan Stanley, its former banker, to return 136m euros relating to a 2003 bond deal.","[{""text"": ""enrico bondi"", ""label"": ""BUSINESS""}, {""text"": ""morgan"", ""label"": ""BUSINESS""}]"
+"Rob Fahey, editor of online news site gamesindustry.biz, said the mass banning showed off the power of the Steam system.","[{""text"": ""rob fahey"", ""label"": ""BUSINESS""}]"
+"Lawyer attacks anti-terror laws
+
+A senior barrister who has resigned in protest over the government's anti-terror laws says the current system is giving Britain a bad name.",[]
+The Attorney General Lord Goldsmith will receive a letter of resignation from Mr MacDonald on Monday.,"[{""text"": ""lord goldsmith"", ""label"": ""POLITICIAN""}, {""text"": ""macdonald"", ""label"": ""POLITICIAN""}]"
+"Helena Kennedy, a Labour peer and a human rights lawyer, said the Special Advocates' main concern was that once they had seen any special intelligence they were not allowed to speak to the detainees. ""","[{""text"": ""helena kennedy"", ""label"": ""POLITICIAN""}]"
+"The book by Sunday Telegraph journalist Robert Peston said the pair had ""mutual animosity and contempt"" for each other.","[{""text"": ""robert peston"", ""label"": ""AUTHOR""}]"
+"The author's sources, all unnamed ""allies"" of Mr Blair and Mr Brown, said the prime minister felt the Iraq war had undermined him and that he was no longer an asset to the Labour Party.","[{""text"": ""blair"", ""label"": ""POLITICIAN""}, {""text"": ""brown"", ""label"": ""POLITICIAN""}]"
+"Carol Walker, BBC News 24 political correspondent, added: ""There is a real concern that this could undermine the general election campaign. ""","[{""text"": ""carol walker"", ""label"": ""AUTHOR""}]"
+"Dan Jolin, reviews editor of Empire magazine, says classic children's TV shows have a built-in audience that make them ideal for reinvention.","[{""text"": ""dan jolin"", ""label"": ""AUTHOR""}]"
+"With only 13 episodes made of the 1974 series, there is plenty of room to explore the lives of the pink cat, Professor Yaffle and the Mice of the Marvellous Mechanical Mouse Organ.","[{""text"": ""yaffle"", ""label"": ""PUBLIC""}]"
+If they got a decent producer and writer the story line could be great.,[]
+"Cell could also be marketed as an ideal technology for televisions and supercomputers, and everything in between, said Kevin Krewell, the editor in chief of Microprocessor Report.","[{""text"": ""kevin krewell"", ""label"": ""BUSINESS""}]"
+"Few games have hinted at the scope of Spore, but Mr Wright explained that he has nevertheless kept his development team small by hiring expert programmers.","[{""text"": ""wright"", ""label"": ""BUSINESS""}]"
+Owain Bennallack is the editor of Develop magazine.,"[{""text"": ""owain bennallack"", ""label"": ""BUSINESS""}]"
+"Mr Sigarchi's lawyer labelled the revolutionary court ""illegal and incompetent"" and called for a retrial in a public court.","[{""text"": ""sigarchi"", ""label"": ""BUSINESS""}]"
+"Other stars who turned out on the night included Honor Blackman, Strictly Come Dancing presenter Tess Daly and actress Anita Dobson.","[{""text"": ""honor blackman"", ""label"": ""ACTOR""}, {""text"": ""tess daly"", ""label"": ""ACTOR""}, {""text"": ""anita dobson"", ""label"": ""ACTOR""}]"
+"Twelve months ago high speed internet users made up just over one third of the audience in Europe; now they are more than 50% and we expect this number to keep growing,"" said Gabrielle Prior, Nielsen/NetRatings analyst. ""","[{""text"": ""gabrielle prior"", ""label"": ""AUTHOR""}]"
+"Year-on-year we are continuing to see a seismic shift in where, when and how Europe's population consume media for information and entertainment and this has big implications for TV, newspaper and radio,"" said Jupiter Research analyst Olivier Beauvillian.","[{""text"": ""olivier beauvillian"", ""label"": ""PUBLIC""}]"
+"The primary factor is the weak dollar,"" said Victor Shum, a Singapore-based analyst with Purvin and Gertz.","[{""text"": ""victor shum"", ""label"": ""BUSINESS""}, {""text"": ""pu"", ""label"": ""BUSINESS""}, {""text"": ""gertz"", ""label"": ""BUSINESS""}]"
+"BBC political correspondent Mark Mardell said Britishness had long been a theme of the chancellor's but ""never before has he been so outspoken in defending Britain's past history"".","[{""text"": ""mark mardell"", ""label"": ""AUTHOR""}]"
+"Halloween writer Debra Hill dies
+
+Screenwriter and producer Debra Hill, best known for her work on the 70s horror classic Halloween, has died in Los Angeles aged 54.","[{""text"": ""debra hill"", ""label"": ""AUTHOR""}, {""text"": ""debra hill"", ""label"": ""AUTHOR""}]"
+"I was never assumed to be the writer or producer."" """,[]
+"Downing Street has denied the claims, made in a new book about the Attorney General Lord Goldsmith's advice.","[{""text"": ""downing"", ""label"": ""POLITICIAN""}, {""text"": ""lord goldsmith"", ""label"": ""POLITICIAN""}]"
+But the Conservatives and Liberal Democrats say they want the publication of the full legal advice given by the Attorney General.,[]
+"In his new book, Lawless World, Philippe Sands, a QC and international law professor, suggests the parliamentary answer was written in Downing Street.","[{""text"": ""philippe sands"", ""label"": ""PUBLIC""}]"
+"Tory leader Michael Howard reiterated calls for the publication of the full legal advice given by the Attorney General, warning: ""This issue will not go away."" ""","[{""text"": ""michael howard"", ""label"": ""POLITICIAN""}]"
+"The prime minister's official spokesman also rejected the claims, saying: ""The attorney general made it clear the words and the judgement were his.""",[]
+"This would be wrong even if Lord Goldsmith had signed the statement, Mr Cook said, because the attorney general's advice should be an ""independent legal opinion"", not subject to ""political negotiation of this kind"".","[{""text"": ""lord goldsmith"", ""label"": ""POLITICIAN""}, {""text"": ""cook"", ""label"": ""POLITICIAN""}]"
+"Simon Perry is the editor of the Digital Lifestyles website, which covers the impact of technology on media","[{""text"": ""simon perry"", ""label"": ""BUSINESS""}]"
+"Black Friday is based upon the novel of the same name written by journalist S Hussain Zaidi, which looks at the 15 explosions which rocked Mumbai on 12 March 1993.","[{""text"": ""s hussain zaidi"", ""label"": ""AUTHOR""}]"
+Mr Kashyap's lawyer Mihir Desai said.,"[{""text"": ""kashya"", ""label"": ""BUSINESS""}, {""text"": ""mihir desai"", ""label"": ""BUSINESS""}]"
+"Their lawyer, Majeed Memon, said: ""We had argued that how can a film say it is telling the true story when the court itself is struggling to find the truth? ""","[{""text"": ""majeed memon"", ""label"": ""PUBLIC""}]"
+"""A lot of us in politics get angry with journalists from time to time, but in the circumstances, and to the journalist because he was a Jewish journalist, yes, he should apologise,"" he said. """,[]
+"On tape, Mr Livingstone, who once worked as a freelance restaurant critic on the paper, is heard asking Mr Finegold if he is a ""German war criminal"".","[{""text"": ""livingstone"", ""label"": ""POLITICIAN""}, {""text"": ""finegold"", ""label"": ""AUTHOR""}]"
+Napier's lawyer Tony Kelly believes the action will soon be followed by others.,"[{""text"": ""napier"", ""label"": ""PUBLIC""}, {""text"": ""tony kelly"", ""label"": ""PUBLIC""}]"
+"""The story of the PSP is it's not a gaming device as much as it is a portable entertainment device,"" said Michael Pachter, analyst at Wedbush Morgan Securities.","[{""text"": ""michael pachter"", ""label"": ""BUSINESS""}]"
+"Almost every independent expert says if you get another Labour government you are going to have to pay higher taxes,"" Mr Howard insisted. ""","[{""text"": ""howard"", ""label"": ""POLITICIAN""}]"
+"Mr Tanzi, 66, issued a statement through his lawyer after five hours of questioning by prosecutors in Parma on 15 January.","[{""text"": ""tanzi"", ""label"": ""BUSINESS""}]"
+"Paul Richards, an analyst at Numis Securities, said the market would be focusing on the slump in music sales rather than the timing of the two albums. ""","[{""text"": ""paul richards"", ""label"": ""BUSINESS""}]"
+"Dominic Carman - son of late libel lawyer George Carman - was voted through to the final 25, on a platform of cutting defence spending to boost education.","[{""text"": ""dominic carman"", ""label"": ""PUBLIC""}, {""text"": ""george carman"", ""label"": ""AUTHOR""}]"
+"Tory expert denies defeatism
+
+The Conservatives' campaign director has denied a report claiming he warned Michael Howard the party could not win the next general election.","[{""text"": ""michael howard"", ""label"": ""POLITICIAN""}]"
+"The authorities in the US, who have indicted 19 people in Newark, New Jersey, estimate the fraud caused losses of more than $4m. Assistant US Attorney Scott Christie said several people had been arrested in Argentina, Bulgaria, Canada, Estonia, Poland and Sweden.","[{""text"": ""scott christie"", ""label"": ""BUSINESS""}]"
+"He's been successful ripping people off all these years,"" AP quoted prosecutor Russell McGuire as saying.","[{""text"": ""russell mcguire"", ""label"": ""PUBLIC""}]"
+"Jaynes was also found guilty of breaking a state law which prohibits the sending of more than 100,000 e-mails in 30 days, Virginia State Attorney General Jerry Kilgore reportedly said.","[{""text"": ""jaynes"", ""label"": ""BUSINESS""}, {""text"": ""jerry kilgore"", ""label"": ""POLITICIAN""}]"
+"But Jaynes' lawyer David Oblon called the nine-year recommended term ""outrageous"" and said his client believed he was innocent.","[{""text"": ""jayne"", ""label"": ""PUBLIC""}, {""text"": ""david oblon"", ""label"": ""PUBLIC""}]"
+"Cosby's lawyer, Walter M Phillips Jr, said the comedian was pleased with the decision. ""","[{""text"": ""cosby"", ""label"": ""ACTOR""}, {""text"": ""walter m phillips jr"", ""label"": ""ACTOR""}]"
+"District Attorney Bruce L Castor Jr, who was in charge of the case, said that detectives could find no instance ""where anyone complained to law enforcement of conduct which would constitute a criminal offence.","[{""text"": ""bruce l castor jr"", ""label"": ""BUSINESS""}]"
+"The unidentified woman's lawyer, Dolores M Troiani, said her client was likely to sue the comedian. ""","[{""text"": ""dolores m troiani"", ""label"": ""AUTHOR""}]"
+"Every activist I spoke to said they were proud of what they believed Labour had achieved in their local communities - the new hospitals and schools, the better life chances for young people.",[]

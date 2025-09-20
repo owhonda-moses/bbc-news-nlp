@@ -1,0 +1,2126 @@
+{
+    "sport_219.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Louis Agyemang", "label": "ATHLETE"},
+            {"text": "Ben Don Bortey", "label": "ATHLETE"},
+            {"text": "Boukar Makaji", "label": "ATHLETE"},
+            {"text": "Andre Nzame III", "label": "ATHLETE"},
+            {"text": "Kemadjou", "label": "ATHLETE"},
+            {"text": "Thokozani Xaba", "label": "ATHLETE"},
+            {"text": "Bernard Ngom", "label": "ATHLETE"},
+            {"text": "Ernest Nfor", "label": "ATHLETE"},
+            {"text": "Ruben Cloete", "label": "ATHLETE"}
+        ]
+    },
+    "business_317.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Alan Jones", "label": "PUBLIC-FIGURE"},
+            {"text": "Jon Walton", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Annie Walker", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_226.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "John Redwood", "label": "POLITICIAN"},
+            {"text": "Blair", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_367.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Martin Johnson", "label": "ATHLETE"},
+            {"text": "Sir Clive Woodward", "label": "ATHLETE"},
+            {"text": "Jonah Lomu", "label": "ATHLETE"}
+        ]
+    },
+    "tech_161.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Ian Pearson", "label": "AUTHOR-WRITER"},
+            {"text": "Baroness Susan Greenfield", "label": "PUBLIC-FIGURE"},
+            {"text": "Baroness Greenfield", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_052.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Spike Lee", "label": "ACTOR-DIRECTOR"},
+            {"text": "Denzel (Washington)", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_215.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "William Donaldson", "label": "POLITICIAN"},
+            {"text": "Digby Jones", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_312.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Will Smith", "label": "ACTOR-DIRECTOR"},
+            {"text": "Tyler Perry", "label": "ACTOR-DIRECTOR"},
+            {"text": "Keanu Reeves", "label": "ACTOR-DIRECTOR"},
+            {"text": "Wes Craven", "label": "ACTOR-DIRECTOR"},
+            {"text": "Tommy Lee Jones", "label": "ACTOR-DIRECTOR"},
+            {"text": "Clint Eastwood", "label": "ACTOR-DIRECTOR"},
+            {"text": "Martin Scorsese", "label": "ACTOR-DIRECTOR"},
+            {"text": "Kimberly Elise", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_025.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Mikhail Khodorkovsky", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Letitia Clark", "label": "PUBLIC-FIGURE"},
+            {"text": "Bruce Misamore", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steven Theede", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_375.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Charles Kennedy", "label": "POLITICIAN"},
+            {"text": "Andrew Marr", "label": "AUTHOR-WRITER"},
+            {"text": "Queen Mother", "label": "PUBLIC-FIGURE"},
+            {"text": "Queen", "label": "PUBLIC-FIGURE"},
+            {"text": "Gershon", "label": "PUBLIC-FIGURE"},
+            {"text": "Alex Salmond", "label": "POLITICIAN"},
+            {"text": "Simon Thomas", "label": "POLITICIAN"},
+            {"text": "Roger Knapman", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_449.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Tim Henman", "label": "ATHLETE"},
+            {"text": "Chris Bailey", "label": "ATHLETE"},
+            {"text": "Greg Rusedski", "label": "ATHLETE"},
+            {"text": "Jeremy Bates", "label": "ATHLETE"},
+            {"text": "Alex Bogdanovic", "label": "ATHLETE"},
+            {"text": "Andrew Murray", "label": "ATHLETE"},
+            {"text": "Arvind Parmar", "label": "ATHLETE"}
+        ]
+    },
+    "politics_167.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "John Prescott", "label": "POLITICIAN"},
+            {"text": "Richard Black", "label": "AUTHOR-WRITER"},
+            {"text": "Peter Ainsworth", "label": "POLITICIAN"},
+            {"text": "Barker", "label": "PUBLIC-FIGURE"},
+            {"text": "Caroline Spelman", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_022.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Charles Clarke", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_235.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Arsene Wenger", "label": "ATHLETE"},
+            {"text": "Sir Alex Ferguson", "label": "ATHLETE"},
+            {"text": "David Gill", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "David Dein", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Ruud van Nistelrooy", "label": "ATHLETE"},
+            {"text": "Ashley Cole", "label": "ATHLETE"}
+        ]
+    },
+    "sport_267.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "John Robertson", "label": "ATHLETE"}
+        ]
+    },
+    "sport_333.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Tom Shanklin", "label": "ATHLETE"},
+            {"text": "Sonny Parker", "label": "ATHLETE"},
+            {"text": "Mathew Tait", "label": "ATHLETE"},
+            {"text": "Hal Luscombe", "label": "ATHLETE"},
+            {"text": "Mefin Davies", "label": "ATHLETE"},
+            {"text": "Martyn Williams", "label": "ATHLETE"},
+            {"text": "Rob Sidoli", "label": "ATHLETE"},
+            {"text": "Gareth Llewellyn", "label": "ATHLETE"},
+            {"text": "Robin McBryde", "label": "ATHLETE"},
+            {"text": "Colin Charvis", "label": "ATHLETE"},
+            {"text": "Lewis Moody", "label": "ATHLETE"},
+            {"text": "Joe Worsley", "label": "ATHLETE"},
+            {"text": "Andy Hazell", "label": "ATHLETE"},
+            {"text": "Richard Hill", "label": "ATHLETE"},
+            {"text": "Neil Back", "label": "ATHLETE"},
+            {"text": "Lawrence Dallaglio", "label": "ATHLETE"},
+            {"text": "Kevin Morgan", "label": "ATHLETE"},
+            {"text": "John Yapp", "label": "ATHLETE"},
+            {"text": "G Thomas", "label": "ATHLETE"},
+            {"text": "H Luscombe", "label": "ATHLETE"},
+            {"text": "T Shanklin", "label": "ATHLETE"},
+            {"text": "G Henson", "label": "ATHLETE"},
+            {"text": "S Williams", "label": "ATHLETE"},
+            {"text": "S Jones", "label": "ATHLETE"},
+            {"text": "D Peel", "label": "ATHLETE"},
+            {"text": "G Jenkins", "label": "ATHLETE"},
+            {"text": "A Jones", "label": "ATHLETE"},
+            {"text": "B Cockbain", "label": "ATHLETE"},
+            {"text": "R Sidoli", "label": "ATHLETE"},
+            {"text": "D Jones", "label": "ATHLETE"},
+            {"text": "M Williams", "label": "ATHLETE"},
+            {"text": "M Owen", "label": "ATHLETE"},
+            {"text": "R McBryde", "label": "ATHLETE"},
+            {"text": "J Yapp", "label": "ATHLETE"},
+            {"text": "J Thomas", "label": "ATHLETE"},
+            {"text": "R Jones", "label": "ATHLETE"},
+            {"text": "G Cooper", "label": "ATHLETE"},
+            {"text": "C Sweeney", "label": "ATHLETE"},
+            {"text": "K Morgan", "label": "ATHLETE"}
+        ]
+    },
+    "sport_185.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Sam Allardyce", "label": "ATHLETE"},
+            {"text": "Vincent Candela", "label": "ATHLETE"},
+            {"text": "Nicky Hunt", "label": "ATHLETE"},
+            {"text": "Luigi del Neri", "label": "ATHLETE"}
+        ]
+    },
+    "politics_215.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Des Browne", "label": "POLITICIAN"},
+            {"text": "Rhian Beynon", "label": "PUBLIC-FIGURE"},
+            {"text": "Samuel Amoah", "label": "PUBLIC-FIGURE"},
+            {"text": "Mark Rimmer", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "politics_079.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Sam Younger", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_435.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Robert Oatley", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Sandy Oatley", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Shawn Burns", "label": "PUBLIC-FIGURE"},
+            {"text": "Robert Mondavi", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Matt Williams", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_196.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Ricky Gervais", "label": "ACTOR-DIRECTOR"},
+            {"text": "Matt Groening", "label": "AUTHOR-WRITER"},
+            {"text": "David", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_439.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Stefan Schilbe", "label": "PUBLIC-FIGURE"},
+            {"text": "Gerhard Schroeder", "label": "POLITICIAN"}
+        ]
+    },
+    "entertainment_255.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Tom Meighan", "label": "MUSICIAN"},
+            {"text": "Sergio Pizzorno", "label": "MUSICIAN"},
+            {"text": "Chris Edwards", "label": "MUSICIAN"},
+            {"text": "Christopher Karloff", "label": "MUSICIAN"},
+            {"text": "Linda Kasabian", "label": "PUBLIC-FIGURE"},
+            {"text": "Charles Manson", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_382.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Jeremy Flynn", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Andrew Bud", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Christian Harris", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_231.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Hugo Chavez", "label": "POLITICIAN"},
+            {"text": "Victor Alvarez", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_059.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Thomas Husson", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "tech_332.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Mike McGuire", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_132.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Brian Kerr", "label": "ATHLETE"}
+        ]
+    },
+    "politics_377.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tessa Jowell", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_031.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "David Blunkett", "label": "POLITICIAN"},
+            {"text": "David Davis", "label": "POLITICIAN"},
+            {"text": "Baroness Scotland", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_199.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Patricia Hewitt", "label": "POLITICIAN"},
+            {"text": "Stefan Pakeerah", "label": "PUBLIC-FIGURE"},
+            {"text": "Giselle", "label": "PUBLIC-FIGURE"},
+            {"text": "Warren Leblanc", "label": "PUBLIC-FIGURE"},
+            {"text": "Roger Bennett", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Tessa Jowell", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_273.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Ryan Samuel Pitylak", "label": "PUBLIC-FIGURE"},
+            {"text": "Mark Stephen Trotter", "label": "PUBLIC-FIGURE"},
+            {"text": "Greg Abbott", "label": "POLITICIAN"},
+            {"text": "Lin Hughes", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_250.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "tech_250.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Mike Nash", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_424.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Andy Roddick", "label": "ATHLETE"},
+            {"text": "Cyril Saulnier", "label": "ATHLETE"},
+            {"text": "Tommy Haas", "label": "ATHLETE"},
+            {"text": "Jurgen Melzer", "label": "ATHLETE"}
+        ]
+    },
+    "business_460.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Larry Ellison", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "David Ogden", "label": "PUBLIC-FIGURE"},
+            {"text": "Anil Aggarwal", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_038.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Paula", "label": "ATHLETE"}
+        ]
+    },
+    "politics_273.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Christopher Leslie", "label": "POLITICIAN"},
+            {"text": "Lord Falconer", "label": "POLITICIAN"},
+            {"text": "Dominic Grieve", "label": "POLITICIAN"},
+            {"text": "Douglas Hogg", "label": "POLITICIAN"}
+        ]
+    },
+    "entertainment_217.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "David Hasselhoff", "label": "ACTOR-DIRECTOR"},
+            {"text": "Pamela Anderson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Anna Nicole Smith", "label": "PUBLIC-FIGURE"},
+            {"text": "Jerry Springer", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "sport_471.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Jennifer Capriati", "label": "ATHLETE"},
+            {"text": "Justin Henin-Hardenne", "label": "ATHLETE"},
+            {"text": "Kim Clijsters", "label": "ATHLETE"},
+            {"text": "Maria Sharapova", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_142.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Sam Endicott", "label": "MUSICIAN"},
+            {"text": "Paul Connolly", "label": "AUTHOR-WRITER"},
+            {"text": "Chris Hawkins", "label": "AUTHOR-WRITER"},
+            {"text": "Nigel Harding", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Ted Kessler", "label": "AUTHOR-WRITER"},
+            {"text": "Trevor Nelson", "label": "PUBLIC-FIGURE"},
+            {"text": "Conor McNicholas", "label": "AUTHOR-WRITER"},
+            {"text": "Fearne Cotton", "label": "ACTOR-DIRECTOR"},
+            {"text": "Emily Eavis", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Colin Martin", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Dr Dre", "label": "MUSICIAN"}
+        ]
+    },
+    "business_083.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Hugh Ray", "label": "PUBLIC-FIGURE"},
+            {"text": "Bruce Misamore", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steven Theede", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Mikhail Khodorkovsky", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_490.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Luiz Inacio Lula da Silva", "label": "POLITICIAN"},
+            {"text": "Julio Hegedus", "label": "PUBLIC-FIGURE"},
+            {"text": "Lula", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_498.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Taylor Dent", "label": "ATHLETE"},
+            {"text": "Juan Ignacio Chela", "label": "ATHLETE"},
+            {"text": "Joachim Johansson", "label": "ATHLETE"},
+            {"text": "Olivier Rochus", "label": "ATHLETE"},
+            {"text": "Lleyton Hewitt", "label": "ATHLETE"}
+        ]
+    },
+    "politics_216.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Javier Solana", "label": "POLITICIAN"},
+            {"text": "Charles Clarke", "label": "POLITICIAN"},
+            {"text": "Jonathan Dimbleby", "label": "AUTHOR-WRITER"},
+            {"text": "Sir Ian Blair", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    
+    "tech_364.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Adam Curry", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Ian Fogg", "label": "PUBLIC-FIGURE"},
+            {"text": "Dave Winer", "label": "AUTHOR-WRITER"},
+            {"text": "Ron Bloom", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Eric Rice", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "sport_126.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Ian McCall", "label": "ATHLETE"},
+            {"text": "Eddie Thompson", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Paul Sturrock", "label": "ATHLETE"},
+            {"text": "Jim McIntyre", "label": "ATHLETE"},
+            {"text": "Tony Bullock", "label": "ATHLETE"}
+        ]
+    },
+    "politics_397.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "David Blunkett", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"}
+        ]
+    },
+    "entertainment_009.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Jesus", "label": "PUBLIC-FIGURE"},
+            {"text": "Mary Magdalene", "label": "PUBLIC-FIGURE"},
+            {"text": "Tom Wright", "label": "AUTHOR-WRITER"},
+            {"text": "Dan Brown", "label": "AUTHOR-WRITER"},
+            {"text": "Cicero", "label": "AUTHOR-WRITER"},
+            {"text": "Virgil", "label": "AUTHOR-WRITER"},
+            {"text": "Tacitus", "label": "AUTHOR-WRITER"},
+            {"text": "Tom Hanks", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "sport_057.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Kelly Holmes", "label": "ATHLETE"},
+            {"text": "Steve Cram", "label": "ATHLETE"},
+            {"text": "Michael Johnson", "label": "ATHLETE"},
+            {"text": "Daley Thompson", "label": "ATHLETE"}
+        ]
+    },
+    "sport_439.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Venus Williams", "label": "ATHLETE"},
+            {"text": "Sylvia Farina Elia", "label": "ATHLETE"},
+            {"text": "Conchita Martinez", "label": "ATHLETE"},
+            {"text": "Sania Mirza", "label": "ATHLETE"},
+            {"text": "Shinobu Asagoe", "label": "ATHLETE"},
+            {"text": "Jelena Kostanic", "label": "ATHLETE"},
+            {"text": "Svetlana Kuznetsova", "label": "ATHLETE"}
+        ]
+    },
+    "sport_374.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "John Molloy", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Koji Tokumasu", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_326.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Steve Weinstein", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_320.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Bill Gates", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steve Kleynhans", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_037.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Yoshiaki Tsutsumi", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Tsutsumi", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_333.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Michael Cherkasky", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Eliot Spitzer", "label": "POLITICIAN"}
+        ]
+    },
+    "business_304.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Paul Tellier", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Laurent Beaudoin", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_240.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Lord Condon", "label": "PUBLIC-FIGURE"},
+            {"text": "Lord Faulkner of Worcester", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_213.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Tony Macklin", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Suranga Chandratillake", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_357.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": []
+    },
+    "entertainment_350.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Jamie Foxx", "label": "ACTOR-DIRECTOR"},
+            {"text": "Ray Charles", "label": "MUSICIAN"},
+            {"text": "Michelle Gellar", "label": "ACTOR-DIRECTOR"},
+            {"text": "Jennifer Lopez", "label": "ACTOR-DIRECTOR"},
+            {"text": "Richard Gere", "label": "ACTOR-DIRECTOR"},
+            {"text": "Taylor Hackford", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_288.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Jeff Immelt", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steve Roukis", "label": "PUBLIC-FIGURE"},
+            {"text": "Ray Charles", "label": "MUSICIAN"}
+        ]
+    },
+    "politics_179.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Mike Hobday", "label": "PUBLIC-FIGURE"},
+            {"text": "Sarah Mukherjee", "label": "AUTHOR-WRITER"},
+            {"text": "Geoff Brooks", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_415.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Mark Miller", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_319.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Jean-Francois Theodore", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Clara Furse", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_294.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "George W Bush", "label": "POLITICIAN"},
+            {"text": "John Kerry", "label": "POLITICIAN"},
+            {"text": "Tim Ghriskey", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Ken Mayland", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_248.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "business_026.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "sport_133.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Steve Finnan", "label": "ATHLETE"},
+            {"text": "Brian Kerr", "label": "ATHLETE"},
+            {"text": "Stephen Carr", "label": "ATHLETE"}
+        ]
+    },
+    "business_252.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Ben Verwaayen", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Tony Lavender", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Lee Strafford", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Chris Panayis", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_289.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "David Frost", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_004.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Colin Asplin", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_188.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Paul Gascoigne", "label": "ATHLETE"},
+            {"text": "Scarlett Johnson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Carol Smillie", "label": "ACTOR-DIRECTOR"},
+            {"text": "Jessica Taylor", "label": "MUSICIAN"},
+            {"text": "Bruce Forsyth", "label": "ACTOR-DIRECTOR"},
+            {"text": "Tess Daly", "label": "ACTOR-DIRECTOR"},
+            {"text": "Jayne Torvill", "label": "ATHLETE"},
+            {"text": "Christopher Dean", "label": "ATHLETE"}
+        ]
+    },
+    "business_220.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Richard Moffat", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Clara Furse", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_238.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Geoff Barrow", "label": "MUSICIAN"},
+            {"text": "Beth Gibbons", "label": "MUSICIAN"},
+            {"text": "Robert Plant", "label": "MUSICIAN"}
+        ]
+    },
+    "business_039.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "entertainment_214.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Angela Cannings", "label": "PUBLIC-FIGURE"},
+            {"text": "Sarah Lancashire", "label": "ACTOR-DIRECTOR"},
+            {"text": "Timothy Spall", "label": "ACTOR-DIRECTOR"},
+            {"text": "Stephen Fry", "label": "ACTOR-DIRECTOR"},
+            {"text": "Genghis Khan", "label": "PUBLIC-FIGURE"},
+            {"text": "Adrian", "label": "PUBLIC-FIGURE"},
+            {"text": "Robert Harris", "label": "AUTHOR-WRITER"},
+            {"text": "Daniel Craig", "label": "ACTOR-DIRECTOR"},
+            {"text": "Stalin", "label": "POLITICIAN"},
+            {"text": "Sarah Waters", "label": "AUTHOR-WRITER"},
+            {"text": "Imelda Staunton", "label": "ACTOR-DIRECTOR"},
+            {"text": "Charles Dance", "label": "ACTOR-DIRECTOR"},
+            {"text": "Julie Burchill", "label": "AUTHOR-WRITER"},
+            {"text": "Jessica Stevenson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Fred Barron", "label": "AUTHOR-WRITER"},
+            {"text": "Dr Arnold", "label": "PUBLIC-FIGURE"},
+            {"text": "Sir Paul McCartney", "label": "MUSICIAN"},
+            {"text": "Heather Mills", "label": "PUBLIC-FIGURE"},
+            {"text": "Sir Alex Ferguson", "label": "ATHLETE"},
+            {"text": "John Nettles", "label": "ACTOR-DIRECTOR"},
+            {"text": "Gus Van Sant", "label": "ACTOR-DIRECTOR"},
+            {"text": "Sean Connery", "label": "ACTOR-DIRECTOR"},
+            {"text": "Steven Spielberg", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "politics_146.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Norman Baker", "label": "POLITICIAN"},
+            {"text": "Patricia Hewitt", "label": "POLITICIAN"}
+        ]
+    },
+    
+    "politics_360.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Oliver Letwin", "label": "POLITICIAN"},
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_092.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Hazel Blears", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_238.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Adam Ingram", "label": "POLITICIAN"},
+            {"text": "Allan Hendry", "label": "PUBLIC-FIGURE"},
+            {"text": "Peter Duncan", "label": "POLITICIAN"},
+            {"text": "Alex Salmond", "label": "POLITICIAN"},
+            {"text": "George Foulkes", "label": "POLITICIAN"},
+            {"text": "Geoff Hoon", "label": "POLITICIAN"}
+        ]
+    },
+    "entertainment_266.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Peter Jamieson", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_185.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Chris Rock", "label": "ACTOR-DIRECTOR"},
+            {"text": "Natalie Portman", "label": "ACTOR-DIRECTOR"},
+            {"text": "Mike Nichols", "label": "ACTOR-DIRECTOR"},
+            {"text": "Dustin Hoffman", "label": "ACTOR-DIRECTOR"},
+            {"text": "Drew Barrymore", "label": "ACTOR-DIRECTOR"},
+            {"text": "Renee Zellweger", "label": "ACTOR-DIRECTOR"},
+            {"text": "Kate Winslet", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "politics_039.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Shani Rhys James", "label": "PUBLIC-FIGURE"},
+            {"text": "Alun Pugh", "label": "POLITICIAN"},
+            {"text": "Hitler", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_198.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Bill Thompson", "label": "AUTHOR-WRITER"},
+            {"text": "Max", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_207.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Joe Pasquale", "label": "ACTOR-DIRECTOR"},
+            {"text": "Kerry McFadden", "label": "MUSICIAN"},
+            {"text": "Paul Burrell", "label": "PUBLIC-FIGURE"},
+            {"text": "Fran Cosgrave", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Phil Tufnell", "label": "ATHLETE"},
+            {"text": "Tony Blackburn", "label": "PUBLIC-FIGURE"},
+            {"text": "Anthony McPartlin", "label": "ACTOR-DIRECTOR"},
+            {"text": "Declan Donnelly", "label": "ACTOR-DIRECTOR"},
+            {"text": "Robert Voice", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Vic Reeves", "label": "ACTOR-DIRECTOR"},
+            {"text": "Nancy Sorrell", "label": "PUBLIC-FIGURE"},
+            {"text": "Antonio Fargas", "label": "ACTOR-DIRECTOR"},
+            {"text": "Natalie [Appleton]", "label": "MUSICIAN"},
+            {"text": "Brian Harvey", "label": "MUSICIAN"},
+            {"text": "Janet Street-Porter", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "sport_041.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Justin Gatlin", "label": "ATHLETE"},
+            {"text": "Joanna Hayes", "label": "ATHLETE"},
+            {"text": "Jesse Owens", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_359.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Will Smith", "label": "ACTOR-DIRECTOR"},
+            {"text": "Robert De Niro", "label": "ACTOR-DIRECTOR"},
+            {"text": "Renee Zellweger", "label": "ACTOR-DIRECTOR"},
+            {"text": "Martin Scorsese", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_179.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "JP McManus", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "John Magnier", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Malcom Glazer", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_375.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Michael Jackson", "label": "MUSICIAN"},
+            {"text": "Ann Kite", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Martin Bashir", "label": "AUTHOR-WRITER"},
+            {"text": "Marc Schaffel", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "David LeGrand", "label": "PUBLIC-FIGURE"},
+            {"text": "Tom Sneddon", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_324.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Kurt Opsahl", "label": "PUBLIC-FIGURE"},
+            {"text": "Jason O-Grady", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Tom Goldstein", "label": "AUTHOR-WRITER"},
+            {"text": "Dan Gillmor", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "sport_479.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Kim Clijsters", "label": "ATHLETE"},
+            {"text": "Paul McNamee", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Jelena Dokic", "label": "ATHLETE"},
+            {"text": "Monica Seles", "label": "ATHLETE"}
+        ]
+    },
+    "sport_223.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Rafael Benitez", "label": "ATHLETE"},
+            {"text": "Jorge Andrade", "label": "ATHLETE"},
+            {"text": "Igor Biscan", "label": "ATHLETE"},
+            {"text": "Xabi Alonso", "label": "ATHLETE"},
+            {"text": "(Dietmar) Hamann", "label": "ATHLETE"},
+            {"text": "Javier Irureta", "label": "ATHLETE"}
+        ]
+    },
+    "sport_119.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Walter Smith", "label": "ATHLETE"},
+            {"text": "Berti Vogts", "label": "ATHLETE"},
+            {"text": "John Toshack", "label": "ATHLETE"},
+            {"text": "Stewart Downing", "label": "ATHLETE"},
+            {"text": "Andy Johnson", "label": "ATHLETE"},
+            {"text": "Sven-Goran Eriksson", "label": "ATHLETE"},
+            {"text": "Wes Brown", "label": "ATHLETE"},
+            {"text": "Jamie Carragher", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_223.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Sheila Ferguson", "label": "MUSICIAN"},
+            {"text": "Warren Lush", "label": "PUBLIC-FIGURE"},
+            {"text": "Joe Pasquale", "label": "ACTOR-DIRECTOR"},
+            {"text": "Nancy Sorrell", "label": "PUBLIC-FIGURE"},
+            {"text": "Vic Reeves", "label": "ACTOR-DIRECTOR"},
+            {"text": "Antonio Fargas", "label": "ACTOR-DIRECTOR"},
+            {"text": "Natalie [Appleton]", "label": "MUSICIAN"},
+            {"text": "Brian Harvey", "label": "MUSICIAN"},
+            {"text": "Janet Street-Porter", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "politics_381.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": []
+    },
+    "business_508.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Richard Scrushy", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Alice Martin", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_424.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Peter Mandelson", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_446.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Lindsay Davenport", "label": "ATHLETE"},
+            {"text": "Nicole Vaidisova", "label": "ATHLETE"},
+            {"text": "Karolina Sprem", "label": "ATHLETE"},
+            {"text": "Elena Likhovtseva", "label": "ATHLETE"},
+            {"text": "Anna Smashnova", "label": "ATHLETE"},
+            {"text": "Williams", "label": "ATHLETE"},
+            {"text": "Chris O'Neil", "label": "ATHLETE"},
+            {"text": "Nadia Petrova", "label": "ATHLETE"},
+            {"text": "Molik", "label": "ATHLETE"},
+            {"text": "Venus Williams", "label": "ATHLETE"},
+            {"text": "Daniela Hantuchova", "label": "ATHLETE"},
+            {"text": "Dementieva", "label": "ATHLETE"},
+            {"text": "Patty Schnyder", "label": "ATHLETE"},
+            {"text": "Abigail Spears", "label": "ATHLETE"},
+            {"text": "Lisa Raymond", "label": "ATHLETE"},
+            {"text": "Anastasia Myskina", "label": "ATHLETE"},
+            {"text": "Nathalie Dechy", "label": "ATHLETE"},
+            {"text": "Francesca Schiavone", "label": "ATHLETE"}
+        ]
+    },
+    "politics_363.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Charles Kennedy", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_323.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Victor Wong", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "sport_204.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Rob Faulkner", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_333.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Robert Kilroy-Silk", "label": "POLITICIAN"},
+            {"text": "Elizabeth Blackman", "label": "POLITICIAN"},
+            {"text": "Geoff Hoon", "label": "POLITICIAN"},
+            {"text": "Roger Knapman", "label": "POLITICIAN"},
+            {"text": "Fraser Kemp", "label": "POLITICIAN"},
+            {"text": "Damien Hockney", "label": "POLITICIAN"},
+            {"text": "Petrina Holdsworth", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_174.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "business_155.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Gene Kahn", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Terry Lundgren", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Kurt Barnard", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "politics_347.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Jan Berry", "label": "PUBLIC-FIGURE"},
+            {"text": "Lord Harris", "label": "POLITICIAN"},
+            {"text": "Mark Oaten", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_115.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Ryan Giggs", "label": "ATHLETE"},
+            {"text": "John Toshack", "label": "ATHLETE"},
+            {"text": "Mark Hughes", "label": "ATHLETE"},
+            {"text": "Sir Alex Ferguson", "label": "ATHLETE"},
+            {"text": "Gary Speed", "label": "ATHLETE"},
+            {"text": "Paul Scholes", "label": "ATHLETE"}
+        ]
+    },
+    "politics_306.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Alastair Campbell", "label": "PUBLIC-FIGURE"},
+            {"text": "Tessa Jowell", "label": "POLITICIAN"},
+            {"text": "John Prescott", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "David Hill", "label": "PUBLIC-FIGURE"},
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Andrew Gilligan", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "entertainment_232.txt": {
+        "sub_classification": "Entertainment",
+        "ner_entities": [
+            {"text": "Harry Connick Jr", "label": "MUSICIAN"},
+            {"text": "Jeffrey Richards", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Debra Messing", "label": "ACTOR-DIRECTOR"},
+            {"text": "George Abbott", "label": "AUTHOR-WRITER"},
+            {"text": "Richard Bissell", "label": "AUTHOR-WRITER"},
+            {"text": "Peter Ackerman", "label": "AUTHOR-WRITER"},
+            {"text": "Richard Adler", "label": "MUSICIAN"},
+            {"text": "Jerry Ross", "label": "MUSICIAN"},
+            {"text": "Emile Zola", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "tech_036.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Stephen Toulouse", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_305.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Reidar Wasenius", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steve Taylor", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_048.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Mel Gibson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Michael Moore", "label": "ACTOR-DIRECTOR"},
+            {"text": "Marlon Brando", "label": "ACTOR-DIRECTOR"},
+            {"text": "Stanley Kowalski", "label": "PUBLIC-FIGURE"},
+            {"text": "Terry Malloy", "label": "PUBLIC-FIGURE"},
+            {"text": "Tom Brokaw", "label": "AUTHOR-WRITER"},
+            {"text": "Barbara Walters", "label": "AUTHOR-WRITER"},
+            {"text": "Dan Rather", "label": "AUTHOR-WRITER"},
+            {"text": "Janet Jackson", "label": "MUSICIAN"},
+            {"text": "Steven Spielberg", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "tech_302.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Ross Blanchard", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Alan Schwartz", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Elvis Presley", "label": "MUSICIAN"}
+        ]
+    },
+    "tech_330.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Hugo Lueders", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_060.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Eliot Spitzer", "label": "POLITICIAN"},
+            {"text": "Joshua Bewlay", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_098.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Ernie Wise", "label": "ACTOR-DIRECTOR"},
+            {"text": "Mike Caudwell", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_032.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Richard Dodd", "label": "PUBLIC-FIGURE"},
+            {"text": "David Warcup", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_021.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Mike Smith", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_202.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Jacques Santini", "label": "ATHLETE"},
+            {"text": "Frank Arnesen", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Daniel Levy", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Martin Jol", "label": "ATHLETE"}
+        ]
+    },
+    "business_233.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "sport_441.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Serena Williams", "label": "ATHLETE"},
+            {"text": "Lindsay Davenport", "label": "ATHLETE"},
+            {"text": "Marat Safin", "label": "ATHLETE"},
+            {"text": "Lleyton Hewitt", "label": "ATHLETE"},
+            {"text": "Andy Roddick", "label": "ATHLETE"},
+            {"text": "Roger Federer", "label": "ATHLETE"},
+            {"text": "Alicia Molik", "label": "ATHLETE"},
+            {"text": "Elena Baltacha", "label": "ATHLETE"}
+        ]
+    },
+    
+    "sport_202.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Jacques Santini", "label": "ATHLETE"},
+            {"text": "Frank Arnesen", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Daniel Levy", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Martin Jol", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_153.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Usher", "label": "MUSICIAN"},
+            {"text": "Andre 3000", "label": "MUSICIAN"},
+            {"text": "Big Boi", "label": "MUSICIAN"},
+            {"text": "Alicia Keys", "label": "MUSICIAN"},
+            {"text": "Justin Timberlake", "label": "MUSICIAN"},
+            {"text": "Jay-Z", "label": "MUSICIAN"},
+            {"text": "Nelly", "label": "MUSICIAN"},
+            {"text": "Robbie Williams", "label": "MUSICIAN"},
+            {"text": "Eminem", "label": "MUSICIAN"},
+            {"text": "Kanye West", "label": "MUSICIAN"},
+            {"text": "Anastacia", "label": "MUSICIAN"},
+            {"text": "Britney Spears", "label": "MUSICIAN"},
+            {"text": "Ludacris", "label": "MUSICIAN"},
+            {"text": "Avril Lavigne", "label": "MUSICIAN"},
+            {"text": "Beyonce Knowles", "label": "MUSICIAN"},
+            {"text": "Chester Bennington", "label": "MUSICIAN"},
+            {"text": "Matt Bellamy", "label": "MUSICIAN"},
+            {"text": "Xzibit", "label": "MUSICIAN"},
+            {"text": "Gwen Stefani", "label": "MUSICIAN"},
+            {"text": "Pharrell Williams", "label": "MUSICIAN"}
+        ]
+    },
+    "sport_447.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Sania Mirza", "label": "ATHLETE"},
+            {"text": "Serena Williams", "label": "ATHLETE"},
+            {"text": "Nirupama Vaidyanathan", "label": "ATHLETE"},
+            {"text": "Petra Mandula", "label": "ATHLETE"}
+        ]
+    },
+    "sport_264.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "David O'Leary", "label": "ATHLETE"},
+            {"text": "Doug Ellis", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Roy Aitken", "label": "ATHLETE"},
+            {"text": "Steve McGregor", "label": "ATHLETE"},
+            {"text": "Olof Mellberg", "label": "ATHLETE"},
+            {"text": "Steve Bruce", "label": "ATHLETE"}
+        ]
+    },
+    "sport_383.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Matt Dawson", "label": "ATHLETE"},
+            {"text": "Andy Robinson", "label": "ATHLETE"},
+            {"text": "Mathew Tait", "label": "ATHLETE"},
+            {"text": "Mike Tindall", "label": "ATHLETE"},
+            {"text": "Will Greenwood", "label": "ATHLETE"},
+            {"text": "Stuart Abbott", "label": "ATHLETE"},
+            {"text": "Jamie Noon", "label": "ATHLETE"},
+            {"text": "Ollie Smith", "label": "ATHLETE"},
+            {"text": "Olly Barkley", "label": "ATHLETE"},
+            {"text": "Henry Paul", "label": "ATHLETE"},
+            {"text": "Ben Cohen", "label": "ATHLETE"},
+            {"text": "Phil Vickery", "label": "ATHLETE"},
+            {"text": "Simon Shaw", "label": "ATHLETE"},
+            {"text": "Tom Voyce", "label": "ATHLETE"},
+            {"text": "Andy Beattie", "label": "ATHLETE"},
+            {"text": "George Chuter", "label": "ATHLETE"},
+            {"text": "Jonny Wilkinson", "label": "ATHLETE"},
+            {"text": "Martin Corry", "label": "ATHLETE"},
+            {"text": "Phil Greening", "label": "ATHLETE"},
+            {"text": "Mark Regan", "label": "ATHLETE"},
+            {"text": "Mark Cueto", "label": "ATHLETE"},
+            {"text": "Harry Ellis", "label": "ATHLETE"},
+            {"text": "Andy Gomarsall", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_002.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Jean-Michel Jarre", "label": "MUSICIAN"},
+            {"text": "Hans Christian Andersen", "label": "AUTHOR-WRITER"},
+            {"text": "Crown Prince Frederik", "label": "PUBLIC-FIGURE"},
+            {"text": "Crown Princess Mary", "label": "PUBLIC-FIGURE"},
+            {"text": "Harold Bloom", "label": "AUTHOR-WRITER"},
+            {"text": "Queen Mary", "label": "PUBLIC-FIGURE"},
+            {"text": "Helena Christensen", "label": "PUBLIC-FIGURE"},
+            {"text": "Harvey Keitel", "label": "ACTOR-DIRECTOR"},
+            {"text": "Sir Roger Moore", "label": "ACTOR-DIRECTOR"},
+            {"text": "Cathy Freeman", "label": "ATHLETE"},
+            {"text": "Pele", "label": "ATHLETE"}
+        ]
+    },
+    "business_075.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": []
+    },
+    "entertainment_082.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Leonardo DiCaprio", "label": "ACTOR-DIRECTOR"},
+            {"text": "Charles Evans Jr", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Michael Mann", "label": "ACTOR-DIRECTOR"},
+            {"text": "Graham King", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Sandy Climan", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Hughes", "label": "PUBLIC-FIGURE"},
+            {"text": "Martin Scorsese", "label": "ACTOR-DIRECTOR"},
+            {"text": "Frank Pierson", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Clint Eastwood", "label": "ACTOR-DIRECTOR"},
+            {"text": "Ziyi Zhang", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_079.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": []
+    },
+    "sport_157.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Arsene Wenger", "label": "ATHLETE"},
+            {"text": "Kolo Toure", "label": "ATHLETE"},
+            {"text": "Felix Magath", "label": "ATHLETE"},
+            {"text": "Jens Lehmann", "label": "ATHLETE"},
+            {"text": "Oliver Kahn", "label": "ATHLETE"}
+        ]
+    },
+    "sport_047.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Kostas Kenteris", "label": "ATHLETE"},
+            {"text": "Katerina Thanou", "label": "ATHLETE"},
+            {"text": "Christos Tzekos", "label": "ATHLETE"}
+        ]
+    },
+    "politics_278.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Alan Milburn", "label": "POLITICIAN"},
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Alan Johnson", "label": "POLITICIAN"},
+            {"text": "Jane Kennedy", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"}
+        ]
+    },
+    "entertainment_259.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Kanye West", "label": "MUSICIAN"},
+            {"text": "Jay-Z", "label": "MUSICIAN"},
+            {"text": "Alicia Keys", "label": "MUSICIAN"},
+            {"text": "No ID", "label": "MUSICIAN"},
+            {"text": "Mase", "label": "MUSICIAN"},
+            {"text": "Madd Rapper", "label": "MUSICIAN"},
+            {"text": "Ludacris", "label": "MUSICIAN"},
+            {"text": "Chaka Khan", "label": "MUSICIAN"},
+            {"text": "Twista", "label": "MUSICIAN"},
+            {"text": "Jamie Foxx", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_310.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Tiger Woods", "label": "ATHLETE"},
+            {"text": "Philip Knight", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_037.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Charles Williams", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_239.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": []
+    },
+    "business_315.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Vijay Mallya", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Tony Froggatt", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_314.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Clara Bow", "label": "ACTOR-DIRECTOR"},
+            {"text": "Bob Hope", "label": "ACTOR-DIRECTOR"},
+            {"text": "Margaret Herrick", "label": "PUBLIC-FIGURE"},
+            {"text": "Oscar", "label": "PUBLIC-FIGURE"},
+            {"text": "Sidney Skolsky", "label": "AUTHOR-WRITER"},
+            {"text": "Katherine Hepburn", "label": "ACTOR-DIRECTOR"},
+            {"text": "Cedric Gibbons", "label": "ACTOR-DIRECTOR"},
+            {"text": "Douglas Fairbanks Sr", "label": "ACTOR-DIRECTOR"},
+            {"text": "Al Jolson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Humphrey Bogart", "label": "ACTOR-DIRECTOR"},
+            {"text": "Gene Kelly", "label": "ACTOR-DIRECTOR"},
+            {"text": "Henry Fonda", "label": "ACTOR-DIRECTOR"},
+            {"text": "Alfred Hitchcock", "label": "ACTOR-DIRECTOR"},
+            {"text": "Michael Moore", "label": "ACTOR-DIRECTOR"},
+            {"text": "Martin Luther King", "label": "PUBLIC-FIGURE"},
+            {"text": "President Ronald Reagan", "label": "POLITICIAN"},
+            {"text": "George C Scott", "label": "ACTOR-DIRECTOR"},
+            {"text": "Dudley Nichols", "label": "AUTHOR-WRITER"},
+            {"text": "Marlon Brando", "label": "ACTOR-DIRECTOR"},
+            {"text": "Sacheen Littlefeather", "label": "ACTOR-DIRECTOR"},
+            {"text": "Maria Cruz", "label": "ACTOR-DIRECTOR"},
+            {"text": "Robert Opal", "label": "PUBLIC-FIGURE"},
+            {"text": "Frank Capra", "label": "ACTOR-DIRECTOR"},
+            {"text": "Frank Lloyd", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "sport_248.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Graham Poll", "label": "ATHLETE"},
+            {"text": "Thierry Henry", "label": "ATHLETE"},
+            {"text": "Petr Cech", "label": "ATHLETE"},
+            {"text": "Jimmy Floyd Hasselbaink", "label": "ATHLETE"},
+            {"text": "Eidur Gudjohnsen", "label": "ATHLETE"},
+            {"text": "Philip Don", "label": "ATHLETE"}
+        ]
+    },
+    "sport_090.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Jason Gardener", "label": "ATHLETE"},
+            {"text": "Darren Campbell", "label": "ATHLETE"},
+            {"text": "Marlon Devonish", "label": "ATHLETE"},
+            {"text": "Mark Lewis-Francis", "label": "ATHLETE"},
+            {"text": "Justin Gatlin", "label": "ATHLETE"},
+            {"text": "Coby Miller", "label": "ATHLETE"},
+            {"text": "Maurice Greene", "label": "ATHLETE"},
+            {"text": "James Clarke", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_300.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": []
+    },
+    "tech_118.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": []
+    },
+    "business_443.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Lance Friedmann", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    
+    "business_421.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Werner Seifert", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_331.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Andrey Zvyagintsev", "label": "ACTOR-DIRECTOR"},
+            {"text": "Jonathan Ross", "label": "ACTOR-DIRECTOR"},
+            {"text": "Gillian Anderson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Roger Clarke", "label": "AUTHOR-WRITER"},
+            {"text": "Kevin McDonald", "label": "ACTOR-DIRECTOR"},
+            {"text": "Zhang Yimou", "label": "ACTOR-DIRECTOR"},
+            {"text": "Vladimir Girin", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "tech_132.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Jeremy Jaynes", "label": "PUBLIC-FIGURE"},
+            {"text": "Jessica DeGroot", "label": "PUBLIC-FIGURE"},
+            {"text": "Richard Rutkowski", "label": "PUBLIC-FIGURE"},
+            {"text": "Russell McGuire", "label": "PUBLIC-FIGURE"},
+            {"text": "Jerry Kilgore", "label": "POLITICIAN"},
+            {"text": "David Oblon", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_145.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Mary Madden", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "politics_412.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": []
+    },
+    "entertainment_141.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Ozzy Osbourne", "label": "MUSICIAN"},
+            {"text": "Sharon", "label": "PUBLIC-FIGURE"},
+            {"text": "George Harrison", "label": "MUSICIAN"},
+            {"text": "Paul Miller", "label": "PUBLIC-FIGURE"},
+            {"text": "Sir Elton John", "label": "MUSICIAN"},
+            {"text": "David Furnish", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "sport_013.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Susan Chepkemei", "label": "ATHLETE"},
+            {"text": "Isaiah Kiplagat", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Radcliffe", "label": "ATHLETE"},
+            {"text": "Edith Masai", "label": "ATHLETE"}
+        ]
+    },
+    "business_451.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Brian Finn", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Trevor O'Hoy", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_235.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Sandy Walkington", "label": "PUBLIC-FIGURE"},
+            {"text": "Matthew Taylor", "label": "POLITICIAN"},
+            {"text": "Lord Rennard", "label": "POLITICIAN"}
+        ]
+    },
+    
+    "tech_265.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_380.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Ronan O'Gara", "label": "ATHLETE"},
+            {"text": "Federico Aramburu", "label": "ATHLETE"},
+            {"text": "Felipe Contepomi", "label": "ATHLETE"},
+            {"text": "Manuel Contepomi", "label": "ATHLETE"},
+            {"text": "Gonzalo Longo", "label": "ATHLETE"}
+        ]
+    },
+    "sport_480.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Andre Agassi", "label": "ATHLETE"},
+            {"text": "Taylor Dent", "label": "ATHLETE"},
+            {"text": "Mario Ancic", "label": "ATHLETE"},
+            {"text": "Safin", "label": "ATHLETE"},
+            {"text": "Jarkko Nieminen", "label": "ATHLETE"},
+            {"text": "Federer", "label": "ATHLETE"},
+            {"text": "Tommy Robredo", "label": "ATHLETE"},
+            {"text": "Dominik Hrbaty", "label": "ATHLETE"},
+            {"text": "Gaston Gaudio", "label": "ATHLETE"},
+            {"text": "Kevin Kim", "label": "ATHLETE"},
+            {"text": "Thomas Johansson", "label": "ATHLETE"}
+        ]
+    },
+    "tech_105.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Livio Costantini", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Peter Smith", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_402.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Gary Flowers", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "George Gregan", "label": "ATHLETE"},
+            {"text": "Clive Woodward", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_357.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Cate Blanchett", "label": "ACTOR-DIRECTOR"},
+            {"text": "Mike Leigh", "label": "ACTOR-DIRECTOR"},
+            {"text": "Imelda Staunton", "label": "ACTOR-DIRECTOR"},
+            {"text": "Jamie Foxx", "label": "ACTOR-DIRECTOR"},
+            {"text": "Clive Owen", "label": "ACTOR-DIRECTOR"},
+            {"text": "Kate Winslet", "label": "ACTOR-DIRECTOR"},
+            {"text": "Katharine Hepburn", "label": "ACTOR-DIRECTOR"},
+            {"text": "Martin Scorsese", "label": "ACTOR-DIRECTOR"},
+            {"text": "Helen Mirren", "label": "ACTOR-DIRECTOR"},
+            {"text": "Ray Charles", "label": "MUSICIAN"},
+            {"text": "DiCaprio", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "entertainment_041.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Mel Gibson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Bruce Davey", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Jesus Christ", "label": "PUBLIC-FIGURE"},
+            {"text": "Frank Pierson", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_319.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Ken Clarke", "label": "POLITICIAN"},
+            {"text": "Sir George Young", "label": "POLITICIAN"},
+            {"text": "Robin Cook", "label": "POLITICIAN"},
+            {"text": "Tony Wright", "label": "POLITICIAN"},
+            {"text": "Paul Tyler", "label": "POLITICIAN"},
+            {"text": "William Hague", "label": "POLITICIAN"},
+            {"text": "Neil Kinnock", "label": "POLITICIAN"},
+            {"text": "Peter Facey", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_434.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Ifzal Ali", "label": "PUBLIC-FIGURE"},
+            {"text": "Thadao Chino", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_308.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Sir Anthony Meyer", "label": "POLITICIAN"},
+            {"text": "Margaret Thatcher", "label": "POLITICIAN"},
+            {"text": "Michael Heseltine", "label": "POLITICIAN"},
+            {"text": "John Major", "label": "POLITICIAN"},
+            {"text": "Edward Heath", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_341.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Charles Kennedy", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_027.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Patricia Sanders", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "sport_429.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Rafael Nadal", "label": "ATHLETE"},
+            {"text": "Guillermo Canas", "label": "ATHLETE"},
+            {"text": "Alberto Martin", "label": "ATHLETE"},
+            {"text": "Mariano Puerta", "label": "ATHLETE"},
+            {"text": "Carlos Moya", "label": "ATHLETE"},
+            {"text": "Felix Mantilla", "label": "ATHLETE"},
+            {"text": "Jiri Novak", "label": "ATHLETE"},
+            {"text": "Agustin Calleri", "label": "ATHLETE"},
+            {"text": "Albert Montanes", "label": "ATHLETE"},
+            {"text": "Filippo Volandri", "label": "ATHLETE"}
+        ]
+    },
+    "business_022.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Frank-Juergen Weise", "label": "PUBLIC-FIGURE"},
+            {"text": "Gerhard Schroeder", "label": "POLITICIAN"},
+            {"text": "Isabelle Kronawitter", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "politics_237.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Robert Kilroy-Silk", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_207.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Edward Heath", "label": "POLITICIAN"},
+            {"text": "Harold Wilson", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Alan Milburn", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_274.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Aaron Foster", "label": "PUBLIC-FIGURE"},
+            {"text": "David Treacy", "label": "PUBLIC-FIGURE"},
+            {"text": "Simon Bysshe", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_064.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "George W Bush", "label": "POLITICIAN"},
+            {"text": "Michael Lamberty", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_347.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Ian Fleming", "label": "AUTHOR-WRITER"},
+            {"text": "Martin Campbell", "label": "ACTOR-DIRECTOR"},
+            {"text": "John Huston", "label": "ACTOR-DIRECTOR"},
+            {"text": "David Niven", "label": "ACTOR-DIRECTOR"},
+            {"text": "Pierce Brosnan", "label": "ACTOR-DIRECTOR"},
+            {"text": "Dougray Scott", "label": "ACTOR-DIRECTOR"},
+            {"text": "Clive Owen", "label": "ACTOR-DIRECTOR"},
+            {"text": "Hugh Jackman", "label": "ACTOR-DIRECTOR"},
+            {"text": "Quentin Tarantino", "label": "ACTOR-DIRECTOR"},
+            {"text": "Catherine Zeta Jones", "label": "ACTOR-DIRECTOR"},
+            {"text": "Antonio Banderas", "label": "ACTOR-DIRECTOR"},
+            {"text": "Barbara Broccoli", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Michael G Wilson", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Neal Purvis", "label": "AUTHOR-WRITER"},
+            {"text": "Robert Wade", "label": "AUTHOR-WRITER"},
+            {"text": "Barry Nelson", "label": "ACTOR-DIRECTOR"},
+            {"text": "Chris McGurk", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Angelina Jolie", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "entertainment_111.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Sir Elton John", "label": "MUSICIAN"},
+            {"text": "Valery Giscard d'Estaing", "label": "POLITICIAN"},
+            {"text": "Anne-Aymone", "label": "PUBLIC-FIGURE"},
+            {"text": "David Furnish", "label": "PUBLIC-FIGURE"},
+            {"text": "Charles Aznavour", "label": "MUSICIAN"},
+            {"text": "Sir John Holmes", "label": "POLITICIAN"},
+            {"text": "Phil Collins", "label": "MUSICIAN"},
+            {"text": "Eric Clapton", "label": "MUSICIAN"},
+            {"text": "Sharon Osbourne", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "politics_277.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Charles Kennedy", "label": "POLITICIAN"},
+            {"text": "Alan Milburn", "label": "POLITICIAN"}
+        ]
+    },
+    "business_167.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Rafik Hariri", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_075.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Ken Livingstone", "label": "POLITICIAN"},
+            {"text": "Boris Johnson", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Ken Bigley", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_264.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Jean-Francois Theodore", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Clara Furse", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_074.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Jo Pavey", "label": "ATHLETE"},
+            {"text": "Hayley Yelling", "label": "ATHLETE"},
+            {"text": "Justyna Bak", "label": "ATHLETE"}
+        ]
+    },
+    "sport_084.txt": {
+        "sub_classification": "Athletics",
+        "ner_entities": [
+            {"text": "Kelly Holmes", "label": "ATHLETE"}
+        ]
+    },
+    "tech_241.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": []
+    },
+    "politics_025.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Barbara Roche", "label": "POLITICIAN"},
+            {"text": "Sir Andrew Green", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "sport_189.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Barry Ferguson", "label": "ATHLETE"},
+            {"text": "John Williams", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Mark Hughes", "label": "ATHLETE"}
+        ]
+    },
+    
+    "entertainment_090.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Sophie Scholl", "label": "PUBLIC-FIGURE"},
+            {"text": "Hans", "label": "PUBLIC-FIGURE"},
+            {"text": "Adolf Hitler", "label": "POLITICIAN"},
+            {"text": "Marc Rothemund", "label": "ACTOR-DIRECTOR"},
+            {"text": "Bizet", "label": "MUSICIAN"}
+        ]
+    },
+    "business_012.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Susilo Bambang Yudhoyono", "label": "POLITICIAN"},
+            {"text": "Sri Mulyani Indrawati", "label": "POLITICIAN"},
+            {"text": "Rachel Harvey", "label": "AUTHOR-WRITER"},
+            {"text": "Megawati Sukarnoputri", "label": "POLITICIAN"}
+        ]
+    },
+    "politics_394.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Michael Ancram", "label": "POLITICIAN"},
+            {"text": "Jack Straw", "label": "POLITICIAN"},
+            {"text": "Michael Howard", "label": "POLITICIAN"},
+            {"text": "Matthew Taylor", "label": "POLITICIAN"},
+            {"text": "Alan Milburn", "label": "POLITICIAN"}
+        ]
+    },
+    "tech_171.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Matt Lucas", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "tech_381.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Matthew Herren", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Maciej Sundra", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_457.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Mark Philippoussis", "label": "ATHLETE"},
+            {"text": "Justine Henin-Hardenne", "label": "ATHLETE"},
+            {"text": "Nathalie Dechy", "label": "ATHLETE"},
+            {"text": "Lisa Raymond", "label": "ATHLETE"},
+            {"text": "Lleyton Hewitt", "label": "ATHLETE"},
+            {"text": "Karol Beck", "label": "ATHLETE"},
+            {"text": "Lindsay Davenport", "label": "ATHLETE"}
+        ]
+    },
+    "tech_240.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Jo Flaherty", "label": "PUBLIC-FIGURE"},
+            {"text": "Andy Quested", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_338.txt": {
+        "sub_classification": "Cinema",
+        "ner_entities": [
+            {"text": "Hayao Miyazaki", "label": "ACTOR-DIRECTOR"},
+            {"text": "Tom Cruise", "label": "ACTOR-DIRECTOR"}
+        ]
+    },
+    "business_403.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "James Wareham", "label": "PUBLIC-FIGURE"},
+            {"text": "Alan Hevesi", "label": "POLITICIAN"},
+            {"text": "Charles Elson", "label": "PUBLIC-FIGURE"},
+            {"text": "James Allen", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Judith Areen", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Carl Aycock", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Max Bobbitt", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Clifford Alexander", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Stiles Kellett", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Gordon Macklin", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "John Porter", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Lawrence Tucker", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "John Sidgmore", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Bert Roberts", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Francesco Galesi", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Bernard Ebbers", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_309.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Rory Armes", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Bill Gates", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Gary Dunn", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Simon Gardner", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Gerhard Florin", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_100.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Bernie Ebbers", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Scott Sullivan", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_221.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Marc Morin", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Lindsay Schroth", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_117.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Mikko Hypponen", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_433.txt": {
+        "sub_classification": "Tennis",
+        "ner_entities": [
+            {"text": "Roger Federer", "label": "ATHLETE"},
+            {"text": "Ivan Ljubicic", "label": "ATHLETE"},
+            {"text": "Tim Henman", "label": "ATHLETE"}
+        ]
+    },
+    "politics_037.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "David Miliband", "label": "POLITICIAN"},
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "Ralph", "label": "PUBLIC-FIGURE"},
+            {"text": "Ed", "label": "POLITICIAN"},
+            {"text": "Gordon Brown", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_254.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Nicolas Anelka", "label": "ATHLETE"},
+            {"text": "John Wardle", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steven Gerrard", "label": "ATHLETE"},
+            {"text": "Kevin Keegan", "label": "ATHLETE"},
+            {"text": "Shaun Wright-Phillips", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_247.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Britney Spears", "label": "MUSICIAN"},
+            {"text": "Kevin Federline", "label": "MUSICIAN"}
+        ]
+    },
+    "sport_334.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Matt Stevens", "label": "ATHLETE"},
+            {"text": "Duncan Bell", "label": "ATHLETE"},
+            {"text": "Andy Robinson", "label": "ATHLETE"},
+            {"text": "Ollie Smith", "label": "ATHLETE"},
+            {"text": "Andy Goode", "label": "ATHLETE"},
+            {"text": "Phil Vickery", "label": "ATHLETE"},
+            {"text": "Andrew Sheridan", "label": "ATHLETE"},
+            {"text": "J Robinson", "label": "ATHLETE"},
+            {"text": "M Cueto", "label": "ATHLETE"},
+            {"text": "J Noon", "label": "ATHLETE"},
+            {"text": "O Barkley", "label": "ATHLETE"},
+            {"text": "J Lewsey", "label": "ATHLETE"},
+            {"text": "C Hodgson", "label": "ATHLETE"},
+            {"text": "H Ellis", "label": "ATHLETE"},
+            {"text": "G Rowntree", "label": "ATHLETE"},
+            {"text": "S Thompson", "label": "ATHLETE"},
+            {"text": "M Stevens", "label": "ATHLETE"},
+            {"text": "D Grewcock", "label": "ATHLETE"},
+            {"text": "B Kay", "label": "ATHLETE"},
+            {"text": "J Worsley", "label": "ATHLETE"},
+            {"text": "L Moody", "label": "ATHLETE"},
+            {"text": "M Corry", "label": "ATHLETE"},
+            {"text": "A Titterrell", "label": "ATHLETE"},
+            {"text": "D Bell", "label": "ATHLETE"},
+            {"text": "S Borthwick", "label": "ATHLETE"},
+            {"text": "A Hazell", "label": "ATHLETE"},
+            {"text": "M Dawson", "label": "ATHLETE"},
+            {"text": "A Goode", "label": "ATHLETE"},
+            {"text": "O Smith", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_136.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "David Roberts", "label": "AUTHOR-WRITER"},
+            {"text": "Santa", "label": "PUBLIC-FIGURE"},
+            {"text": "Sir Cliff Richards", "label": "MUSICIAN"}
+        ]
+    },
+    "politics_317.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Elizabeth Winkfield", "label": "PUBLIC-FIGURE"},
+            {"text": "John Prescott", "label": "POLITICIAN"}
+        ]
+    },
+    
+    "sport_293.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Mathew Tait", "label": "ATHLETE"},
+            {"text": "Luke Narraway", "label": "ATHLETE"},
+            {"text": "Henry Paul", "label": "ATHLETE"},
+            {"text": "Seti Kiole", "label": "ATHLETE"},
+            {"text": "Joe Shaw", "label": "ATHLETE"},
+            {"text": "Dave Walder", "label": "ATHLETE"},
+            {"text": "Mark Mayerholfer", "label": "ATHLETE"},
+            {"text": "Michael Stephenson", "label": "ATHLETE"},
+            {"text": "Hall Charlton", "label": "ATHLETE"},
+            {"text": "Tom May", "label": "ATHLETE"},
+            {"text": "Wilkinson", "label": "ATHLETE"}
+        ]
+    },
+    "sport_154.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Jose Antonio Reyes", "label": "ATHLETE"},
+            {"text": "Emilio Butragueno", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_225.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Michael Bjorn", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "business_104.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Bill Clinton", "label": "POLITICIAN"},
+            {"text": "Anthony Sebok", "label": "AUTHOR-WRITER"},
+            {"text": "William Ohlemeyer", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "business_447.txt": {
+        "sub_classification": "Mergers & Acquisitions",
+        "ner_entities": [
+            {"text": "Rupert Murdoch", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Peter Chernin", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_118.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Rick Parry", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Steven Gerrard", "label": "ATHLETE"},
+            {"text": "Rafael Benitez", "label": "ATHLETE"},
+            {"text": "Thaksin Shiniwatra", "label": "POLITICIAN"},
+            {"text": "Steve Morgan", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Michael Owen", "label": "ATHLETE"}
+        ]
+    },
+    "entertainment_264.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Ray Charles", "label": "MUSICIAN"},
+            {"text": "Alicia Keys", "label": "MUSICIAN"},
+            {"text": "Jamie Foxx", "label": "ACTOR-DIRECTOR"},
+            {"text": "Norah Jones", "label": "MUSICIAN"},
+            {"text": "Kanye West", "label": "MUSICIAN"},
+            {"text": "Gladys Knight", "label": "MUSICIAN"},
+            {"text": "Usher", "label": "MUSICIAN"},
+            {"text": "Lil Jon", "label": "MUSICIAN"},
+            {"text": "Ludacris", "label": "MUSICIAN"},
+            {"text": "John Mayer", "label": "MUSICIAN"},
+            {"text": "Britney Spears", "label": "MUSICIAN"},
+            {"text": "Rod Stewart", "label": "MUSICIAN"},
+            {"text": "Sting", "label": "MUSICIAN"},
+            {"text": "Annie Lennox", "label": "MUSICIAN"},
+            {"text": "Elvis Costello", "label": "MUSICIAN"},
+            {"text": "Joss Stone", "label": "MUSICIAN"},
+            {"text": "Brian Wilson", "label": "MUSICIAN"},
+            {"text": "John Adams", "label": "MUSICIAN"},
+            {"text": "Bill Clinton", "label": "POLITICIAN"}
+        ]
+    },
+    "business_053.txt": {
+        "sub_classification": "Company News",
+        "ner_entities": [
+            {"text": "Tom Glocer", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "politics_314.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Tony Blair", "label": "POLITICIAN"},
+            {"text": "David Dunne", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "entertainment_318.txt": {
+        "sub_classification": "Music",
+        "ner_entities": [
+            {"text": "Morrissey", "label": "MUSICIAN"},
+            {"text": "Bryan Ferry", "label": "MUSICIAN"},
+            {"text": "Phil Manzerana", "label": "MUSICIAN"},
+            {"text": "Andy Mackay", "label": "MUSICIAN"},
+            {"text": "Paul Thompson", "label": "MUSICIAN"},
+            {"text": "Brian Eno", "label": "MUSICIAN"},
+            {"text": "John Lennon", "label": "MUSICIAN"}
+        ]
+    },
+    "sport_197.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Mateja Kezman", "label": "ATHLETE"},
+            {"text": "Steve Clarke", "label": "ATHLETE"},
+            {"text": "Alan Pardew", "label": "ATHLETE"},
+            {"text": "Joe Cole", "label": "ATHLETE"},
+            {"text": "Frank Lampard", "label": "ATHLETE"}
+        ]
+    },
+    "politics_219.txt": {
+        "sub_classification": "Politics",
+        "ner_entities": [
+            {"text": "Cathy Jamieson", "label": "POLITICIAN"},
+            {"text": "Jack McConnell", "label": "POLITICIAN"}
+        ]
+    },
+    "business_248.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": []
+    },
+    "entertainment_209.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Austin Aitken", "label": "PUBLIC-FIGURE"}
+        ]
+    },
+    "tech_352.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Jill Finger", "label": "AUTHOR-WRITER"}
+        ]
+    },
+    "tech_067.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Jeremy Flynn", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Andrew Bud", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Christian Harris", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "entertainment_184.txt": {
+        "sub_classification": "TV & Radio",
+        "ner_entities": [
+            {"text": "Tim Kash", "label": "ACTOR-DIRECTOR"},
+            {"text": "Andi Peters", "label": "BUSINESS-EXECUTIVE-MANAGER"},
+            {"text": "Fearne Cotton", "label": "ACTOR-DIRECTOR"},
+            {"text": "Roly Keating", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "tech_023.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "R. Sridharan", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    "sport_146.txt": {
+        "sub_classification": "Football",
+        "ner_entities": [
+            {"text": "Gregory Vignal", "label": "ATHLETE"},
+            {"text": "Nacho Novo", "label": "ATHLETE"},
+            {"text": "Rab Douglas", "label": "ATHLETE"},
+            {"text": "Ronald Waterreus", "label": "ATHLETE"},
+            {"text": "Craig Bellamy", "label": "ATHLETE"},
+            {"text": "John Hartson", "label": "ATHLETE"},
+            {"text": "Alex McLeish", "label": "ATHLETE"},
+            {"text": "Chris Sutton", "label": "ATHLETE"},
+            {"text": "Marvin Andrews", "label": "ATHLETE"},
+            {"text": "Sotiris Kyrgiakos", "label": "ATHLETE"},
+            {"text": "Barry Ferguson", "label": "ATHLETE"},
+            {"text": "Dado Prso", "label": "ATHLETE"},
+            {"text": "Neil Lennon", "label": "ATHLETE"},
+            {"text": "Fernando Ricksen", "label": "ATHLETE"}
+        ]
+    },
+    "tech_079.txt": {
+        "sub_classification": "Tech",
+        "ner_entities": [
+            {"text": "Tim Ellsmore", "label": "BUSINESS-EXECUTIVE-MANAGER"}
+        ]
+    },
+    
+    "business_241.txt": {
+        "sub_classification": "Economy",
+        "ner_entities": [
+            {"text": "Gordon Brown", "label": "POLITICIAN"},
+            {"text": "Patrick Bartlett", "label": "AUTHOR-WRITER"},
+            {"text": "Max Lawson", "label": "PUBLIC-FIGURE"},
+            {"text": "John Taylor", "label": "POLITICIAN"},
+            {"text": "Trevor Manuel", "label": "POLITICIAN"},
+            {"text": "Nelson Mandela", "label": "POLITICIAN"}
+        ]
+    },
+    "sport_313.txt": {
+        "sub_classification": "Rugby",
+        "ner_entities": [
+            {"text": "Julian White", "label": "ATHLETE"},
+            {"text": "Gethin Jenkins", "label": "ATHLETE"},
+            {"text": "Os du Randt", "label": "ATHLETE"},
+            {"text": "Martin Johnson", "label": "ATHLETE"},
+            {"text": "Graham Rowntree", "label": "ATHLETE"},
+            {"text": "Andy Robinson", "label": "ATHLETE"},
+            {"text": "Richard Hill", "label": "ATHLETE"},
+            {"text": "Jonny Wilkinson", "label": "ATHLETE"},
+            {"text": "Martin Corry", "label": "ATHLETE"},
+            {"text": "Mike Tindall", "label": "ATHLETE"},
+            {"text": "Will Greenwood", "label": "ATHLETE"},
+            {"text": "Stuart Abbott", "label": "ATHLETE"},
+            {"text": "Matthew Tait", "label": "ATHLETE"},
+            {"text": "Jamie Noon", "label": "ATHLETE"},
+            {"text": "Jason Leonard", "label": "ATHLETE"}
+        ]
+    }
+}
