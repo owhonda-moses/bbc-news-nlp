@@ -102,9 +102,9 @@ The project is broken down into a series of scripts within the `src/` subdirecto
 ### 1. Initial Data Split
 This is the first step for the entire project.
 
-    ```bash
+```
     python -m src.preprocessing.main_split
-    ```
+```
 
 ### 2. Test Set Creation
 This creates the manually verified validation and test sets.
