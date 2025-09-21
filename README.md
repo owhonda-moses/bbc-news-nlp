@@ -63,6 +63,7 @@ This project is designed to be run in a containerized environment with GPU suppo
 * Python 3.11
 * [Poetry](https://python-poetry.org/) for dependency management
 * Git
+* A Gemini API Key
 
 ### Steps:
 1.  **Clone the Repository**
@@ -71,16 +72,24 @@ This project is designed to be run in a containerized environment with GPU suppo
     cd bbc-nlp
     ```
 
-2.  **Create Environment File**
+2.  **Create Personal Access Token File**
+    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to `.gitignore`:
+    ```
+    # pat.env
+    GITHUB_TOKEN=your_personal_access_token
+    ```
+
+3.  **Create Environment File**
     Create a file named `.env` in the root directory for your Gemini API key:
     ```
     # .env
     GEMINI_API_KEY=your_api_key
     ```
 
-3.  **Run the Setup Script**
+4.  **Run the Setup Script**
     The `setup.sh` script automates the environment setup, including dependency installation and downloading NLP models.
     ```bash
+    chmod +x setup.sh
     bash setup.sh
     ```
 
@@ -91,49 +100,52 @@ The project is broken down into a series of scripts within the `src/` subdirecto
 
 ### 1. Initial Data Split
 This is the first step for the entire project.
-```bash
-python -m src.preprocessing.main_split
-```
+    ```bash
+    python -m src.preprocessing.main_split
+    ```
 
-### 2. Gold Standard Test Set Creation
+### 2. Test Set Creation
 This creates the manually verified validation and test sets.
-```bash
-# 1. Manually create annotations in src/preprocessing/annotations.json
-# 2. Apply annotations to create the final test_set.csv
-python -m src.preprocessing.apply_annotations
-# 3. Split into ner_val.csv and ner_test.csv
-python -m src.preprocessing.ner_split
-```
+    ```bash
+# - Manually create annotations in src/preprocessing/annotations.json
+# - Apply annotations to create the final test_set.csv
+    python -m src.preprocessing.apply_annotations
+# - Split into ner_val.csv and ner_test.csv
+    python -m src.preprocessing.ner_split
+    ```
 
 ### 3. Sub-Category Classification Pipeline
 This trains the text classifier used by the NER pipeline.
-```bash
-# 1. Prepare training data from weakly-supervised labels
-python -m src.classification.prepare_zeroshot
-# 2. Augment the data
-python -m src.classification.augment_data
-# 3. Train the final classifier
-python -m src.classification.train_augmented
-```
+    ```bash
+# - Prepare training data from weakly-supervised labels
+    python -m src.classification.prepare_zeroshot
+# - Augment the data
+    python -m src.classification.augment_data
+# - Train the final classifier
+        python -m src.classification.train_augmented
+    ```
 
 ### 4. Custom Named Entity Recognition (NER) Pipeline
 This is the core data-centric AI workflow for the NER task.
-```bash
-# 1. Build the knowledge base from Wikidata
-python -m src.ner.bulkseed
-# 2. Augment the knowledge base from Wikipedia
-python -m src.ner.scraper
-# 3. Merge knowledge bases
-python -m src.ner.merge
-# 4. Use the LLM to generate high-quality labels for the training data
-python -m src.ner.labeler_v2
-# 5. Pre-process the final, augmented data for model training
-python -m src.ner.preprocess
-# 6. Train the final v2 NER model
-python -m src.ner.train_ner
-# 7. Evaluate the final model
-python -m src.ner.evaluate
-```
+    ```bash
+# - Build the knowledge base from Wikidata
+    python -m src.ner.bulkseed
+# - Augment the knowledge base from Wikipedia
+    python -m src.ner.scraper
+# - Merge knowledge bases
+    python -m src.ner.merge
+    labeler_v1 (optional base model labeled purely from knowledge base)
+# - Use the LLM to generate high-quality labels for the training data
+    python -m src.ner.labeler_v2
+# - Review and correct the LLM's output (optional but recommended)
+    python -m src.ner.correct_ner --filter <keyword>
+# - Pre-process the final, augmented data for model training
+    python -m src.ner.preprocess
+# - Train the final v2 NER model
+    python -m src.ner.train_ner
+# - Evaluate the final model
+    python -m src.ner.evaluate
+    ```
 
 ### 5. Conditional Summarization
 ```bash
@@ -152,13 +164,15 @@ The primary challenge was the lack of pre-existing sub-category labels. Our fina
 ### Custom Named Entity Recognition
 This task was approached with a state-of-the-art, data-centric pipeline to create a high-quality training set.
 1.  **Knowledge Base Creation:** We programmatically built a large knowledge base of over 1 million names and their professional roles by querying Wikidata (`bulkseed.py`) and scraping Wikipedia (`scraper.py`).
-2.  **Document-Level LLM Labeling:** We developed a sophisticated script (`labeler_v2.py`) that uses the Gemini 2.5 Flash model as a reasoning engine. For each article, it predicts the sub-category, links all mentions of the same person, and uses the full article context and the knowledge base to assign a highly accurate NER label in a single pass.
-3.  **Hybrid Augmentation:** To create a balanced training set, the `preprocess.py` script applies a hybrid strategy: it uses **oversampling** to synthetically increase the number of examples for minority classes and **undersampling** to reduce the dominance of the majority class (`ATHLETE`).
-4.  **Advanced Model Training:** The final `train_ner.py` script uses several state-of-the-art techniques, including a **weighted loss function** and **Automatic Mixed Precision (AMP)** to speed up training.
+2.  **Document-Level LLM Labeling:** We developed a sophisticated script (`labeler_v2.py`) that uses the Gemini 2.5 Flash model as a reasoning engine. For each article, it predicts the sub-category, links all mentions of the same person, and uses the full article context and the knowledge base to assign a highly accurate NER label in a single pass.  The script uses an advanced one-shot prompt to ensure reliable JSON output and can filter out non-person entities.
+3.  **Human-in-the-Loop Correction:** After the automated labeling, the `correct_ner.py` script provides an interactive interface to perform a final, targeted review of the AI-generated labels to fix any subtle errors.
+4.  **Hybrid Augmentation:** To create a balanced training set, the `preprocess.py` script applies a hybrid strategy that uses **oversampling** to synthetically increase the number of examples for minority classes.
+5.  **Advanced Model Training:** The final `train_ner.py` script uses several state-of-the-art techniques, including a **weighted loss function** and **Automatic Mixed Precision (AMP)** to speed up training.
 
 ### Conditional Summarization
-1.  **Filtering:** We filtered the dataset for articles containing "April".
-2.  **Abstractive Summarization:** We used a pre-trained `facebook/bart-large-cnn` model to generate high-quality summaries.
+1.  **Filtering:** We perform basic filtering on the gold standard test data for articles containing "April".
+2.  **Hybrid Summarization:** A sophisticated pipeline performs an **extractive** step, identifying the most relevant sentences in an article using keyword and pattern matching.
+2.  **Abstractive Summarization:** These key sentences are then fed to a pre-trained `facebook/bart-large-cnn` model to generate a high-quality, human-like abstractive summary. This is more robust than summarizing the entire article.
 
 ---
 ## Models
@@ -170,9 +184,10 @@ The final models are saved in the `models/` directory:
 ---
 ## Limitations and Future Work
 * **Upstream Model Dependence:** The NER pipeline's quality is dependent on the performance of the sub-classification model and the initial entity recognition from spaCy.
-* **Knowledge Base Errors:** The programmatically-built knowledge base, while large, may contain some noise and errors.
+* **Knowledge Base Errors:** The programmatically-built knowledge base, while large, may contain some noise and errors that are corrected over time via review.
+* **Future Work:** The most impactful next step would be to continue the data-centric loop by using the trained v2 NER model to find more errors, correct them, and re-train a v3 model to further improve performance.
 
 ---
 ## Acknowledgments
-* This project uses the [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html).
+* This project uses the [BBC News Dataset](http://mlg.ucd.ie/datasets/bbc.html), originally collected for the publication: D. Greene and P. Cunningham. "Practical Solutions to the Problem of Diagonal Dominance in Kernel Document Clustering", Proc. ICML 2006.
 * The project heavily relies on the open-source work of Hugging Face, spaCy, PyTorch, and the broader Python data science community.
