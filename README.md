@@ -73,20 +73,21 @@ This project is designed to be run in a containerized environment with GPU suppo
     ```
 
 2.  **Create Personal Access Token File**
-    This project requires a GitHub Personal Access Token (PAT) for the setup script. Create a file named `pat.env` in the root directory and add it to `.gitignore`:
-    ```
-    # pat.env
+
+    This project requires a GitHub Personal Access Token for the setup script. Create a file named `pat.env` in the root directory and add it to `.gitignore`:
+    ```bash
     GITHUB_TOKEN=your_personal_access_token
     ```
 
 3.  **Create Environment File**
+
     Create a file named `.env` in the root directory for your Gemini API key:
-    ```
-    # .env
+    ```bash
     GEMINI_API_KEY=your_api_key
     ```
 
 4.  **Run the Setup Script**
+
     The `setup.sh` script automates the environment setup, including dependency installation and downloading NLP models.
     ```bash
     chmod +x setup.sh
@@ -106,51 +107,71 @@ This is the first step for the entire project.
 
 ### 2. Test Set Creation
 This creates the manually verified validation and test sets.
-    ```bash
 # - Manually create annotations in src/preprocessing/annotations.json
 # - Apply annotations to create the final test_set.csv
+    ```bash
     python -m src.preprocessing.apply_annotations
+    ```
 # - Split into ner_val.csv and ner_test.csv
+    ```bash
     python -m src.preprocessing.ner_split
     ```
 
 ### 3. Sub-Category Classification Pipeline
 This trains the text classifier used by the NER pipeline.
-    ```bash
 # - Prepare training data from weakly-supervised labels
+    ```bash
     python -m src.classification.prepare_zeroshot
+    ```
 # - Augment the data
+    ```bash
     python -m src.classification.augment_data
+    ```
 # - Train the final classifier
+    ```bash
         python -m src.classification.train_augmented
     ```
 
 ### 4. Custom Named Entity Recognition (NER) Pipeline
 This is the core data-centric AI workflow for the NER task.
-    ```bash
 # - Build the knowledge base from Wikidata
+    ```bash
     python -m src.ner.bulkseed
+    ```
 # - Augment the knowledge base from Wikipedia
+    ```bash
     python -m src.ner.scraper
+    ```
 # - Merge knowledge bases
+    ```bash
     python -m src.ner.merge
+    ```
     labeler_v1 (optional base model labeled purely from knowledge base)
 # - Use the LLM to generate high-quality labels for the training data
+    ```bash
     python -m src.ner.labeler_v2
+    ```
 # - Review and correct the LLM's output (optional but recommended)
+    ```bash
     python -m src.ner.correct_ner --filter <keyword>
+    ```
 # - Pre-process the final, augmented data for model training
+    ```bash
     python -m src.ner.preprocess
+    ```
 # - Train the final v2 NER model
+    ```bash
     python -m src.ner.train_ner
+    ```
 # - Evaluate the final model
+    ```bash
     python -m src.ner.evaluate
     ```
 
 ### 5. Conditional Summarization
-```bash
-python -m src.summarization.april_events
-```
+    ```bash
+    python -m src.summarization.april_events
+    ```
 
 ---
 ## Methodology
