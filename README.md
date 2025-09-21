@@ -103,7 +103,7 @@ The project is broken down into a series of scripts within the `src/` subdirecto
 This is the first step for the entire project.
 
 ```
-    python -m src.preprocessing.main_split
+python -m src.preprocessing.main_split
 ```
 
 ### 2. Test Set Creation
@@ -111,82 +111,82 @@ This creates the manually verified validation and test sets.
 ##### - Manually create annotations in src/preprocessing/annotations.json
 ##### - Apply annotations to create the final _test_set.csv_
 
-    ```bash
-    python -m src.preprocessing.apply_annotations
-    ```
+```
+python -m src.preprocessing.apply_annotations
+```
 ##### - Split into _ner_val.csv_ and _ner_test.csv_
 
-    ```bash
-    python -m src.preprocessing.ner_split
-    ```
+```
+python -m src.preprocessing.ner_split
+```
 
 ### 3. Sub-Category Classification Pipeline
 This trains the text classifier used by the NER pipeline.
 ##### - Prepare training data from weakly-supervised labels
 
-    ```bash
-    python -m src.classification.prepare_zeroshot
-    ```
+```
+python -m src.classification.prepare_zeroshot
+```
 ##### - Augment the data
 
-    ```bash
-    python -m src.classification.augment_data
-    ```
+```
+python -m src.classification.augment_data
+```
 ##### - Train the final classifier
 
-    ```bash
-        python -m src.classification.train_augmented
-    ```
+```
+python -m src.classification.train_augmented
+```
 
 ### 4. Custom Named Entity Recognition (NER) Pipeline
 This is the core data-centric AI workflow for the NER task.
 ##### - Build the knowledge base from Wikidata
 
-    ```bash
-    python -m src.ner.bulkseed
-    ```
+```
+python -m src.ner.bulkseed
+```
 ##### - Augment the knowledge base from Wikipedia
 
-    ```bash
-    python -m src.ner.scraper
-    ```
+```
+python -m src.ner.scraper
+```
 ##### - Merge knowledge bases
 
-    ```bash
-    python -m src.ner.merge
-    ```
+```
+python -m src.ner.merge
+```
 _labeler_v1 is the base model labeled purely from knowledge base_
 ##### - Use the LLM to generate high-quality labels for the training data
 
-    ```bash
-    python -m src.ner.labeler_v2
-    ```
+```
+python -m src.ner.labeler_v2
+```
 ##### - Review and correct the LLM's output (optional but recommended)
 
-    ```bash
-    python -m src.ner.correct_ner --filter <keyword>
-    ```
+```
+python -m src.ner.correct_ner --filter <keyword>
+```
 ##### - Pre-process the final, augmented data for model training
 
-    ```bash
-    python -m src.ner.preprocess
-    ```
+```
+python -m src.ner.preprocess
+```
 ##### - Train the final v2 NER model
 
-    ```bash
-    python -m src.ner.train_ner
-    ```
+```
+python -m src.ner.train_ner
+```
 ##### - Evaluate the final model
 
-    ```bash
-    python -m src.ner.evaluate
-    ```
+```
+python -m src.ner.evaluate
+```
 
 ### 5. Conditional Summarization
 
-    ```bash
-    python -m src.summarization.april_events
-    ```
+```
+python -m src.summarization.april_events
+```
 
 ---
 ## Methodology
