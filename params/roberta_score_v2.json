@@ -1,8 +1,8 @@
 {
   "model": "roberta",
-  "best_validation_f1": 0.4247265818757387,
-  "seed": 438898,
-  "epoch": 10,
+  "best_validation_f1": 0.46873679904116716,
+  "seed": 200589,
+  "epoch": 11,
   "learning_rate": 2e-05,
   "weight_decay": 0.01,
   "accum_steps": 2,

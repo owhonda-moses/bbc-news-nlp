@@ -1,7 +1,7 @@
 {
   "model": "distilbert",
-  "best_validation_f1": 0.47871127308059297,
-  "seed": 300990,
+  "best_validation_f1": 0.4751807275295358,
+  "seed": 183725,
   "epoch": 6,
   "learning_rate": 3e-05,
   "weight_decay": 0.01,
